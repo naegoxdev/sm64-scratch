@@ -1,0 +1,27 @@
+{
+  "format": 13,
+  "rom_sha1": "9bef1128717f958171a4afac3ed78ee2bb4e86ce",
+  "note": "ROM offsets and lengths for title scale and animation tables; values are decoded locally.",
+  "logo_segment_rom_offset": 2532256,
+  "logo_scale_zoom_in_segment_offset": 51088,
+  "logo_scale_zoom_out_segment_offset": 51328,
+  "logo_zoom_in_frames": 20,
+  "logo_hold_frames": 55,
+  "logo_zoom_out_frames": 16,
+  "head_animation_rom_offset": 2741612,
+  "head_animation_frames": 820,
+  "head_animation_fields": [
+    "rx",
+    "ry",
+    "rz",
+    "x",
+    "y",
+    "z"
+  ],
+  "head_animation_angle_divisor": 10.0,
+  "logo_destination_lists": [
+    "TitleIntro.LogoScaleX",
+    "TitleIntro.LogoScaleY",
+    "TitleIntro.LogoScaleZ"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "format": 13,
+  "rom_sha1": "9bef1128717f958171a4afac3ed78ee2bb4e86ce",
+  "name": "Castle Grounds / water skybox",
+  "rom_offset": 2803376,
+  "tile_size": 32,
+  "columns": 8,
+  "rows": 8,
+  "pointer_columns": 10,
+  "pointer_rows": 8,
+  "tile_data_bytes": 131072,
+  "output_width": 512,
+  "output_height": 256,
+  "horizontal_repeats": 2,
+  "destination_list": "Sky.Texture"
+}

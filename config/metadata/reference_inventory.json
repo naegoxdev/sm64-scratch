@@ -1,0 +1,1616 @@
+{
+  "format": 13,
+  "rom_sha1": "9bef1128717f958171a4afac3ed78ee2bb4e86ce",
+  "reference_sha256": "6a32eaa2b9f6652dcb17cc5f8d502fc2f21dc87310cf7c3b42891a10942322ad",
+  "models": {
+    "Arena": {
+      "vertices": 1371,
+      "faces": 802,
+      "textures": 74,
+      "sha256": "7fc71b633e0ea3a800e8f83764099caacc7cb4e065957cb98c78dce5c8de2345"
+    },
+    "Pipe": {
+      "vertices": 144,
+      "faces": 48,
+      "textures": 2,
+      "sha256": "fec860edbb0e6ba340a03f3478a4bdde1da2917160a6552405691522544e29e0"
+    },
+    "Mario": {
+      "vertices": 409,
+      "faces": 752,
+      "textures": 1,
+      "sha256": "69a65c325d9c5286435ed715b80a9c6518e095958e9a405194d5a5d50aa4cb3e"
+    },
+    "Tree": {
+      "vertices": 4,
+      "faces": 4,
+      "textures": 1,
+      "sha256": "6c9f1f49a7b0d650067b54eddacc4f1586c91e1bbd46773370e38cc98e74eeda"
+    },
+    "Castle Lobby": {
+      "vertices": 3228,
+      "faces": 2179,
+      "textures": 39,
+      "sha256": "8933a526b52cea06704381ff346b34c2efa7f8d592475a8b38c1d9f0db4af5a3"
+    },
+    "Bob Painting": {
+      "vertices": 178,
+      "faces": 268,
+      "textures": 2,
+      "sha256": "95a19d128091d131c3caf70462fcf60b98943683d69f8d6ab444443437639a7d"
+    },
+    "Castle Door": {
+      "vertices": 128,
+      "faces": 112,
+      "textures": 3,
+      "sha256": "db69c8e620118829bb2c7c75a3b1a84685c53dcfb3505708595947252081a0ff"
+    },
+    "Bob-omb Battlefield": {
+      "vertices": 1639,
+      "faces": 1101,
+      "textures": 19,
+      "sha256": "b1635f1c69e702c4725c56ed7c8b8b645e115199501feecfba2e93d4f99ad55b"
+    },
+    "Yellow Coin Frame 1": {
+      "vertices": 128,
+      "faces": 128,
+      "textures": 1,
+      "sha256": "e419c89e1d819274d4f526e97c3951a39b854847dbedb5ba0c30c439df7c4cb3"
+    },
+    "Yellow Coin Frame 2": {
+      "vertices": 128,
+      "faces": 128,
+      "textures": 1,
+      "sha256": "ccd06d1599097d9051ff02ad2122fb028279cd22dee3ceb7e4af7241b2ef6601"
+    },
+    "Yellow Coin Frame 3": {
+      "vertices": 128,
+      "faces": 128,
+      "textures": 1,
+      "sha256": "3edf9ad2a2ea4175ab50a140a20333b03fc6ecb29105cd6d39c9e5de22c2ef10"
+    },
+    "Yellow Coin Frame 4": {
+      "vertices": 128,
+      "faces": 128,
+      "textures": 1,
+      "sha256": "996a0739abae6723cbd0f61e78aee93ec4efd2cd3a92775def2803bff4608cf1"
+    },
+    "Lobby Wood Door": {
+      "vertices": 128,
+      "faces": 112,
+      "textures": 3,
+      "sha256": "ead1c04797023863be81fa21f2e68f026717d40c51dea08033d7fd6f231f8450"
+    },
+    "Lobby 0 Star Door": {
+      "vertices": 208,
+      "faces": 196,
+      "textures": 4,
+      "sha256": "d4ea31daa29b3d54acdccca0ccef820a2335020166e2e4597a1da420cc1cc1c8"
+    },
+    "Lobby 1 Star Door": {
+      "vertices": 208,
+      "faces": 200,
+      "textures": 4,
+      "sha256": "c4ef9dade33f49a390386ab14fbc0c59708e2a8f9fa11177c5c18792fa9019ab"
+    },
+    "Lobby 3 Star Door": {
+      "vertices": 208,
+      "faces": 200,
+      "textures": 4,
+      "sha256": "e0855cf3ef45a6b7236e616052c33c76642367059a42a772c4d25e83514c46bc"
+    },
+    "Lobby Key Door": {
+      "vertices": 224,
+      "faces": 208,
+      "textures": 4,
+      "sha256": "c7d3fc2a4ae426c2a8ad036894090bb1f2e611e8359a9c917731d692111c2a64"
+    },
+    "Lobby 8 Star Door": {
+      "vertices": 24,
+      "faces": 12,
+      "textures": 3,
+      "sha256": "0e4f8b2044b71a9ad123eeba7dac7ba7ac5824d9398162ce3b7899803f5c0c80"
+    },
+    "Power Star": {
+      "vertices": 20,
+      "faces": 24,
+      "textures": 2,
+      "sha256": "b06f780abef43dc8fa0c503a77634254dd3137e86f00aff665bf6e81540a4665"
+    },
+    "Power Star Collected": {
+      "vertices": 12,
+      "faces": 20,
+      "textures": 1,
+      "sha256": "36a4943077df3f465c7a0c447eb2143989074f721fb6817cb134ee6c36731d6f"
+    },
+    "Castle Toad": {
+      "vertices": 193,
+      "faces": 316,
+      "textures": 1,
+      "sha256": "9e211eeae75db7a7a36f0253f601d8c7e335d713f0b738b3536f065bc8a86e51"
+    },
+    "Castle Grounds Sign": {
+      "vertices": 19,
+      "faces": 21,
+      "textures": 2,
+      "sha256": "84ec42f39d21efcfb7f1fc08cb30fde3978fcd5fb57299260ec57dba6a34e7e3"
+    },
+    "Chain Chomp Lower": {
+      "vertices": 62,
+      "faces": 67,
+      "textures": 3,
+      "sha256": "d7a1afe92e021bc302e6c3c3a7e65a6523635856b173f40cd43c59dbf3458b01"
+    },
+    "Chain Chomp Upper": {
+      "vertices": 70,
+      "faces": 71,
+      "textures": 4,
+      "sha256": "10eee67256fc11b9ea358ee1a71ddceb8950a89224bf0f73fc7925fb267c638a"
+    },
+    "Chain Chomp Link": {
+      "vertices": 4,
+      "faces": 2,
+      "textures": 1,
+      "sha256": "a2b6a896e353af3f33ae05374587d9c8a93ae8ba94bff607cbba4eeb6bdf152e"
+    },
+    "Chain Chomp Post": {
+      "vertices": 40,
+      "faces": 22,
+      "textures": 2,
+      "sha256": "578dab9e9039694a24995c9f35470350bb40390b7cacdfd22dcb89369858bfa2"
+    },
+    "BOB Chain Chomp Gate": {
+      "vertices": 4,
+      "faces": 2,
+      "textures": 1,
+      "sha256": "19649ead3391a34094768910f83a64a0d09a1f009de76ec960b3e7fa6638917a"
+    },
+    "BOB Cannon Lid": {
+      "vertices": 4,
+      "faces": 2,
+      "textures": 1,
+      "sha256": "7fd7e15ced089b1e136bd07f2b4f3593238f8ea0691385e9b17db5aa19e9fead"
+    },
+    "BOB Wooden Bridge": {
+      "vertices": 22,
+      "faces": 12,
+      "textures": 1,
+      "sha256": "6359ccb8770af66cc14983a93a51e27272c7f5a5ae4b7e3590204bb8c77f6b22"
+    },
+    "BOB Breakable Box": {
+      "vertices": 16,
+      "faces": 12,
+      "textures": 2,
+      "sha256": "3de0197f67f96b5beef8baf2d8b564c5d7f6fcd7c674206fcf4881e9f17997b2"
+    },
+    "BOB Small Box": {
+      "vertices": 16,
+      "faces": 12,
+      "textures": 2,
+      "sha256": "815ac3f50c162faec684b3d7400410e2726cab92f4ae9ec38c5434a1b4445639"
+    },
+    "BOB Checkerboard Lift": {
+      "vertices": 24,
+      "faces": 12,
+      "textures": 2,
+      "sha256": "d207405ce8b4803224abf66f7da24165758bc3e9a90936e8c5971c582db88fe9"
+    },
+    "BOB Bob-omb Buddy": {
+      "vertices": 4,
+      "faces": 4,
+      "textures": 1,
+      "sha256": "c9d88288d93a3472dba311e02476917aa0530b647adc49e3e307c85b18fcc48a"
+    },
+    "BOB Cannon Base": {
+      "vertices": 114,
+      "faces": 38,
+      "textures": 2,
+      "sha256": "118609320a8f76ef7b56a7f1d96542135b8921e2f67f2622d52d90d17c0dc893"
+    },
+    "BOB Cannon Barrel": {
+      "vertices": 186,
+      "faces": 62,
+      "textures": 2,
+      "sha256": "1eb27280f79f3da1484f97c9609c97d4e21dca997c6f750037bc0cdf112b2e64"
+    },
+    "BOB Buddy Foot L": {
+      "vertices": 84,
+      "faces": 28,
+      "textures": 1,
+      "sha256": "203336984f6b07125d7900cae206d3a425d3e61e360f1c658f5177dc33b2f8da"
+    },
+    "BOB Buddy Foot R": {
+      "vertices": 84,
+      "faces": 28,
+      "textures": 1,
+      "sha256": "c4187c4da4b325e8a4246ae72bd63bc52527bd1525247cac0c591e86f9dbe8b7"
+    },
+    "BOB Buddy Key": {
+      "vertices": 48,
+      "faces": 16,
+      "textures": 1,
+      "sha256": "d016edab6463fdd7de975e5a7f8438368027b2ff4c61663f5b3f2e4ab2ac6c25"
+    },
+    "BOB Buddy Eyes Open": {
+      "vertices": 12,
+      "faces": 4,
+      "textures": 1,
+      "sha256": "b2622dfb4ffee9b7d4ec8f175f7049382bceebb4893b87917e734cfabcac8ffd"
+    },
+    "BOB Buddy Eyes Blink": {
+      "vertices": 12,
+      "faces": 4,
+      "textures": 1,
+      "sha256": "c30d7402f4513f626720e936494dac0dc0890721d794206a5a66f55ba8d0fff5"
+    },
+    "Mario Shadow": {
+      "vertices": 4,
+      "faces": 2,
+      "textures": 1,
+      "sha256": "51e743059d1c37f5f1c6541daf80f97421d12587ce1445c78528e36a27ef2a54"
+    },
+    "Castle Flag": {
+      "vertices": 667,
+      "faces": 290,
+      "textures": 2,
+      "sha256": "e35680839c0cedd90479a7a5338a143d74c6f9f6e6602191c60d222308cc633e"
+    },
+    "Castle Mist": {
+      "vertices": 4,
+      "faces": 2,
+      "textures": 1,
+      "sha256": "3375669dca7387461348bae4324f472de2d8f445e44395f650a63f0d7d4d8af7"
+    },
+    "Castle Bird": {
+      "vertices": 784,
+      "faces": 798,
+      "textures": 1,
+      "sha256": "e7400505531be208e49f24491dc37cf039c308106178e6ed4794fecb2f1b6a74"
+    },
+    "Castle Butterfly": {
+      "vertices": 304,
+      "faces": 152,
+      "textures": 1,
+      "sha256": "20c68221080b5f5954860dc94ea76c90be48f04086c1b1ac4a7a160509965e3a"
+    },
+    "Castle Fish": {
+      "vertices": 690,
+      "faces": 1140,
+      "textures": 1,
+      "sha256": "7f504797b7bd55ba1cac98cfece3b180c452e40f528c001de7d98aeb9129a013"
+    },
+    "Castle Bubble": {
+      "vertices": 4,
+      "faces": 2,
+      "textures": 1,
+      "sha256": "cf1241084d6f21d297c2bc7a3da3a69756a668678849fc54d9066fb5a780985a"
+    },
+    "BOB Goomba Body": {
+      "vertices": 6,
+      "faces": 2,
+      "textures": 1,
+      "sha256": "27dbf124680d1c7f82aa06a46f68f29c5cc6be1ac5c6fd42d26cafc0fb123e20"
+    },
+    "BOB Goomba Head Open": {
+      "vertices": 1110,
+      "faces": 2100,
+      "textures": 1,
+      "sha256": "6046e4aade16581b55e2d55c5f4b2899f2a0c544d77da8b0f8bd397f74260fff"
+    },
+    "BOB Goomba Head Blink": {
+      "vertices": 1110,
+      "faces": 2100,
+      "textures": 1,
+      "sha256": "f83bedcd0baaa926571657bd89893e2d06705d69f3381c9d043d2a8fcc050db9"
+    },
+    "BOB Goomba Foot L": {
+      "vertices": 3240,
+      "faces": 1080,
+      "textures": 1,
+      "sha256": "634340e144f76afcbe5f0ddada775eafcab17401c37372826fb5f72b3d4aeeb5"
+    },
+    "BOB Goomba Foot R": {
+      "vertices": 3240,
+      "faces": 1080,
+      "textures": 1,
+      "sha256": "9acbd0a52add1799f03ba69224010ba8daac70799c218863a259b76a3f4f5a6c"
+    },
+    "BOB Goomba Death Puff": {
+      "vertices": 6,
+      "faces": 2,
+      "textures": 1,
+      "sha256": "77cf58b23ea7272a6831f473efee5c792a37b79baf5dcf3ad1326b275155f82a"
+    },
+    "TitleIntro Logo": {
+      "vertices": 3218,
+      "faces": 2078,
+      "textures": 2,
+      "sha256": "e73be87b468f5563c8f8bf4c9d699be2d1d7325f419a61f3fe4c28c9c7975fc3"
+    },
+    "TitleIntro Mario Head": {
+      "vertices": 799,
+      "faces": 1371,
+      "textures": 1,
+      "sha256": "807455d213dc4741e4c73dc5cdb909911df4835013936b77fdb652c68d32a849"
+    }
+  },
+  "counts": {
+    "targets": 34,
+    "blocks": 27117,
+    "lists": 415,
+    "nonempty_lists": 346,
+    "models": 55
+  },
+  "static_list_requirements": [
+    {
+      "target": "Stage",
+      "name": "(Ram) Engine Data",
+      "reference_length": 500
+    },
+    {
+      "target": "Stage",
+      "name": "Action.Name",
+      "reference_length": 74
+    },
+    {
+      "target": "Stage",
+      "name": "Action.Group",
+      "reference_length": 74
+    },
+    {
+      "target": "Stage",
+      "name": "Action.Clip",
+      "reference_length": 74
+    },
+    {
+      "target": "Stage",
+      "name": "Rig.ActionName",
+      "reference_length": 176
+    },
+    {
+      "target": "Stage",
+      "name": "Rig.ActionStart",
+      "reference_length": 176
+    },
+    {
+      "target": "Stage",
+      "name": "Rig.ActionCount",
+      "reference_length": 176
+    },
+    {
+      "target": "Stage",
+      "name": "Rig.ActionMatrixStart",
+      "reference_length": 176
+    },
+    {
+      "target": "Stage",
+      "name": "Rig.PoseData",
+      "reference_length": 1072980
+    },
+    {
+      "target": "Stage",
+      "name": "Rig.VertexBone",
+      "reference_length": 409
+    },
+    {
+      "target": "Stage",
+      "name": "Rig.FaceBone",
+      "reference_length": 752
+    },
+    {
+      "target": "Stage",
+      "name": "Intro.Camera.X",
+      "reference_length": 206
+    },
+    {
+      "target": "Stage",
+      "name": "Intro.Camera.Y",
+      "reference_length": 206
+    },
+    {
+      "target": "Stage",
+      "name": "Intro.Camera.Z",
+      "reference_length": 206
+    },
+    {
+      "target": "Stage",
+      "name": "Intro.Focus.X",
+      "reference_length": 206
+    },
+    {
+      "target": "Stage",
+      "name": "Intro.Focus.Y",
+      "reference_length": 206
+    },
+    {
+      "target": "Stage",
+      "name": "Intro.Focus.Z",
+      "reference_length": 206
+    },
+    {
+      "target": "Stage",
+      "name": "Tree.X",
+      "reference_length": 26
+    },
+    {
+      "target": "Stage",
+      "name": "Tree.Y",
+      "reference_length": 26
+    },
+    {
+      "target": "Stage",
+      "name": "Tree.Z",
+      "reference_length": 26
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.X1",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.Y1",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.Z1",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.X2",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.Y2",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.Z2",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.X3",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.Y3",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.Z3",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.NX",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.NY",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.NZ",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.Origin",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.LowerY",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.UpperY",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.MinX",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.MaxX",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.MinZ",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.MaxZ",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Surface.Type",
+      "reference_length": 881
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Collision.CellStart",
+      "reference_length": 64
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Collision.CellCount",
+      "reference_length": 64
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Collision.CellSurface",
+      "reference_length": 1455
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Water.BoxID",
+      "reference_length": 2
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Water.X1",
+      "reference_length": 2
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Water.Z1",
+      "reference_length": 2
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Water.X2",
+      "reference_length": 2
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Water.Z2",
+      "reference_length": 2
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Grounds.Water.Level",
+      "reference_length": 2
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.X1",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.Y1",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.Z1",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.X2",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.Y2",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.Z2",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.X3",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.Y3",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.Z3",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.NX",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.NY",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.NZ",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.Origin",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.LowerY",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.UpperY",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.MinX",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.MaxX",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.MinZ",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.MaxZ",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Surface.Type",
+      "reference_length": 2144
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Collision.CellStart",
+      "reference_length": 49
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Collision.CellCount",
+      "reference_length": 49
+    },
+    {
+      "target": "Stage",
+      "name": "Level.Lobby.Collision.CellSurface",
+      "reference_length": 3270
+    },
+    {
+      "target": "Stage",
+      "name": "Door.PullCloseCurve",
+      "reference_length": 41
+    },
+    {
+      "target": "Stage",
+      "name": "Rig.IdleClipID",
+      "reference_length": 3
+    },
+    {
+      "target": "Stage",
+      "name": "Rig.IdleRightShoeMinY",
+      "reference_length": 90
+    },
+    {
+      "target": "Stage",
+      "name": "Rig.IdleLeftShoeMinY",
+      "reference_length": 90
+    },
+    {
+      "target": "Stage",
+      "name": "Sky.Texture",
+      "reference_length": 131072
+    },
+    {
+      "target": "Stage",
+      "name": "Door.PullOpenCurve",
+      "reference_length": 37
+    },
+    {
+      "target": "Stage",
+      "name": "Door.PushOpenCurve",
+      "reference_length": 37
+    },
+    {
+      "target": "Stage",
+      "name": "Door.PushCloseCurve",
+      "reference_length": 41
+    },
+    {
+      "target": "Stage",
+      "name": "Punch.ForwardVelocity",
+      "reference_length": 8
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.X1",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.Y1",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.Z1",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.X2",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.Y2",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.Z2",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.X3",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.Y3",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.Z3",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.NX",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.NY",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.NZ",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.Origin",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.LowerY",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.UpperY",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.MinX",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.MaxX",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.MinZ",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.MaxZ",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Surface.Type",
+      "reference_length": 1084
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Collision.CellStart",
+      "reference_length": 121
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Collision.CellCount",
+      "reference_length": 121
+    },
+    {
+      "target": "Stage",
+      "name": "Level.BOB.Collision.CellSurface",
+      "reference_length": 2736
+    },
+    {
+      "target": "Stage",
+      "name": "Coin.X",
+      "reference_length": 4
+    },
+    {
+      "target": "Stage",
+      "name": "Coin.Y",
+      "reference_length": 4
+    },
+    {
+      "target": "Stage",
+      "name": "Coin.Z",
+      "reference_length": 4
+    },
+    {
+      "target": "Stage",
+      "name": "ToadRig.PoseData",
+      "reference_length": 2268
+    },
+    {
+      "target": "Stage",
+      "name": "ToadRig.VertexBone",
+      "reference_length": 193
+    },
+    {
+      "target": "Stage",
+      "name": "ToadRig.FaceBone",
+      "reference_length": 316
+    },
+    {
+      "target": "Stage",
+      "name": "Chomp.JawLowerFrames",
+      "reference_length": 20
+    },
+    {
+      "target": "Stage",
+      "name": "Chomp.JawUpperFrames",
+      "reference_length": 20
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Buddy.RootYAnim",
+      "reference_length": 25
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Buddy.FootLAnim",
+      "reference_length": 25
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Buddy.FootRAnim",
+      "reference_length": 25
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Buddy.FootLForward",
+      "reference_length": 25
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Buddy.FootRForward",
+      "reference_length": 25
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Buddy.FootLLift",
+      "reference_length": 25
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Buddy.FootRLift",
+      "reference_length": 25
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Flag.HomeX",
+      "reference_length": 4
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Flag.HomeY",
+      "reference_length": 4
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Flag.HomeZ",
+      "reference_length": 4
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Flag.Phase",
+      "reference_length": 4
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Mist.HomeX",
+      "reference_length": 9
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Mist.HomeZ",
+      "reference_length": 9
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Mist.Phase",
+      "reference_length": 9
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Bird.GroupHomeX",
+      "reference_length": 3
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Bird.GroupHomeY",
+      "reference_length": 3
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Bird.GroupHomeZ",
+      "reference_length": 3
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Bird.GroupYaw",
+      "reference_length": 3
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Butter.HomeX",
+      "reference_length": 18
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Butter.HomeY",
+      "reference_length": 18
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Butter.HomeZ",
+      "reference_length": 18
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Butter.Type",
+      "reference_length": 18
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Butter.Phase",
+      "reference_length": 18
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Fish.Phase",
+      "reference_length": 20
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Fish.Radius",
+      "reference_length": 20
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Fish.Speed",
+      "reference_length": 20
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Fish.Depth",
+      "reference_length": 20
+    },
+    {
+      "target": "Stage",
+      "name": "Grounds.Fish.Scale",
+      "reference_length": 20
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Tree.X",
+      "reference_length": 17
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Tree.Y",
+      "reference_length": 17
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Tree.Z",
+      "reference_length": 17
+    },
+    {
+      "target": "Stage",
+      "name": "Tree.HandstandIdleYOffset",
+      "reference_length": 52
+    },
+    {
+      "target": "Stage",
+      "name": "Tree.HandstandStartYOffset",
+      "reference_length": 17
+    },
+    {
+      "target": "Stage",
+      "name": "Tree.HandstandReturnYOffset",
+      "reference_length": 17
+    },
+    {
+      "target": "Stage",
+      "name": "Rig.GroundContactYOffset",
+      "reference_length": 5961
+    },
+    {
+      "target": "Stage",
+      "name": "BonkStar.YawOffset",
+      "reference_length": 7
+    },
+    {
+      "target": "Stage",
+      "name": "BonkStar.PitchParam",
+      "reference_length": 7
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.SpawnX",
+      "reference_length": 11
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.SpawnY",
+      "reference_length": 11
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.SpawnZ",
+      "reference_length": 11
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.RootYAnim",
+      "reference_length": 30
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.FootLForward",
+      "reference_length": 30
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.FootRForward",
+      "reference_length": 30
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.FootLLift",
+      "reference_length": 30
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.FootRLift",
+      "reference_length": 30
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.BodyPitch",
+      "reference_length": 30
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.BodyRoll",
+      "reference_length": 30
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.HeadPitch",
+      "reference_length": 30
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.FootLPitch",
+      "reference_length": 30
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.FootLYaw",
+      "reference_length": 30
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.FootLRoll",
+      "reference_length": 30
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.FootRPitch",
+      "reference_length": 30
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.FootRYaw",
+      "reference_length": 30
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.FootRRoll",
+      "reference_length": 30
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.SpawnerX",
+      "reference_length": 11
+    },
+    {
+      "target": "Stage",
+      "name": "BOB.Goomba.SpawnerZ",
+      "reference_length": 11
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.LogoScaleX",
+      "reference_length": 91
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.LogoScaleY",
+      "reference_length": 91
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.LogoScaleZ",
+      "reference_length": 91
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.GrabBaseX",
+      "reference_length": 7
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.GrabBaseY",
+      "reference_length": 7
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.GrabBaseZ",
+      "reference_length": 7
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.AffectedVertex",
+      "reference_length": 490
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.BaseX",
+      "reference_length": 490
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.BaseY",
+      "reference_length": 490
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.BaseZ",
+      "reference_length": 490
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.WeightVertex",
+      "reference_length": 506
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.WeightGrab",
+      "reference_length": 506
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Weight",
+      "reference_length": 506
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.EyeVertex",
+      "reference_length": 144
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.EyeSide",
+      "reference_length": 144
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.EyeBaseX",
+      "reference_length": 144
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.EyeBaseY",
+      "reference_length": 144
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.EyeBaseZ",
+      "reference_length": 144
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.RootRX",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.RootRY",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.RootRZ",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.RootX",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.RootY",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.RootZ",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Background240",
+      "reference_length": 43200
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceXStart",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceXCount",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceXVertex",
+      "reference_length": 54250
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceXValue",
+      "reference_length": 54250
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceYStart",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceYCount",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceYVertex",
+      "reference_length": 123548
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceYValue",
+      "reference_length": 123548
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceZStart",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceZCount",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceZVertex",
+      "reference_length": 69484
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceZValue",
+      "reference_length": 69484
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.SilverLightX",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.SilverLightY",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.SilverLightZ",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.RedLightX",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.RedLightY",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.RedLightZ",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.SmoothNX",
+      "reference_length": 1371
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.SmoothNY",
+      "reference_length": 1371
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.SmoothNZ",
+      "reference_length": 1371
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceRevXStart",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceRevXCount",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceRevXVertex",
+      "reference_length": 54250
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceRevXValue",
+      "reference_length": 54250
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceRevYStart",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceRevYCount",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceRevYVertex",
+      "reference_length": 123548
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceRevYValue",
+      "reference_length": 123548
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceRevZStart",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceRevZCount",
+      "reference_length": 820
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceRevZVertex",
+      "reference_length": 69484
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.FaceRevZValue",
+      "reference_length": 69484
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump809to750XVertex",
+      "reference_length": 71
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump809to750XValue",
+      "reference_length": 71
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump809to750YVertex",
+      "reference_length": 163
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump809to750YValue",
+      "reference_length": 163
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump809to750ZVertex",
+      "reference_length": 62
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump809to750ZValue",
+      "reference_length": 62
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump819to69XVertex",
+      "reference_length": 73
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump819to69XValue",
+      "reference_length": 73
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump819to69YVertex",
+      "reference_length": 182
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump819to69YValue",
+      "reference_length": 182
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump819to69ZVertex",
+      "reference_length": 52
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump819to69ZValue",
+      "reference_length": 52
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump659to661XVertex",
+      "reference_length": 1
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump659to661XValue",
+      "reference_length": 1
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump659to661YVertex",
+      "reference_length": 19
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump659to661YValue",
+      "reference_length": 19
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump659to661ZVertex",
+      "reference_length": 2
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.Jump659to661ZValue",
+      "reference_length": 2
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.GrabTrackScreenX",
+      "reference_length": 5740
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.GrabTrackScreenY",
+      "reference_length": 5740
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.SilverStarX",
+      "reference_length": 660
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.SilverStarY",
+      "reference_length": 660
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.SilverStarSize",
+      "reference_length": 660
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.SilverStarVisible",
+      "reference_length": 660
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.RedStarX",
+      "reference_length": 660
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.RedStarY",
+      "reference_length": 660
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.RedStarSize",
+      "reference_length": 660
+    },
+    {
+      "target": "Stage",
+      "name": "TitleIntro.RedStarVisible",
+      "reference_length": 660
+    }
+  ]
+}

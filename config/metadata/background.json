@@ -1,0 +1,16 @@
+{
+  "format": 13,
+  "rom_sha1": "9bef1128717f958171a4afac3ed78ee2bb4e86ce",
+  "note": "RGBA16 title backdrop tiles; pixels are read from the local ROM at build time.",
+  "segment_rom_offset": 2558144,
+  "tile_offsets": [
+    448,
+    3648,
+    6848,
+    10048
+  ],
+  "tile_size": [
+    80,
+    20
+  ]
+}

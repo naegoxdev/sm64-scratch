@@ -1,0 +1,1765 @@
+{
+  "format": 13,
+  "counts": {
+    "total": 219,
+    "rom_recipe_verified": 179,
+    "pending_source_or_conversion": 23,
+    "external_reference_exact_rom_recipe_pending": 17
+  },
+  "textures": [
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex1",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "a4bfa01775aa9a1767847679e44226d5b5fbeb0be2bf371da0f0c5781d6fdfe0",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex2",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "a26e8f0ca1ae10666d4530ef76006d59e7b3f1bbaa55d68b2613f9950fc51aef",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex3",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "3c485a6f76fc902bef952123cd0acc6b0e9142bf5740e61710364aa4d664ac47",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex4",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "ac6716853c53c3d2897b0a1fbc75ec03a4169ecce525b33885215c0d9606300d",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex5",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "4d9a06305023f89c15974ee7548d05b81238a6cf90cd4c169c5b74f4d528f608",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex6",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "38741e01dd279b36fd1de06a4e2671a023c33ba18e8b2aac48d336f28733759d",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex7",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "e215e6d4b9a95d63d8e0c9420ae7ad675df89722740bc0e151dc7ac0b0a09ecc",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex8",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "e4b36e53b150926a698a5cb10acf2af5eb8256b585bba31c35e95f975549ffdc",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex9",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "a8c8b0d1972d32b6ccacf3b2fc5d3cf053c79999ff14d9ef525f4ce1085027d7",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex10",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "f0244baf91ea39bc12883c2b8e1d20479ad2320ce5cd761f0cd0143e9222075b",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex11",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "d7396dddbaaa672dba717b9725f45d6e06a48906d718543280f7f069536d65cb",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex12",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "5386ace1bdfaa7479bb4131a3fa18586ca5abf1bb74c2ef1288cbb36c302bb6b",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex13",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "ce3384fb634680303d88b95ef6472751627b58887c376ae911eb1d6e533fa3e5",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex14",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "be89e7d85dd751fb862cd7a2a0f3e02249db43dc4bbfaf5b8fbc494c04ee108f",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex15",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "78d25a6e52dbe45f87b47a0503e73b239a03e0c8a3eb2e1b985fdeec5c1bcd0a",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex16",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "cdff340da02bfa84a8a517f80d017cfae04721118cc12205b49ccf6c222288ab",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex17",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "1601ec9036239498aff5f5a1a2e238147f5542a612ac62a858a5f393f639647f",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex18",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "88982b8a7bc8a3e24601cd064476396bc3eefe393cd98537e4064a92687df94b",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex19",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "1ef1be7b8d9cb8fb02d9653b40541bcc443fc8d930b8c1999fcd306522de28e2",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex20",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "d70db854c9c1c121b34eabe9e8a9a385278d622780c0e6ed0a90132b4574a1b5",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex21",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "c13ae622207eec59777c3f9b9df6623bb58ec690834d02157ad452130bb74f51",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex22",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "311b3623987d2be4435b3e5b730fee00a046e190f60e8459c9e8aa73c6d49ef1",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex23",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "4790ff81124aa370cf09a977a2cbbdf704b119b6e269d5fe1d8e85cf5e19ebf2",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex24",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "9c054835f1da061f93db95077c0c79123c03ffce4898c4d95ccc3ebd178aa6da",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex25",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "f61d0cb3a0b27527fcf3e636386bb8de48cd058c6c23d58f451605f18d0abdf1",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex26",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "3f08316b1d2db204850aebd486fe3d0a5162b2438d2a46df2530eb5b9813d121",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex27",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "4a4dfa0d7b2e22bb19377552f5c99cfbbf64e29afb184b16abe77b998c07a44e",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex28",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "cd26a836360b3ca4d9cb8827472e4cef0dda2ce75a0bb75a5a0a52e5e793b4ff",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex29",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "4e556db54759e4c053bb5b6fcbbdfe14743e88491834378602c321a7add911d9",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex30",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "126177fe5f19a7e19cfd93d158cf82a756450bcef1141a7ac75bbb1eb13d1f7f",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex31",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "5f8f95ab50ca2638579ae874c8b173213685d925529db834f399bebe1d95fc19",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex32",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "ef9346f83ea893edd830ec804cb44c388204f60f4b6c7a0b01a34bf1cf9ee97a",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex33",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "a447fbfdb1b0abfa25bc8d9de70fba09f74812611fd7f5fedae21a5d75c796e6",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex34",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "0a67a235e8a7108d924854b7e155b1d73042c9f0ba72bf68cdd7b0e2f8200ef1",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex35",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "ed6d881c7d9a1842a2ffa94be97bdf6c120196846cdd28b98f66e988163d65cf",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex36",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "cfb4f84831a2ee34147ccc7af8a70be2a43219ef37d5eb21ed15004739284b22",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex37",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "2e897762bad226aa1e7b0d4d7c61d96d20a75465d984c49ab79c8bdbbd29be73",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex38",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "99350130c94d685cf5c19e799c0283d84cec28de9dcb42116fead5dc66dba896",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex39",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "5f435245b24afed8b7b085e38119d289d88050ba68b4a20d707f6309fd371e90",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex40",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "2043c53bf97b71f9d14b714a69eff6441ee41aea4427dff74ac5f3656be386ee",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex41",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "ce9b2aa57072c48fc2df1dd8330e280e676967b2fe94f13142b98e6a9c11d627",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex42",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "abd85da92a9e48c88e5ac220ba5312d244231d4b0a95b9431ee2369d3de40e9b",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex43",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "039557217bddd39113b340b172beed00a495623516b05e9086c5e42e2b475997",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex44",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "0c6a99fef09ffdc789c0956e18757bdeca43995d87aee64fdef8cb9342be4862",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex45",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "6051a368e028fca21e34a988fc92b0d92f59301eb07fb578a574021a48a465ed",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex46",
+      "width": 8,
+      "height": 8,
+      "expected_rgb_sha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex47",
+      "width": 32,
+      "height": 16,
+      "expected_rgb_sha256": "e8156d7a9a9a6e8a713465b37e404d2ff542d9fd28b87da5c1058cb3fcc4c7df",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex48",
+      "width": 32,
+      "height": 16,
+      "expected_rgb_sha256": "f29996ba997b6a8a62ff9facb6a50e8311f6c55796255e551f7699fd7dacde74",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex49",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "83bd8b55cb24bf4b91755c5e2d5f7820de3f335b54c3f9fd204957903b578f42",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex50",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "5a08deaf3f4e22803ffbce203d1ccde46dcaacc34c668103a077cf55d53a9e73",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex51",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "06c27dee52f16475ea5222127b2f4ce0d1fcafab00ef4fae672c8b380100011e",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex52",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "942916de6a0c533e36f04e0d189ef6ffa7ffdd4891b545244f42aaaf4a8577df",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex53",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "a5057c4c06cf4ec0ce3a387c570f700da15012467c81b92664b4402214768ad2",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex54",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "3363e44b44b6d1688095a5649cc29c6bd2becba8894d43961eae09330f3884fa",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex55",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "2d4795cd0a598e9ce00ae8f5c8d78e8142112ef54909a9fda58200ed31fcabaa",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex56",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "1b6dc3e99fc276fceb6e13ace9555243f8e16a3fef8b29d84844dd19a86d6e36",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex57",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "bd6c78aabd82185be66b3760308ebf0617298162df005059c533dfa42a0d29e9",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex58",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "5c8676331ea028260a5b9dd0f4b53f23a7dd0139c09d61880e35a6363f1752c8",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex59",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "daee0f3a02700168929119ab7633e7431c11006936aa79093fea43c3d2099707",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex60",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "703e9cc5e43caf8149bc30f9784e6e518fd70763cb9789ff8b9eafcd3287e269",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex61",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "6e9d3cddd2e05b630859a25a2798d2cab7e0831f877a3fb202f9e04da301f241",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex62",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "9030d546418be83efdc8026ab5c5aa5315421834f5119ed272b8230c7ae068c7",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex63",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "df480968d16235ccd48c0547eb948e3d44797d0912039c71165b308c2632474e",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex64",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "6b4e60b6e67888d572fc58d8dfa016761d44edb23d9ea00f5b0a82e772eb1d5d",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex65",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "fd8e4abf87277a11147315833f6acac2bbc5b67820a2ee5aafda1ff7dbaa337b",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex66",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "6ebf529db0bbee42e0971ba362b8dbafd63dca9b3869c665cf0975fb9ed68521",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex67",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "1bf6f7f86009226247ba2ba5b7fc8931fd775a90f70b884fd4168a4bb2ca63b0",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex68",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "39e87e6337f1bf51f30ed467993a4800b167bd5a56517991538778820b8b2a61",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex69",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "887313ba849934ac38663284bfc90ff5e71e26f7dff829672e4677d8b2b6646c",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex70",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "bc34e817befb877cd5e60cf3cf8932b9a1f528b5aafb8311acb723f3f8ce0a2f",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex71",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "d5ba7b6d57f81b92b297de0f6c579218e856a21fe42196c1e013279f56c69437",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex72",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "4f2864f1e52a25dde492ab951ba144e9e11c3c822be2c15084db6919025df661",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex73",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "12148b229c13d9b8a78c9be7f579e4f71611a8355b15cce4b9eaaa6e567dc579",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Arena",
+      "texture": "CastleLitTex74",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "1dee42e7b2f6712029ebf134662de209bc6bc769076f70d8941883037208a780",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Pipe",
+      "texture": "PipeTexture1",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "e7b69bbe5b465beba0d316edb4a1574aba2a4577a2bcb3b23d52acd48a1298ae",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Pipe",
+      "texture": "PipeTexture2",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "8b352aa2c6c2f7d9e1f70f575df3a12e0cf5a08ce252afb27e7f0aa5f7fa9b5e",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Mario",
+      "texture": "MarioAtlas",
+      "width": 256,
+      "height": 1024,
+      "expected_rgb_sha256": "1bc181a8c68059d93c6b6d1852db077da5e4961e8c7c87891c3ffa226fa77a4c",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "Tree",
+      "texture": "CastleTree",
+      "width": 45,
+      "height": 64,
+      "expected_rgb_sha256": "a3304ea1a2d4983c2352cd39c6249d6882afa4b2edb380a724df5083d328102d",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex1",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "f1402d3f60c530166472a53946352d75e94a378ab5d07b3b1b6fb69d7b48127f",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex2",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "e72e23dcd66ca7e69ecdd1bb81b307d0ba65563b4fb37e8d89781d407382c30c",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex3",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "aa8b105bb5dd0161ad0fb70711e0e54bc7eb25723adea3c8c4badbe5da61d0fe",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex4",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "80e75d997d6b66696f6e14a7791de4ad3316b4ccbc39db2b682355ba8f67c486",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex5",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "97852d34e333d01d5f5d8acb68a35708f9cabfed01cfe494547060954aed9e82",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex6",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "c877f793b7890d1a1204f3fcd6c2ce9474c0eed6772d12d269790251cf45927f",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex7",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "90a0f81e09ee7e6652944a8cc37cd2e16e1514d216f065052e90a692ab46e2ca",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex8",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "4ee2cf707b8a0e8747eb76096e61192fc16dccd699fe5c77029dadb1a898082f",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex9",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "fb842f75326f204730a251d65ec3d1f9c7e21aceaa4807a23e5cd4fe23841b88",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex10",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "38efc27d4033970ae81bcbb6ed0f1fe75711b0b96d82f2ee91924f5b9f1b9769",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex11",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "b6229d0900aa3a7f1c36f76600a18db8d773d9c4a3b7c76dfc1522a25fbfdf18",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex12",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "315a52ba961ee09c36c6d91982a9d7c02d1832eb00d2be0c6162a335f8cd3014",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex13",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "b6f42b3a28e47b20e0e4afb159d3a9d7c6c69a83c4186b04b99aba5bbb88789b",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex14",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "a9154fdb83c1bbdfc4659ca38fdc64e2634f669cddbd1e52c6aa29e3d1895ead",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex15",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "adcab997fb7ede058d487a1e7cfe867e0fd887355130b5f2480746cfb3fa5e88",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex16",
+      "width": 8,
+      "height": 8,
+      "expected_rgb_sha256": "22c7d49e291a7e66c67489570527ca6a3a67606ad92ad8a28e7f119008ffa8c9",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex17",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "69578e8f13f6edbbc5407700211a2b2c0e9e4a3da8c879821cb05a1da294dc7b",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex18",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "0fce536885b3f16adda4675e99301ffbe9658f036d323ee9116976b99cc10b9b",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex19",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "8d33946cd9196c21af372a330784e8238b99749a046fe5aae59096b1b2370ca5",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex20",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "57cdb83cb8ed955cfea4ef38998301bea49d2d5fb3fdfd4b17fbbca6cf99281b",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex21",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "44102264aabddf6624b38a86f5c01c11c03779621801ff97bc23933a437ee30d",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex22",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "6aab0be9c4966fd065f2db68c0a1cf109215eb3cfed6f7b3b10235a57b1e3c06",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex23",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "cdace1ec27b1363457b54b4d588a4a5ce3b3b2ecff86b8f9d51707c088f94894",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex24",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "f6faac14ada13173349ad91dc9ca3d9b827989a6931255284ea1ec4e5e788b44",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex25",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "5871d669e6f4c78804aad703fa3a00c01335192b6273c950e60dd8295b13f30b",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex26",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "3dbd18baac2807e17debab358acfa523061591d3d57fe0eefb60d7dfb099462c",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex27",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "b794d20b77cab78b01e135f599130fea4f91e32536280a8958c0333359ffcefb",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex28",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "6fb05eb48684b95087ebdee56f32b7c91f281282f79bd3c4dc4780f6b5548a0b",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex29",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "c02c96eaf53bd5ea2d0f2c56b1cbbef311daf1958277bbfe3bc94c3a670a37f3",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex30",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "f77d0fefe12345f5780e43d4e8b7418c1e6a693553919a0dc46eb4bae4284677",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex31",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "dac17f292534c4e7bcdbfbc143b5a0c6562a00abc4c72de2bbcb015f7c48579f",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex32",
+      "width": 8,
+      "height": 8,
+      "expected_rgb_sha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex33",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "40083d9b691774dab904f078ef8b382c3ab85ea38ab312a7367188f6d347aae1",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex34",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "6b9fcb359dcbb9a951cae80ad064d3b819bd4e80ea3ba35cbe0bda04a8a03545",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex35",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "e5af3c2f31d99890b8bc05f334a8dafd77d998ac227fde81a65d728103584c32",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex36",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "9ae9cdf574b41b7d4bfb93337f55e5de0ecc6e3f45af486f86f21b6b2dd471ab",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex37",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "2856a6e3bf5f38d88d86f9ad6f509691d04cee833f43dfa285ea4ef2c26ebb4c",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex38",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "6af8c9b23772d7049a1234ce9576288f981dcb79c1930f40391bd5a399c7dd2e",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Lobby",
+      "texture": "CastleLobbyTex39",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "c22c115c4a2c0436dca380cef0c4d7d2cd7cfa056ef3f5af08e5c834d9be8071",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob Painting",
+      "texture": "BobPaintingTex1",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "39e8e9c7e37a4d396772c80b05c645ac62d22f83d4c33cf58cfd074e2297f2c2",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob Painting",
+      "texture": "BobPaintingTex2",
+      "width": 64,
+      "height": 32,
+      "expected_rgb_sha256": "bea991e643844615d1e67f5ab7a93c41a184b7845c3473c427a576fa68a6e6ef",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Door",
+      "texture": "CastleDoorTex1",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "7a4cb3e5c45ccf573602e158590a8233ca227d47c7c99a98129632fbc81ae21e",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Door",
+      "texture": "CastleDoorTex2",
+      "width": 16,
+      "height": 4,
+      "expected_rgb_sha256": "591ced2ed91b11946ce2675c30e4cdbf1d61a4570f8368d41bed1ae1f89554dd",
+      "status": "external_reference_exact_rom_recipe_pending"
+    },
+    {
+      "model": "Castle Door",
+      "texture": "CastleDoorTex3",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "35c8399e5d50c749c9274cef3fef6baf0c3c849eece495aafe8a82381c58bdee",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex1",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "4afa7e50306ec5e7fe8a4de5b2a56849e9671396bdbac22dfe5c0434e3560309",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex2",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "fc4b841020a69b17c6a9da9754f0878325b403b973fd91eddc8e46ba406dd2d0",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex3",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "c028eebbfbe09b2bd93715930b226b4cade8c10b7b968e66f5c2ef2f85383456",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex4",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "f28a115604cec513b18dd03abe78f249c5dae9a8f324de5e770149e64726c2eb",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex5",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "9534ccaf4ea952ec2d7ca78f822c1146d94323fb72d4caae7a4b31f498ec86cf",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex6",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "5bd106d849c0087cfd104d830a1efece9d11212149c94c8846f2b4226e1709d8",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex7",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "680abb88e6b9a3154c4efcbb35a02c5e33d119b8feb0b78cc77a135579fb531d",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex8",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "1c5dcbb7a58d7e01ac08e0eaf7e6188dfed08a6b21cb0e519fe8eab1d68388d6",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex9",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "a3d18585b6ec52b08a82c5c86292165cc6e2b379c94ff76938a9e08fcc63d492",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex10",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "7c1e8fbd21ad5f1a632783b3049a019e2ba891b60851cd5dd9e1859997be5e5a",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex11",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "c31c9a955b649e935ec8c0101df61d7f1a236d2c043e2f4a7dc9ca79985a7d75",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex12",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "448ec472a21493ea115d4ca7796aa2d13f0ca55d3be43a8c24d3c2109d324023",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex13",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "e4e18c9733174ad658109586c685b55ccb933e76b3658df589b843c2f5c2dd19",
+      "status": "rom_recipe_verified",
+      "source": "textures/generic/bob_textures.0B000.ia16.png",
+      "method": "ia16_alpha_threshold_46_to_FE01FE"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex14",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "7ebceb89a88f7d3241e72b651aadc088070c4f197d87f13b0a30afd9742ff5eb",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex15",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "79e34565fe0292e064a9320ee5f4851413c3a0c73d7c521b6956a0e9accdf6d0",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex16",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "4b57548719b00cb38a1e149ba818a4bdc0ef26e6981c87fc85711e51e6121abd",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex17",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "1d9be9a67c9960db4efdf51e5e7e13c89e6ebbb50191f32fd3fe098b732cfee9",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex18",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "9af489b4ee2771b2924cc4bf58f69b07e11ad1a122526326972958e59bcaf18f",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "texture": "Bob-ombBattlefieldTex19",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "7b1a322dd0b52b6b4efff4b65f8c6607749a592f9a34e7c90f2236873d83d0d8",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Yellow Coin Frame 1",
+      "texture": "CoinYellowTexture1",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "b2222ee51b89d6ca371dc8305dc49ba21aeb6cab06ce1f5599e2621806151362",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Yellow Coin Frame 2",
+      "texture": "CoinYellowTexture2",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "2209a1302475fe9eec4dc1e3b3638c6d4bbf4bca268c5519eef93aab912939cd",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Yellow Coin Frame 3",
+      "texture": "CoinYellowTexture3",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "e7963d80cb5c9cfdf704eba68445e8574e0ddddf65961be81022f72e50c3bb28",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Yellow Coin Frame 4",
+      "texture": "CoinYellowTexture4",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "79a5828a7bf6acead4d330ebd18829d7c444eff07063b25e8e3adef45153f290",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Lobby Wood Door",
+      "texture": "LobbyWoodDoorTex1",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "b09879ff40ada3e578ca5e12084ee3ed6e780c6e59b6e7f998824c2d84555067",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Lobby Wood Door",
+      "texture": "LobbyWoodDoorTex2",
+      "width": 16,
+      "height": 4,
+      "expected_rgb_sha256": "591ced2ed91b11946ce2675c30e4cdbf1d61a4570f8368d41bed1ae1f89554dd",
+      "status": "external_reference_exact_rom_recipe_pending"
+    },
+    {
+      "model": "Lobby Wood Door",
+      "texture": "LobbyWoodDoorTex3",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "4d47aa3eb104424f198ff827ff7ffa53e483051e598fed7112ff481fd5e50615",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Lobby 0 Star Door",
+      "texture": "Lobby0StarDoorTex1",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "7a4cb3e5c45ccf573602e158590a8233ca227d47c7c99a98129632fbc81ae21e",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Lobby 0 Star Door",
+      "texture": "Lobby0StarDoorTex2",
+      "width": 16,
+      "height": 4,
+      "expected_rgb_sha256": "591ced2ed91b11946ce2675c30e4cdbf1d61a4570f8368d41bed1ae1f89554dd",
+      "status": "external_reference_exact_rom_recipe_pending"
+    },
+    {
+      "model": "Lobby 0 Star Door",
+      "texture": "Lobby0StarDoorTex3",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "35c8399e5d50c749c9274cef3fef6baf0c3c849eece495aafe8a82381c58bdee",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Lobby 0 Star Door",
+      "texture": "Lobby0StarDoorTex4",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "2843dfb9be3e8ebdef48465cb500bcc6ccea8d56c164352bd719413a16682a81",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Lobby 1 Star Door",
+      "texture": "Lobby1StarDoorTex1",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "7a4cb3e5c45ccf573602e158590a8233ca227d47c7c99a98129632fbc81ae21e",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Lobby 1 Star Door",
+      "texture": "Lobby1StarDoorTex2",
+      "width": 16,
+      "height": 4,
+      "expected_rgb_sha256": "591ced2ed91b11946ce2675c30e4cdbf1d61a4570f8368d41bed1ae1f89554dd",
+      "status": "external_reference_exact_rom_recipe_pending"
+    },
+    {
+      "model": "Lobby 1 Star Door",
+      "texture": "Lobby1StarDoorTex3",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "35c8399e5d50c749c9274cef3fef6baf0c3c849eece495aafe8a82381c58bdee",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Lobby 1 Star Door",
+      "texture": "Lobby1StarDoorTex4",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "4b9d0573177ed765ebdb2c9768c7a45d05d74858236f6890f6e9fc6d2a02f8e1",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Lobby 3 Star Door",
+      "texture": "Lobby3StarDoorTex1",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "7a4cb3e5c45ccf573602e158590a8233ca227d47c7c99a98129632fbc81ae21e",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Lobby 3 Star Door",
+      "texture": "Lobby3StarDoorTex2",
+      "width": 16,
+      "height": 4,
+      "expected_rgb_sha256": "591ced2ed91b11946ce2675c30e4cdbf1d61a4570f8368d41bed1ae1f89554dd",
+      "status": "external_reference_exact_rom_recipe_pending"
+    },
+    {
+      "model": "Lobby 3 Star Door",
+      "texture": "Lobby3StarDoorTex3",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "35c8399e5d50c749c9274cef3fef6baf0c3c849eece495aafe8a82381c58bdee",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Lobby 3 Star Door",
+      "texture": "Lobby3StarDoorTex4",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "10b23c30727f948f49936dc31125d2c833f3c4e0deda2bb263e90d8e501ce183",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Lobby Key Door",
+      "texture": "LobbyKeyDoorTex1",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "7a4cb3e5c45ccf573602e158590a8233ca227d47c7c99a98129632fbc81ae21e",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Lobby Key Door",
+      "texture": "LobbyKeyDoorTex2",
+      "width": 16,
+      "height": 4,
+      "expected_rgb_sha256": "591ced2ed91b11946ce2675c30e4cdbf1d61a4570f8368d41bed1ae1f89554dd",
+      "status": "external_reference_exact_rom_recipe_pending"
+    },
+    {
+      "model": "Lobby Key Door",
+      "texture": "LobbyKeyDoorTex3",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "35c8399e5d50c749c9274cef3fef6baf0c3c849eece495aafe8a82381c58bdee",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Lobby Key Door",
+      "texture": "LobbyKeyDoorTex4",
+      "width": 16,
+      "height": 32,
+      "expected_rgb_sha256": "eda44e15be4bab6822e5937549a7a032fee1479789300b5ceb675cf4379c247b",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Lobby 8 Star Door",
+      "texture": "Lobby8StarDoorTex1",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "925953400d130934ad07762d53c109fe55a6a8505823d52ef2c909bacb59f4c4",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Lobby 8 Star Door",
+      "texture": "Lobby8StarDoorTex2",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "445f910f5e87f969e8db3170ade5b3408837b6e14c4fa4418b999d05663cc324",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Lobby 8 Star Door",
+      "texture": "Lobby8StarDoorTex3",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "caf7751a9c9a59c3ba5f61d07eabb53fb5f19119cd08af4847477638f74180e7",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Power Star",
+      "texture": "PowerStarTex1",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "3b78fadc1fad5df3c35cbb57ae5479640bb110105271bfa269baffc2fbf0255f",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Power Star",
+      "texture": "PowerStarTex2",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "4d5a3f010609f483fa7a48c06e77b6a12370c32fc31c380d80866fdb34669d47",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Power Star Collected",
+      "texture": "PowerStarCollectedTex1",
+      "width": 4,
+      "height": 4,
+      "expected_rgb_sha256": "15b2723adb8e003182f97b6f5ad937dac8af0effd02aa3f60819655ac481a87d",
+      "status": "external_reference_exact_rom_recipe_pending"
+    },
+    {
+      "model": "Castle Toad",
+      "texture": "ToadAtlas",
+      "width": 256,
+      "height": 1024,
+      "expected_rgb_sha256": "676de172ad96713196c4e767a6242b300cfcfe8b2650a6ab0e893384e78292c4",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "Castle Grounds Sign",
+      "texture": "CastleGroundsSignTex1",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "e2cb16b5261b491af0ff47af2b218f9e4313546546982fdecc6423716202c32b",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Grounds Sign",
+      "texture": "CastleGroundsSignTex2",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "3389812f5a037527793cf64be797be71423c289f7bd1546f91a9b0c66362ce23",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Chain Chomp Lower",
+      "texture": "ChainChompLowerTex1",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "b25dc25e427b5d99efa782892269d57526dee46651319da409d194c0e07b8bb7",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Chain Chomp Lower",
+      "texture": "ChainChompLowerTex2",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "88406900c13a90dcf20886bf6cdd1be7a3511f37390e59731219a113ab6960ac",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Chain Chomp Lower",
+      "texture": "ChainChompLowerTex3",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "8cd521d9a37c3f0247032dd8c1c075132fa83a71f3ac289ea0303ee236023521",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Chain Chomp Upper",
+      "texture": "ChainChompUpperTex1",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "4406374d6c3e3c323aae4eae7b67553ff879a85f127f48820b0977fc357e984a",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Chain Chomp Upper",
+      "texture": "ChainChompUpperTex2",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "377473ee10c522b65c0d0347fde4a31bddeeee090db76c718951e69a66678a9e",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Chain Chomp Upper",
+      "texture": "ChainChompUpperTex3",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "8cd521d9a37c3f0247032dd8c1c075132fa83a71f3ac289ea0303ee236023521",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Chain Chomp Upper",
+      "texture": "ChainChompUpperTex4",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "6a207f22cdda01cba2267b01ee34e1effb8c15312000d4eb7e767cbe778f56d7",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Chain Chomp Link",
+      "texture": "ChainChompLinkTex1",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "ea9c5fc36402e49557e4f996723a8be6a6929227d6a26bb38312339e74567f04",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Chain Chomp Post",
+      "texture": "ChainChompPostTex1",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "323d2df731cd2609dcf4a91d2ebfc9d86d4a9d1a616be8395d5b87e7a8f84bc2",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Chain Chomp Post",
+      "texture": "ChainChompPostTex2",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "cad8e68608ddf7239daf8ac69a96f7e6cc48d740a5e09e0280e49283562d147c",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "BOB Chain Chomp Gate",
+      "texture": "BOBChainChompGateTex1",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "7ebceb89a88f7d3241e72b651aadc088070c4f197d87f13b0a30afd9742ff5eb",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "BOB Cannon Lid",
+      "texture": "CannonLidMetal",
+      "width": 16,
+      "height": 16,
+      "expected_rgb_sha256": "086539c95c2d18ff8d06561ccbac3803c7a67b03553026ed150d702e76943c86",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "BOB Wooden Bridge",
+      "texture": "BOBWoodenBridgeTex1",
+      "width": 32,
+      "height": 64,
+      "expected_rgb_sha256": "c028eebbfbe09b2bd93715930b226b4cade8c10b7b968e66f5c2ef2f85383456",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "BOB Breakable Box",
+      "texture": "BOB_Breakable_Box_Mat1_tex",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "135d3936a90b8b4f7c59f995bc535e7d95c3f262df1c884239ce23516f934d01",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "BOB Breakable Box",
+      "texture": "BOB_Breakable_Box_Mat0_tex",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "1cd7f62123b1c25c8a250e65b4d35caebfdb06681daacd73cc005c19dea6b724",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "BOB Small Box",
+      "texture": "BOB_Small_Box_Mat1_tex",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "135d3936a90b8b4f7c59f995bc535e7d95c3f262df1c884239ce23516f934d01",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "BOB Small Box",
+      "texture": "BOB_Small_Box_Mat0_tex",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "1cd7f62123b1c25c8a250e65b4d35caebfdb06681daacd73cc005c19dea6b724",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "BOB Checkerboard Lift",
+      "texture": "BOB_Checkerboard_Lift_Mat1_tex",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "80dac0ec0d1f43c4dc3207cb06db1d1322c9724c71349c531b389b91c26adaa5",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "BOB Checkerboard Lift",
+      "texture": "BOB_Checkerboard_Lift_Mat0_tex",
+      "width": 32,
+      "height": 16,
+      "expected_rgb_sha256": "2655a2178ad1c021232cd322c49f4d43dccd24d27965509d8828ede814fb3709",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "BOB Bob-omb Buddy",
+      "texture": "BOB_Buddy_Body_tex",
+      "width": 64,
+      "height": 64,
+      "expected_rgb_sha256": "258584d48afe4ef86f76a3558812efd020d8c7907b6ea587022c112c2819fa5b",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "BOB Cannon Base",
+      "texture": "BOB_Cannon_Base_mat0_tex",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "a55b11c8fe0975c379a3a34c789c5c914784fc6f137a1ca91b1c400d2f8b3d12",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "BOB Cannon Base",
+      "texture": "BOB_Cannon_Base_mat2_tex",
+      "width": 16,
+      "height": 4,
+      "expected_rgb_sha256": "89d6fb08372aa775baad66ecad01ad295c1cb92860b93494fff081571ed80912",
+      "status": "external_reference_exact_rom_recipe_pending"
+    },
+    {
+      "model": "BOB Cannon Barrel",
+      "texture": "BOB_Cannon_Barrel_mat0_tex",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "747f3345d4fe236558d75321ab62ae02a81f2a562781aff7ffb0fa56dfe5139c",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "BOB Cannon Barrel",
+      "texture": "BOB_Cannon_Barrel_mat2_tex",
+      "width": 16,
+      "height": 4,
+      "expected_rgb_sha256": "6126553c5f22dcdd565901787161ea1bc0f5f997a5c940c8eca0d103db42ea53",
+      "status": "external_reference_exact_rom_recipe_pending"
+    },
+    {
+      "model": "BOB Buddy Foot L",
+      "texture": "BOB_Buddy_Foot_L_mat5_tex",
+      "width": 16,
+      "height": 4,
+      "expected_rgb_sha256": "823486d2f56d622cada326637e94c6a1af9d317a5718c5b2fc9a091cb811f555",
+      "status": "external_reference_exact_rom_recipe_pending"
+    },
+    {
+      "model": "BOB Buddy Foot R",
+      "texture": "BOB_Buddy_Foot_R_mat5_tex",
+      "width": 16,
+      "height": 4,
+      "expected_rgb_sha256": "823486d2f56d622cada326637e94c6a1af9d317a5718c5b2fc9a091cb811f555",
+      "status": "external_reference_exact_rom_recipe_pending"
+    },
+    {
+      "model": "BOB Buddy Key",
+      "texture": "BOB_Buddy_Key_mat5_tex",
+      "width": 16,
+      "height": 4,
+      "expected_rgb_sha256": "823486d2f56d622cada326637e94c6a1af9d317a5718c5b2fc9a091cb811f555",
+      "status": "external_reference_exact_rom_recipe_pending"
+    },
+    {
+      "model": "BOB Buddy Eyes Open",
+      "texture": "BOB_Buddy_Eyes_Open_mat3_tex",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "6f9eb934eddd0c051fd014bc16b84dd837b01877ccd5e00fec1d053a751fd52a",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "BOB Buddy Eyes Blink",
+      "texture": "BOB_Buddy_Eyes_Blink_mat4_tex",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "a5039f40142a60b62a3671428ee8d7f2c541a6c9309a3f6c8edf02a9a9be06f5",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Mario Shadow",
+      "texture": "MarioShadowTex",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "1e3256ed44e7254070037f00f5ebe1ea029b26173d13ecbac1bbad37c4b6107a",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "Castle Flag",
+      "texture": "Red",
+      "width": 1,
+      "height": 1,
+      "expected_rgb_sha256": "b8fe27513bb00a1e6e53a71123e6b7d1837c8e753ebe34bcf53eaed2f3739c68",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "Castle Flag",
+      "texture": "White",
+      "width": 1,
+      "height": 1,
+      "expected_rgb_sha256": "48455f6320abebd52e813837270573a651129b84c8cfcd2d297060417b165700",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "Castle Mist",
+      "texture": "Tex",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "9e0f424822185ecebf78ace9e362da8a0230be773d5ac36d261029a206210d94",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "Castle Bird",
+      "texture": "Tex",
+      "width": 32,
+      "height": 4,
+      "expected_rgb_sha256": "56179c796afa0cbf89bee1107d97fbaff289ebe0d8e099f73f8fbb35314d8a0f",
+      "status": "external_reference_exact_rom_recipe_pending"
+    },
+    {
+      "model": "Castle Butterfly",
+      "texture": "Tex",
+      "width": 64,
+      "height": 64,
+      "expected_rgb_sha256": "cef83c67101f1da1c278a6ff7de4d4ab2c707ff1814e2215e7befafb862566f9",
+      "status": "external_reference_exact_rom_recipe_pending"
+    },
+    {
+      "model": "Castle Fish",
+      "texture": "Tex",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "1f24ebf5f98ce99079bb576f35ca16202602662ca79c75098dd36d13be5456b6",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "Castle Bubble",
+      "texture": "Tex",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "dce09d31c9f09e52c65730a0672f5488f9f10a52ca39e904285ca1642bc09750",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "BOB Goomba Body",
+      "texture": "G_BOB_Goomba_Body_T0",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "7bc52f8243f8344d7d8f637e78cd134a84e0f60b4a5da4222628192c74402cef",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "BOB Goomba Head Open",
+      "texture": "G_BOB_Goomba_Head_Open_T0",
+      "width": 256,
+      "height": 64,
+      "expected_rgb_sha256": "e84d222639283cb7d06f6c04af40108dbf974f28bdcd7f925de967ff1a11662e",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "BOB Goomba Head Blink",
+      "texture": "G_BOB_Goomba_Head_Blink_T0",
+      "width": 256,
+      "height": 64,
+      "expected_rgb_sha256": "66eae3dca496d9f9c347b44edee5972a9b2f4d03e64fb464b203080f49b3b249",
+      "status": "rom_recipe_verified"
+    },
+    {
+      "model": "BOB Goomba Foot L",
+      "texture": "G_BOB_Goomba_Foot_L_T0",
+      "width": 32,
+      "height": 4,
+      "expected_rgb_sha256": "64ca7b716c00b9757ed29ae186b8b0e610c790533840e9a0019b7e9ba9e8cc15",
+      "status": "external_reference_exact_rom_recipe_pending"
+    },
+    {
+      "model": "BOB Goomba Foot R",
+      "texture": "G_BOB_Goomba_Foot_R_T0",
+      "width": 32,
+      "height": 4,
+      "expected_rgb_sha256": "64ca7b716c00b9757ed29ae186b8b0e610c790533840e9a0019b7e9ba9e8cc15",
+      "status": "external_reference_exact_rom_recipe_pending"
+    },
+    {
+      "model": "BOB Goomba Death Puff",
+      "texture": "G_BOB_Goomba_Death_Puff_T0",
+      "width": 32,
+      "height": 32,
+      "expected_rgb_sha256": "bc5b32d43b139ad34d40a78a4bc42fe5907877b14b518015a6b2995932fe4a84",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "TitleIntro Logo",
+      "texture": "TitleLogo_T0",
+      "width": 256,
+      "height": 64,
+      "expected_rgb_sha256": "d584e25d7eb120165f98340d0a810ab7f18bd312258faf7e73ccc7a9fff513f6",
+      "status": "external_reference_exact_rom_recipe_pending"
+    },
+    {
+      "model": "TitleIntro Logo",
+      "texture": "TitleLogo_COMBINED",
+      "width": 256,
+      "height": 224,
+      "expected_rgb_sha256": "d9aed193f0613c786f39087caf30a9245c18ce26038b4fe17b79afe67fe02373",
+      "status": "pending_source_or_conversion"
+    },
+    {
+      "model": "TitleIntro Mario Head",
+      "texture": "TitleHead_T0",
+      "width": 32,
+      "height": 4096,
+      "expected_rgb_sha256": "643a1d47ca3fd997dc26e8339f4987306ac3b48eb8889321a5dece822a479580",
+      "status": "pending_source_or_conversion"
+    }
+  ]
+}

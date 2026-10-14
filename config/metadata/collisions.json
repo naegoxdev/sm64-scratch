@@ -1,0 +1,59 @@
+{
+  "format": 13,
+  "rom_sha1": "9bef1128717f958171a4afac3ed78ee2bb4e86ce",
+  "levels": {
+    "BOB": {
+      "segment_rom_offset": 4178608,
+      "collision_pointer": "0x0700E958",
+      "list_prefix": "Level.BOB",
+      "grid": {
+        "min_x": -100,
+        "min_z": -100,
+        "cell_size": 20,
+        "width": 11
+      }
+    },
+    "GROUNDS": {
+      "segment_rom_offset": 4500416,
+      "collision_pointer": "0x0700F3A0",
+      "list_prefix": "Level.Grounds",
+      "grid": {
+        "min_x": -130,
+        "min_z": -130,
+        "cell_size": 30,
+        "width": 8,
+        "border": 0.6,
+        "boundary_tolerance": 1e-09
+      },
+      "world_translation": [
+        13.28,
+        -2.6,
+        -43.64
+      ],
+      "authored_walls": [
+        {
+          "origin": [
+            43.7,
+            -7.71,
+            -72.95
+          ],
+          "width": 5,
+          "height": 10
+        }
+      ]
+    },
+    "LOBBY": {
+      "segment_rom_offset": 3760960,
+      "collision_pointer": "0x07068B88",
+      "list_prefix": "Level.Lobby",
+      "grid": {
+        "min_x": -80,
+        "min_z": -70,
+        "cell_size": 20,
+        "width": 7,
+        "border": 0.6,
+        "boundary_tolerance": 1e-09
+      }
+    }
+  }
+}

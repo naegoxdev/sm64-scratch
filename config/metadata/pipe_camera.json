@@ -1,0 +1,28 @@
+{
+  "format": 13,
+  "rom_sha1": "9bef1128717f958171a4afac3ed78ee2bb4e86ce",
+  "position_rom_offset": 958144,
+  "focus_rom_offset": 958256,
+  "point_count": 14,
+  "point_stride": 8,
+  "position_sha256": "6956be2a783fbe38ca45bd89687cdaad51575af4a82e04d18790d3f26deccd87",
+  "focus_sha256": "00e32c87d53a74a2042873e0f23fc0c646192bd23e9c2885c3897cc150b3531a",
+  "initial_progress": 0.1,
+  "sample_count": 271,
+  "coordinate_divisor": 100,
+  "world_translation": [
+    13.28,
+    -2.6,
+    -43.64
+  ],
+  "round_decimals": 6,
+  "destination_hashes": {
+    "Intro.Camera.X": "2ee7977dd8f96c762324ad4ae8e69120ab7ae8de6102cdeac0adb70485b7b9ff",
+    "Intro.Camera.Y": "0fc43b5c4a0cf8c553f6552a295858c76591ff8a27232521a1182fa1f8acf51d",
+    "Intro.Camera.Z": "e5636fdb4b16fdbc7c27e20916471914ee6c7d3d7a2d6f7c9ce9ea2f942f7955",
+    "Intro.Focus.X": "0ec5b2dff6e95e3f43fd27ea3722fcbd5ea6c47c5ffe85700d125a9f9f4b739a",
+    "Intro.Focus.Y": "cbcd52fa32e898d8f22121f6ce398122f7be58eedebf4a1ac388f39cbd4723cc",
+    "Intro.Focus.Z": "99317bb2d52ba164563e1a0e62af9c361777cd9dbc1ae569c348bfaa2d07493a"
+  },
+  "source_notes": "US intro pipe-to-dialog position/focus splines. Point bytes are read from the user ROM; no spline coordinate data is packaged."
+}

@@ -1,0 +1,22 @@
+# Local build output
+output/
+local_build/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# User-supplied ROMs
+*.z64
+*.n64
+*.v64
+
+# Generated Scratch projects (keep the assetless template)
+*.sb3
+!BASE.sb3
+
+# Editor / OS files
+.DS_Store
+.idea/
+.vscode/

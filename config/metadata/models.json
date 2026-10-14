@@ -1,0 +1,151 @@
+{
+  "format": 13,
+  "rom_sha1": "9bef1128717f958171a4afac3ed78ee2bb4e86ce",
+  "models": [
+    {
+      "model": "TitleIntro Logo",
+      "object": "TitleLogo",
+      "segment_id": 7,
+      "segment_rom_offset": 2532256,
+      "display_list_pointer": "0x0700B3A0",
+      "minimum_triangles": 900,
+      "vertex_color_atlas": {
+        "texture": "TitleLogo_ROM_VertexColor",
+        "material": "TitleLogo_M0",
+        "tile_size": 16
+      },
+      "textures": [
+        {
+          "pointer": "0x07007EA0",
+          "decoded_offset": 32416,
+          "texture": "TitleLogo_ROM_Tex0",
+          "material": "TitleLogo_MCOMB"
+        },
+        {
+          "pointer": "0x070086A0",
+          "decoded_offset": 34464,
+          "texture": "TitleLogo_ROM_Tex1",
+          "material": "TitleLogo_MTEX1"
+        }
+      ]
+    },
+    {
+      "model": "Bob-omb Battlefield",
+      "object": "Bob-omb_Battlefield",
+      "normalize_uv_by_image_size": true,
+      "uv_texel_center_inset": true,
+      "rom_geometry_culling": true,
+      "segment_id": 7,
+      "segment_rom_offset": 4178608,
+      "display_list_pointers": [
+        "0x07004390",
+        "0x07009D80",
+        "0x0700A470",
+        "0x0700A920",
+        "0x0700DD18",
+        "0x0700E338"
+      ],
+      "minimum_triangles": 1100,
+      "coordinate_divisor": 100,
+      "textures": [
+        {
+          "pointer": "0x09005800",
+          "texture": "Bob-ombBattlefieldTex1",
+          "material": "Bob-ombBattlefieldMat1"
+        },
+        {
+          "pointer": "0x09009800",
+          "texture": "Bob-ombBattlefieldTex2",
+          "material": "Bob-ombBattlefieldMat2"
+        },
+        {
+          "pointer": "0x09006000",
+          "texture": "Bob-ombBattlefieldTex3",
+          "material": "Bob-ombBattlefieldMat3"
+        },
+        {
+          "pointer": "0x09003800",
+          "texture": "Bob-ombBattlefieldTex4",
+          "material": "Bob-ombBattlefieldMat4"
+        },
+        {
+          "pointer": "0x09002000",
+          "texture": "Bob-ombBattlefieldTex5",
+          "material": "Bob-ombBattlefieldMat5"
+        },
+        {
+          "pointer": "0x09001800",
+          "texture": "Bob-ombBattlefieldTex6",
+          "material": "Bob-ombBattlefieldMat6"
+        },
+        {
+          "pointer": "0x09005000",
+          "texture": "Bob-ombBattlefieldTex7",
+          "material": "Bob-ombBattlefieldMat7"
+        },
+        {
+          "pointer": "0x09004800",
+          "texture": "Bob-ombBattlefieldTex8",
+          "material": "Bob-ombBattlefieldMat8"
+        },
+        {
+          "pointer": "0x09003000",
+          "texture": "Bob-ombBattlefieldTex9",
+          "material": "Bob-ombBattlefieldMat9"
+        },
+        {
+          "pointer": "0x07001000",
+          "texture": "Bob-ombBattlefieldTex10",
+          "material": "Bob-ombBattlefieldMat10"
+        },
+        {
+          "pointer": "0x07001800",
+          "texture": "Bob-ombBattlefieldTex11",
+          "material": "Bob-ombBattlefieldMat11"
+        },
+        {
+          "pointer": "0x07000800",
+          "texture": "Bob-ombBattlefieldTex12",
+          "material": "Bob-ombBattlefieldMat12"
+        },
+        {
+          "pointer": "0x0900B000",
+          "texture": "Bob-ombBattlefieldTex13",
+          "material": "Bob-ombBattlefieldMat14"
+        },
+        {
+          "pointer": "0x09008800",
+          "texture": "Bob-ombBattlefieldTex14",
+          "material": "Bob-ombBattlefieldMat15"
+        },
+        {
+          "pointer": "0x07000000",
+          "texture": "Bob-ombBattlefieldTex15",
+          "material": "Bob-ombBattlefieldMat16"
+        },
+        {
+          "pointer": "0x09009000",
+          "texture": "Bob-ombBattlefieldTex16",
+          "material": "Bob-ombBattlefieldMat17",
+          "root_pointer": "0x0700DD18"
+        },
+        {
+          "pointer": "0x07002000",
+          "texture": "Bob-ombBattlefieldTex17",
+          "material": "Bob-ombBattlefieldMat20"
+        },
+        {
+          "pointer": "0x0900A000",
+          "texture": "Bob-ombBattlefieldTex18",
+          "material": "Bob-ombBattlefieldMat21"
+        },
+        {
+          "pointer": "0x09009000",
+          "texture": "Bob-ombBattlefieldTex19",
+          "material": "Bob-ombBattlefieldMat23",
+          "root_pointer": "0x0700E338"
+        }
+      ]
+    }
+  ]
+}

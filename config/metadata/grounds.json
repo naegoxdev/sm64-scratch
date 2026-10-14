@@ -1,0 +1,366 @@
+{
+  "format": 13,
+  "rom_sha1": "9bef1128717f958171a4afac3ed78ee2bb4e86ce",
+  "model": "Arena",
+  "object": "Arena",
+  "coordinate_divisor": 100,
+  "minimum_triangles": 802,
+  "segments": {
+    "7": {
+      "rom_offset": 4500416,
+      "codec": "MIO0",
+      "texture_format": "rgba16"
+    },
+    "9": {
+      "rom_offset": 3534096,
+      "codec": "MIO0",
+      "texture_format": "rgba16"
+    }
+  },
+  "texture_formats": {
+    "0x0900BC00": "ia16"
+  },
+  "display_list_pointers": [
+    "0x07006D70",
+    "0x070095F0",
+    "0x0700A860",
+    "0x0700B1D0",
+    "0x0700BA20",
+    "0x0700C430",
+    "0x0700C210",
+    "0x0700BB80",
+    "0x0700BC68",
+    "0x0700EA58"
+  ],
+  "material_bindings": [
+    {
+      "root_pointer": "0x07006D70",
+      "pointer": "0x09000000",
+      "default_material": "CastleLitMat2",
+      "color_materials": {
+        "112,112,138": "CastleLitMat1",
+        "160,160,160": "CastleLitMat2",
+        "255,255,255": "CastleLitMat3",
+        "103,103,105": "CastleLitMat4",
+        "88,88,98": "CastleLitMat5"
+      }
+    },
+    {
+      "root_pointer": "0x07006D70",
+      "pointer": "0x0900A000",
+      "default_material": "CastleLitMat8",
+      "color_materials": {
+        "160,160,160": "CastleLitMat7",
+        "255,255,255": "CastleLitMat8",
+        "88,88,98": "CastleLitMat9"
+      }
+    },
+    {
+      "root_pointer": "0x07006D70",
+      "pointer": "0x09007800",
+      "default_material": "CastleLitMat10",
+      "color_materials": {
+        "255,255,255": "CastleLitMat10",
+        "114,114,140": "CastleLitMat11",
+        "153,153,172": "CastleLitMat12",
+        "196,196,208": "CastleLitMat13",
+        "156,156,174": "CastleLitMat12",
+        "112,112,138": "CastleLitMat11",
+        "145,145,165": "CastleLitMat14",
+        "173,173,188": "CastleLitMat15",
+        "229,229,234": "CastleLitMat16"
+      }
+    },
+    {
+      "root_pointer": "0x07006D70",
+      "pointer": "0x09003000",
+      "default_material": "CastleLitMat17",
+      "color_materials": {
+        "255,255,255": "CastleLitMat17",
+        "114,114,140": "CastleLitMat18",
+        "153,153,172": "CastleLitMat19",
+        "196,196,208": "CastleLitMat20",
+        "173,173,188": "CastleLitMat21",
+        "229,229,234": "CastleLitMat22",
+        "156,156,174": "CastleLitMat19"
+      }
+    },
+    {
+      "root_pointer": "0x07006D70",
+      "pointer": "0x09009000",
+      "default_material": "CastleLitMat23",
+      "color_materials": {
+        "114,114,140": "CastleLitMat23",
+        "88,88,98": "CastleLitMat24"
+      }
+    },
+    {
+      "root_pointer": "0x07006D70",
+      "pointer": "0x09004800",
+      "default_material": "CastleLitMat27",
+      "color_materials": {
+        "112,112,138": "CastleLitMat25",
+        "216,216,216": "CastleLitMat26",
+        "255,255,255": "CastleLitMat27",
+        "196,196,208": "CastleLitMat28",
+        "156,156,174": "CastleLitMat29"
+      }
+    },
+    {
+      "root_pointer": "0x07006D70",
+      "pointer": "0x09002000",
+      "default_material": "CastleLitMat30",
+      "color_materials": {
+        "112,112,138": "CastleLitMat30",
+        "145,145,165": "CastleLitMat31"
+      }
+    },
+    {
+      "root_pointer": "0x07006D70",
+      "pointer": "0x09001000",
+      "default_material": "CastleLitMat33",
+      "color_materials": {
+        "102,102,127": "CastleLitMat32",
+        "112,112,138": "CastleLitMat33",
+        "255,255,255": "CastleLitMat34",
+        "196,196,208": "CastleLitMat35",
+        "145,145,165": "CastleLitMat36",
+        "114,114,140": "CastleLitMat33",
+        "88,88,98": "CastleLitMat37",
+        "153,153,172": "CastleLitMat38",
+        "173,173,188": "CastleLitMat39",
+        "229,229,234": "CastleLitMat40",
+        "156,156,174": "CastleLitMat38"
+      }
+    },
+    {
+      "root_pointer": "0x07006D70",
+      "pointer": "0x09006800",
+      "default_material": "CastleLitMat42",
+      "color_materials": {
+        "103,103,105": "CastleLitMat41",
+        "145,145,165": "CastleLitMat42",
+        "88,88,98": "CastleLitMat43",
+        "137,137,138": "CastleLitMat44",
+        "153,153,172": "CastleLitMat45"
+      }
+    },
+    {
+      "root_pointer": "0x07006D70",
+      "pointer": null,
+      "default_material": "CastleLitMat46",
+      "color_materials": {
+        "0,0,0": "CastleLitMat46"
+      }
+    },
+    {
+      "root_pointer": "0x070095F0",
+      "pointer": "0x0900B000",
+      "default_material": "CastleLitMat47",
+      "color_materials": {},
+      "address_materials": [
+        {
+          "min_source_address": 28632,
+          "max_source_address": 28680,
+          "material": "CastleLitMat48"
+        }
+      ]
+    },
+    {
+      "root_pointer": "0x070095F0",
+      "pointer": "0x09004000",
+      "default_material": "CastleLitMat49",
+      "color_materials": {}
+    },
+    {
+      "root_pointer": "0x070095F0",
+      "pointer": "0x09008000",
+      "default_material": "CastleLitMat50",
+      "color_materials": {
+        "0,127,0": "CastleLitMat50"
+      }
+    },
+    {
+      "root_pointer": "0x070095F0",
+      "pointer": "0x09009000",
+      "default_material": "CastleLitMat51",
+      "color_materials": {}
+    },
+    {
+      "root_pointer": "0x070095F0",
+      "pointer": "0x09009800",
+      "default_material": "CastleLitMat52",
+      "color_materials": {
+        "0,127,0": "CastleLitMat53"
+      }
+    },
+    {
+      "root_pointer": "0x070095F0",
+      "pointer": "0x0900B400",
+      "default_material": "CastleLitMat54",
+      "color_materials": {}
+    },
+    {
+      "root_pointer": "0x070095F0",
+      "pointer": "0x09003800",
+      "default_material": "CastleLitMat56",
+      "color_materials": {}
+    },
+    {
+      "root_pointer": "0x070095F0",
+      "pointer": "0x09002000",
+      "default_material": "CastleLitMat57",
+      "color_materials": {}
+    },
+    {
+      "root_pointer": "0x070095F0",
+      "pointer": "0x09004800",
+      "default_material": "CastleLitMat62",
+      "color_materials": {}
+    },
+    {
+      "root_pointer": "0x070095F0",
+      "pointer": "0x09006800",
+      "default_material": "CastleLitMat41",
+      "color_materials": {
+        "0,0,129": "CastleLitMat41"
+      }
+    },
+    {
+      "root_pointer": "0x0700A860",
+      "pointer": "0x07000000",
+      "default_material": "CastleLitMat63",
+      "color_materials": {
+        "255,255,255": "CastleLitMat63"
+      }
+    },
+    {
+      "root_pointer": "0x0700BA20",
+      "pointer": "0x0900A800",
+      "default_material": "CastleLitMat69",
+      "color_materials": {
+        "145,145,165": "CastleLitMat65",
+        "153,153,172": "CastleLitMat66",
+        "196,196,208": "CastleLitMat67",
+        "173,173,188": "CastleLitMat68",
+        "255,255,255": "CastleLitMat69"
+      }
+    },
+    {
+      "root_pointer": "0x0700BA20",
+      "pointer": "0x07001000",
+      "default_material": "CastleLitMat70",
+      "color_materials": {
+        "255,255,255": "CastleLitMat70"
+      }
+    },
+    {
+      "root_pointer": "0x0700BA20",
+      "pointer": "0x07002000",
+      "default_material": "CastleLitMat71",
+      "color_materials": {
+        "255,255,255": "CastleLitMat71"
+      }
+    },
+    {
+      "root_pointer": "0x0700C210",
+      "pointer": "0x09004800",
+      "default_material": "CastleLitMat29",
+      "color_materials": {
+        "0,127,0": "CastleLitMat29",
+        "0,0,129": "CastleLitMat29",
+        "129,0,0": "CastleLitMat29",
+        "0,0,127": "CastleLitMat26",
+        "127,0,0": "CastleLitMat26"
+      }
+    },
+    {
+      "root_pointer": "0x0700C210",
+      "pointer": "0x09001000",
+      "default_material": "CastleLitMat34",
+      "color_materials": {
+        "0,127,0": "CastleLitMat34",
+        "102,74,0": "CastleLitMat34",
+        "0,73,153": "CastleLitMat35",
+        "0,74,154": "CastleLitMat35",
+        "154,75,0": "CastleLitMat39",
+        "153,73,0": "CastleLitMat39",
+        "0,74,103": "CastleLitMat73",
+        "0,74,102": "CastleLitMat73"
+      }
+    },
+    {
+      "root_pointer": "0x07006D70",
+      "pointer": "0x09006000",
+      "default_material": "CastleLitMat6",
+      "color_materials": {}
+    },
+    {
+      "root_pointer": "0x0700B1D0",
+      "pointer": "0x0900BC00",
+      "default_material": "CastleLitMat64",
+      "color_materials": {}
+    },
+    {
+      "root_pointer": "0x0700C430",
+      "pointer": "0x09006000",
+      "default_material": "CastleLitMat72",
+      "color_materials": {}
+    },
+    {
+      "root_pointer": "0x0700C430",
+      "pointer": "0x09003000",
+      "default_material": "CastleLitMat19",
+      "color_materials": {}
+    }
+  ],
+  "world_translation": [
+    13.28,
+    -2.6,
+    -43.64
+  ],
+  "excluded_display_lists": [
+    "0x0700BB80",
+    "0x0700BC68",
+    "0x0700EA58"
+  ],
+  "surface_offsets": [
+    {
+      "root": "0x07006D70",
+      "pointer": "0x09006000",
+      "vertical_offset": 0.04
+    },
+    {
+      "root": "0x0700B1D0",
+      "pointer": "0x0900BC00",
+      "vertical_offset": 0.12
+    },
+    {
+      "root": "0x0700C430",
+      "pointer": "0x09006000",
+      "vertical_offset": 0.04
+    },
+    {
+      "root": "0x0700C430",
+      "pointer": "0x09003000",
+      "depth_offset": -0.06
+    }
+  ],
+  "normalize_uv_by_image_size": true,
+  "movtex": {
+    "quad_pointers": [
+      "0x070116F8",
+      "0x07011718"
+    ],
+    "waterfall_vertex_pointer": "0x07011752",
+    "waterfall_display_list_pointer": "0x070117E8",
+    "waterfall_vertices": 15,
+    "material": "CastleLitMat74",
+    "texture": "CastleLitTex74"
+  },
+  "tree_placements": {
+    "pointer": "0x070114AE",
+    "count": 26,
+    "preset": 121
+  }
+}

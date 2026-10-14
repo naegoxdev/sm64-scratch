@@ -1,0 +1,1356 @@
+{
+  "format": 13,
+  "rom_sha1": "9bef1128717f958171a4afac3ed78ee2bb4e86ce",
+  "model": "Castle Lobby",
+  "object": "CastleLobby",
+  "coordinate_divisor": 100,
+  "minimum_triangles": 2179,
+  "normalize_uv_by_image_size": true,
+  "segments": {
+    "7": {
+      "rom_offset": 3760960,
+      "texture_format": "rgba16"
+    },
+    "9": {
+      "rom_offset": 3561856,
+      "texture_format": "rgba16"
+    }
+  },
+  "display_list_pointers": [
+    "0x070234C0",
+    "0x07023520",
+    "0x07023DB0",
+    "0x07028FD0",
+    "0x07029578",
+    "0x0702A650",
+    "0x0702E408",
+    "0x0702FD30",
+    "0x07031588",
+    "0x07031720",
+    "0x07031830",
+    "0x07032FC0",
+    "0x07033158",
+    "0x07034D88",
+    "0x07035178",
+    "0x07035288",
+    "0x07036D88",
+    "0x07037988",
+    "0x07037BF8",
+    "0x07037DE8",
+    "0x07038350",
+    "0x0703A6C8",
+    "0x0703A808",
+    "0x0703BA08",
+    "0x07038240",
+    "0x0702AA10"
+  ],
+  "texture_formats": {
+    "0x07000000": "ia16",
+    "0x0700A000": "ia16",
+    "0x0900B800": "ia16"
+  },
+  "root_axis_shifts": {
+    "0x0702AA10": [
+      0,
+      0,
+      1.5
+    ]
+  },
+  "expected_geometry_sha256": "181aaac3d29c16995c16fa63cd989c78bfaaf236b3afd7129448aaed283ae104",
+  "material_bindings": [
+    {
+      "root_pointer": "0x070234C0",
+      "pointer": "0x0700D800",
+      "material": "CastleLobbyMat59",
+      "texture": "CastleLobbyTex37",
+      "nocull": false,
+      "address_ranges": [
+        [
+          137496,
+          137544
+        ]
+      ],
+      "uv_max_error": 4.375000000056417e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        64,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x070234C0",
+      "pointer": "0x0700C800",
+      "material": "CastleLobbyMat60",
+      "texture": "CastleLobbyTex38",
+      "nocull": false,
+      "address_ranges": [
+        [
+          137560,
+          137608
+        ]
+      ],
+      "uv_max_error": 4.375000000056417e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        64,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07023520",
+      "pointer": "0x0700D800",
+      "material": "CastleLobbyMat61",
+      "texture": "CastleLobbyTex37",
+      "nocull": false,
+      "address_ranges": [
+        [
+          137624,
+          137672
+        ]
+      ],
+      "uv_max_error": 4.375000000056417e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        64,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07023520",
+      "pointer": "0x0700C800",
+      "material": "CastleLobbyMat62",
+      "texture": "CastleLobbyTex38",
+      "nocull": false,
+      "address_ranges": [
+        [
+          137688,
+          137736
+        ]
+      ],
+      "uv_max_error": 4.375000000056417e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        64,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07023DB0",
+      "pointer": "0x07006000",
+      "material": "CastleLobbyMat20",
+      "texture": "CastleLobbyTex17",
+      "nocull": false,
+      "address_ranges": [
+        [
+          146608,
+          146656
+        ]
+      ],
+      "uv_max_error": 4.375000000056417e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07023DB0",
+      "pointer": "0x07006800",
+      "material": "CastleLobbyMat21",
+      "texture": "CastleLobbyTex18",
+      "nocull": false,
+      "address_ranges": [
+        [
+          146672,
+          146720
+        ]
+      ],
+      "uv_max_error": 4.375000000056417e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07023DB0",
+      "pointer": "0x07007000",
+      "material": "CastleLobbyMat22",
+      "texture": "CastleLobbyTex19",
+      "nocull": false,
+      "address_ranges": [
+        [
+          146736,
+          146784
+        ]
+      ],
+      "uv_max_error": 4.375000000056417e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07023DB0",
+      "pointer": "0x07007800",
+      "material": "CastleLobbyMat23",
+      "texture": "CastleLobbyTex20",
+      "nocull": false,
+      "address_ranges": [
+        [
+          146800,
+          146848
+        ]
+      ],
+      "uv_max_error": 4.375000000056417e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07028FD0",
+      "pointer": "0x09005000",
+      "material": "CastleLobbyMat1",
+      "texture": "CastleLobbyTex1",
+      "nocull": false,
+      "address_ranges": [
+        [
+          147496,
+          152952
+        ]
+      ],
+      "uv_max_error": 4.765625000180407e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07028FD0",
+      "pointer": "0x09004000",
+      "material": "CastleLobbyMat2",
+      "texture": "CastleLobbyTex2",
+      "nocull": false,
+      "address_ranges": [
+        [
+          152968,
+          155096
+        ]
+      ],
+      "uv_max_error": 4.960937500797513e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07028FD0",
+      "pointer": "0x09003800",
+      "material": "CastleLobbyMat3",
+      "texture": "CastleLobbyTex3",
+      "nocull": false,
+      "address_ranges": [
+        [
+          155112,
+          155896
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07028FD0",
+      "pointer": "0x09001000",
+      "material": "CastleLobbyMat4",
+      "texture": "CastleLobbyTex4",
+      "nocull": false,
+      "address_ranges": [
+        [
+          155912,
+          158168
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        64,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07028FD0",
+      "pointer": "0x09000000",
+      "material": "CastleLobbyMat5",
+      "texture": "CastleLobbyTex5",
+      "nocull": false,
+      "address_ranges": [
+        [
+          158184,
+          163288
+        ]
+      ],
+      "uv_max_error": 5.00000000069889e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        64,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07029578",
+      "pointer": "0x09008800",
+      "material": "CastleLobbyMat6",
+      "texture": "CastleLobbyTex6",
+      "nocull": true,
+      "address_ranges": [
+        [
+          168056,
+          169000
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0702A650",
+      "pointer": "0x09008000",
+      "material": "CastleLobbyMat7",
+      "texture": "CastleLobbyTex7",
+      "nocull": false,
+      "address_ranges": [
+        [
+          169592,
+          170280
+        ]
+      ],
+      "uv_max_error": 4.882812499884537e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0702A650",
+      "pointer": "0x09001000",
+      "material": "CastleLobbyMat8",
+      "texture": "CastleLobbyTex8",
+      "nocull": false,
+      "address_ranges": [
+        [
+          170296,
+          171672
+        ]
+      ],
+      "uv_max_error": 4.999999999996327e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        64,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0702A650",
+      "pointer": "0x09000000",
+      "material": "CastleLobbyMat9",
+      "texture": "CastleLobbyTex9",
+      "nocull": false,
+      "address_ranges": [
+        [
+          171688,
+          172408
+        ]
+      ],
+      "uv_max_error": 4.999999999996327e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        64,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0702E408",
+      "pointer": "0x09005000",
+      "material": "CastleLobbyMat11",
+      "texture": "CastleLobbyTex11",
+      "nocull": false,
+      "address_ranges": [
+        [
+          175040,
+          181280
+        ]
+      ],
+      "uv_max_error": 5.00000000069889e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0702E408",
+      "pointer": "0x0900B000",
+      "material": "CastleLobbyMat12",
+      "texture": "CastleLobbyTex12",
+      "nocull": false,
+      "address_ranges": [
+        [
+          181296,
+          181376
+        ]
+      ],
+      "uv_max_error": 4.999999996257998e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0702E408",
+      "pointer": "0x09004000",
+      "material": "CastleLobbyMat13",
+      "texture": "CastleLobbyTex2",
+      "nocull": false,
+      "address_ranges": [
+        [
+          181392,
+          181856
+        ]
+      ],
+      "uv_max_error": 4.804687501192006e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0702E408",
+      "pointer": "0x09003000",
+      "material": "CastleLobbyMat14",
+      "texture": "CastleLobbyTex13",
+      "nocull": false,
+      "address_ranges": [
+        [
+          181872,
+          186208
+        ]
+      ],
+      "uv_max_error": 4.726562501389253e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0702FD30",
+      "pointer": "0x09005000",
+      "material": "CastleLobbyMat15",
+      "texture": "CastleLobbyTex14",
+      "nocull": false,
+      "address_ranges": [
+        [
+          189704,
+          190936
+        ]
+      ],
+      "uv_max_error": 4.804687501192006e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0702FD30",
+      "pointer": "0x09004000",
+      "material": "CastleLobbyMat16",
+      "texture": "CastleLobbyTex2",
+      "nocull": false,
+      "address_ranges": [
+        [
+          190952,
+          191064
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0702FD30",
+      "pointer": "0x09003800",
+      "material": "CastleLobbyMat17",
+      "texture": "CastleLobbyTex3",
+      "nocull": false,
+      "address_ranges": [
+        [
+          191080,
+          192104
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0702FD30",
+      "pointer": "0x09007000",
+      "material": "CastleLobbyMat18",
+      "texture": "CastleLobbyTex15",
+      "nocull": false,
+      "address_ranges": [
+        [
+          192120,
+          194024
+        ]
+      ],
+      "uv_max_error": 4.999999999996327e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        64
+      ]
+    },
+    {
+      "root_pointer": "0x0702FD30",
+      "pointer": null,
+      "material": "CastleLobbyMat19",
+      "texture": "CastleLobbyTex16",
+      "nocull": false,
+      "address_ranges": [
+        [
+          194040,
+          194344
+        ]
+      ],
+      "uv_max_error": 1.3877787807814457e-17,
+      "uv_method": "constant",
+      "uv_constant": [
+        0.0625,
+        0.0625
+      ],
+      "image_size": [
+        8,
+        8
+      ]
+    },
+    {
+      "root_pointer": "0x07031588",
+      "pointer": "0x09004000",
+      "material": "CastleLobbyMat24",
+      "texture": "CastleLobbyTex2",
+      "nocull": false,
+      "address_ranges": [
+        [
+          196080,
+          196192
+        ]
+      ],
+      "uv_max_error": 4.726562501389253e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07031588",
+      "pointer": "0x09005000",
+      "material": "CastleLobbyMat25",
+      "texture": "CastleLobbyTex21",
+      "nocull": false,
+      "address_ranges": [
+        [
+          196208,
+          196544
+        ]
+      ],
+      "uv_max_error": 4.88281250099476e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07031588",
+      "pointer": "0x09003000",
+      "material": "CastleLobbyMat26",
+      "texture": "CastleLobbyTex13",
+      "nocull": false,
+      "address_ranges": [
+        [
+          196560,
+          200800
+        ]
+      ],
+      "uv_max_error": 4.88281250099476e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07031720",
+      "pointer": "0x07002000",
+      "material": "CastleLobbyMat27",
+      "texture": "CastleLobbyTex22",
+      "nocull": false,
+      "address_ranges": [
+        [
+          202248,
+          202424
+        ]
+      ],
+      "uv_max_error": 4.999999999996327e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        64
+      ]
+    },
+    {
+      "root_pointer": "0x07031830",
+      "pointer": "0x07003000",
+      "material": "CastleLobbyMat28",
+      "texture": "CastleLobbyTex23",
+      "nocull": false,
+      "address_ranges": [
+        [
+          202664,
+          202712
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07032FC0",
+      "pointer": "0x09005000",
+      "material": "CastleLobbyMat29",
+      "texture": "CastleLobbyTex24",
+      "nocull": false,
+      "address_ranges": [
+        [
+          202960,
+          203616
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07032FC0",
+      "pointer": "0x09004000",
+      "material": "CastleLobbyMat30",
+      "texture": "CastleLobbyTex2",
+      "nocull": false,
+      "address_ranges": [
+        [
+          203632,
+          204544
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07032FC0",
+      "pointer": "0x09003800",
+      "material": "CastleLobbyMat31",
+      "texture": "CastleLobbyTex3",
+      "nocull": false,
+      "address_ranges": [
+        [
+          204560,
+          205856
+        ]
+      ],
+      "uv_max_error": 4.7656249968497377e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07032FC0",
+      "pointer": "0x0900A000",
+      "material": "CastleLobbyMat32",
+      "texture": "CastleLobbyTex25",
+      "nocull": false,
+      "address_ranges": [
+        [
+          205872,
+          206544
+        ]
+      ],
+      "uv_max_error": 4.999999999996327e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        64
+      ]
+    },
+    {
+      "root_pointer": "0x07032FC0",
+      "pointer": "0x09007000",
+      "material": "CastleLobbyMat33",
+      "texture": "CastleLobbyTex15",
+      "nocull": false,
+      "address_ranges": [
+        [
+          206560,
+          207344
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        64
+      ]
+    },
+    {
+      "root_pointer": "0x07033158",
+      "pointer": "0x07003000",
+      "material": "CastleLobbyMat34",
+      "texture": "CastleLobbyTex23",
+      "nocull": false,
+      "address_ranges": [
+        [
+          209024,
+          209136
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07034D88",
+      "pointer": "0x09005000",
+      "material": "CastleLobbyMat35",
+      "texture": "CastleLobbyTex26",
+      "nocull": false,
+      "address_ranges": [
+        [
+          209400,
+          210376
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07034D88",
+      "pointer": "0x09004000",
+      "material": "CastleLobbyMat36",
+      "texture": "CastleLobbyTex2",
+      "nocull": false,
+      "address_ranges": [
+        [
+          210392,
+          210744
+        ]
+      ],
+      "uv_max_error": 3.320312500498801e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07034D88",
+      "pointer": "0x09003800",
+      "material": "CastleLobbyMat37",
+      "texture": "CastleLobbyTex3",
+      "nocull": false,
+      "address_ranges": [
+        [
+          210760,
+          212952
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07034D88",
+      "pointer": "0x09003000",
+      "material": "CastleLobbyMat38",
+      "texture": "CastleLobbyTex13",
+      "nocull": false,
+      "address_ranges": [
+        [
+          212968,
+          213208
+        ]
+      ],
+      "uv_max_error": 4.257812502572733e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07034D88",
+      "pointer": "0x09007000",
+      "material": "CastleLobbyMat39",
+      "texture": "CastleLobbyTex15",
+      "nocull": false,
+      "address_ranges": [
+        [
+          213224,
+          214040
+        ]
+      ],
+      "uv_max_error": 4.999999999996327e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        64
+      ]
+    },
+    {
+      "root_pointer": "0x07034D88",
+      "pointer": "0x0900A000",
+      "material": "CastleLobbyMat40",
+      "texture": "CastleLobbyTex25",
+      "nocull": false,
+      "address_ranges": [
+        [
+          214056,
+          214648
+        ]
+      ],
+      "uv_max_error": 4.999999999996327e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        64
+      ]
+    },
+    {
+      "root_pointer": "0x07035178",
+      "pointer": "0x09008800",
+      "material": "CastleLobbyMat41",
+      "texture": "CastleLobbyTex6",
+      "nocull": true,
+      "address_ranges": [
+        [
+          216656,
+          217248
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07035288",
+      "pointer": "0x07003000",
+      "material": "CastleLobbyMat42",
+      "texture": "CastleLobbyTex23",
+      "nocull": false,
+      "address_ranges": [
+        [
+          217600,
+          217648
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07036D88",
+      "pointer": "0x09005000",
+      "material": "CastleLobbyMat43",
+      "texture": "CastleLobbyTex27",
+      "nocull": false,
+      "address_ranges": [
+        [
+          217944,
+          218536
+        ]
+      ],
+      "uv_max_error": 4.414062499957794e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07036D88",
+      "pointer": "0x09008000",
+      "material": "CastleLobbyMat44",
+      "texture": "CastleLobbyTex28",
+      "nocull": false,
+      "address_ranges": [
+        [
+          218552,
+          218600
+        ]
+      ],
+      "uv_max_error": 4.843750001093383e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07036D88",
+      "pointer": "0x09004000",
+      "material": "CastleLobbyMat45",
+      "texture": "CastleLobbyTex29",
+      "nocull": false,
+      "address_ranges": [
+        [
+          218616,
+          218792
+        ]
+      ],
+      "uv_max_error": 4.726562499168807e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07036D88",
+      "pointer": "0x09003000",
+      "material": "CastleLobbyMat46",
+      "texture": "CastleLobbyTex30",
+      "nocull": false,
+      "address_ranges": [
+        [
+          218808,
+          219880
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07036D88",
+      "pointer": "0x09001000",
+      "material": "CastleLobbyMat47",
+      "texture": "CastleLobbyTex31",
+      "nocull": false,
+      "address_ranges": [
+        [
+          219896,
+          222152
+        ]
+      ],
+      "uv_max_error": 4.999999999996327e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        64,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07036D88",
+      "pointer": null,
+      "material": "CastleLobbyMat48",
+      "texture": "CastleLobbyTex32",
+      "nocull": false,
+      "address_ranges": [
+        [
+          222168,
+          222856
+        ]
+      ],
+      "uv_max_error": 0.0,
+      "uv_method": "constant",
+      "uv_constant": [
+        0.0625,
+        0.0625
+      ],
+      "image_size": [
+        8,
+        8
+      ]
+    },
+    {
+      "root_pointer": "0x07037988",
+      "pointer": "0x09003000",
+      "material": "CastleLobbyMat49",
+      "texture": "CastleLobbyTex13",
+      "nocull": false,
+      "address_ranges": [
+        [
+          224896,
+          227072
+        ]
+      ],
+      "uv_max_error": 4.921875000896136e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07037BF8",
+      "pointer": "0x09008000",
+      "material": "CastleLobbyMat50",
+      "texture": "CastleLobbyTex33",
+      "nocull": false,
+      "address_ranges": [
+        [
+          227856,
+          228096
+        ]
+      ],
+      "uv_max_error": 4.765624999070184e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07037DE8",
+      "pointer": null,
+      "material": "CastleLobbyMat51",
+      "texture": "CastleLobbyTex34",
+      "nocull": false,
+      "address_ranges": [
+        [
+          228464,
+          228704
+        ]
+      ],
+      "uv_max_error": 4.648437499366054e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x07038350",
+      "pointer": "0x07003000",
+      "material": "CastleLobbyMat53",
+      "texture": "CastleLobbyTex23",
+      "nocull": false,
+      "address_ranges": [
+        [
+          230088,
+          230136
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0703A6C8",
+      "pointer": "0x09005000",
+      "material": "CastleLobbyMat54",
+      "texture": "CastleLobbyTex1",
+      "nocull": false,
+      "address_ranges": [
+        [
+          230408,
+          231576
+        ]
+      ],
+      "uv_max_error": 4.7656249968497377e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0703A6C8",
+      "pointer": "0x09004000",
+      "material": "CastleLobbyMat55",
+      "texture": "CastleLobbyTex2",
+      "nocull": false,
+      "address_ranges": [
+        [
+          231592,
+          232472
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0703A6C8",
+      "pointer": "0x09003800",
+      "material": "CastleLobbyMat56",
+      "texture": "CastleLobbyTex3",
+      "nocull": false,
+      "address_ranges": [
+        [
+          232488,
+          236008
+        ]
+      ],
+      "uv_max_error": 4.88281250099476e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0703A6C8",
+      "pointer": "0x0900A000",
+      "material": "CastleLobbyMat57",
+      "texture": "CastleLobbyTex36",
+      "nocull": false,
+      "address_ranges": [
+        [
+          236024,
+          237240
+        ]
+      ],
+      "uv_max_error": 4.999999999996327e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        64
+      ]
+    },
+    {
+      "root_pointer": "0x0703A808",
+      "pointer": "0x07003000",
+      "material": "CastleLobbyMat58",
+      "texture": "CastleLobbyTex23",
+      "nocull": false,
+      "address_ranges": [
+        [
+          239488,
+          239536
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0703BA08",
+      "pointer": "0x0900B000",
+      "material": "CastleLobbyMat63",
+      "texture": "CastleLobbyTex39",
+      "nocull": false,
+      "address_ranges": [
+        [
+          239784,
+          240568
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0703BA08",
+      "pointer": "0x09004000",
+      "material": "CastleLobbyMat64",
+      "texture": "CastleLobbyTex2",
+      "nocull": false,
+      "address_ranges": [
+        [
+          240584,
+          240824
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0703BA08",
+      "pointer": "0x09005000",
+      "material": "CastleLobbyMat65",
+      "texture": "CastleLobbyTex21",
+      "nocull": false,
+      "address_ranges": [
+        [
+          240840,
+          241560
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0703BA08",
+      "pointer": "0x09003000",
+      "material": "CastleLobbyMat66",
+      "texture": "CastleLobbyTex13",
+      "nocull": false,
+      "address_ranges": [
+        [
+          241576,
+          242760
+        ]
+      ],
+      "uv_max_error": 4.765624999070184e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0703BA08",
+      "pointer": "0x09007000",
+      "material": "CastleLobbyMat67",
+      "texture": "CastleLobbyTex15",
+      "nocull": false,
+      "address_ranges": [
+        [
+          242776,
+          243112
+        ]
+      ],
+      "uv_max_error": 4.999999999996327e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        64
+      ]
+    },
+    {
+      "root_pointer": "0x07038240",
+      "pointer": "0x07000000",
+      "material": "CastleLobbyMat52",
+      "texture": "CastleLobbyTex35",
+      "nocull": false,
+      "address_ranges": [
+        [
+          228920,
+          229624
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    },
+    {
+      "root_pointer": "0x0702AA10",
+      "pointer": "0x07000800",
+      "material": "CastleLobbyMat10",
+      "texture": "CastleLobbyTex10",
+      "nocull": false,
+      "address_ranges": [
+        [
+          174344,
+          174472
+        ]
+      ],
+      "uv_max_error": 4.72656250027903e-07,
+      "uv_method": "tile_inset",
+      "image_size": [
+        32,
+        32
+      ]
+    }
+  ],
+  "solid_materials": {
+    "CastleLobbyTex16": {
+      "size": [
+        8,
+        8
+      ],
+      "rgb": [
+        24,
+        24,
+        24
+      ]
+    }
+  }
+}

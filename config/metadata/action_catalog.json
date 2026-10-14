@@ -1,0 +1,400 @@
+{
+  "format": 13,
+  "entries": [
+    {
+      "action": "ACT_IDLE",
+      "group": "STATIONARY",
+      "animation": "Other Standing Normal Part 1"
+    },
+    {
+      "action": "ACT_START_CROUCHING",
+      "group": "STATIONARY",
+      "animation": "start crouch"
+    },
+    {
+      "action": "ACT_CROUCHING",
+      "group": "STATIONARY",
+      "animation": "crouching"
+    },
+    {
+      "action": "ACT_STOP_CROUCHING",
+      "group": "STATIONARY",
+      "animation": "Come up from crouch"
+    },
+    {
+      "action": "ACT_JUMP_LAND_STOP",
+      "group": "STATIONARY",
+      "animation": "SM64 Land From Single Jump"
+    },
+    {
+      "action": "ACT_DOUBLE_JUMP_LAND_STOP",
+      "group": "STATIONARY",
+      "animation": "SM64 Land From Double Jump"
+    },
+    {
+      "action": "ACT_TRIPLE_JUMP_LAND_STOP",
+      "group": "STATIONARY",
+      "animation": "Other Land from back flip/triple flip"
+    },
+    {
+      "action": "ACT_LONG_JUMP_LAND_STOP",
+      "group": "STATIONARY",
+      "animation": "SM64 Crouch From Fast Long Jump"
+    },
+    {
+      "action": "ACT_WALKING",
+      "group": "MOVING",
+      "animation": "Walking (Not running)"
+    },
+    {
+      "action": "ACT_BRAKING",
+      "group": "MOVING",
+      "animation": "Other skid on ground start"
+    },
+    {
+      "action": "ACT_DECELERATING",
+      "group": "MOVING",
+      "animation": "Walking (Not running)"
+    },
+    {
+      "action": "ACT_TURNING_AROUND",
+      "group": "MOVING",
+      "animation": "Other Switch direction quickly"
+    },
+    {
+      "action": "ACT_FINISH_TURNING_AROUND",
+      "group": "MOVING",
+      "animation": "Other Switch direction quickly"
+    },
+    {
+      "action": "ACT_CRAWLING",
+      "group": "MOVING",
+      "animation": "Crawling"
+    },
+    {
+      "action": "ACT_CROUCH_SLIDE",
+      "group": "MOVING",
+      "animation": "crouching"
+    },
+    {
+      "action": "ACT_BUTT_SLIDE",
+      "group": "MOVING",
+      "animation": "Slide with hands back animation"
+    },
+    {
+      "action": "ACT_STOMACH_SLIDE",
+      "group": "MOVING",
+      "animation": "Slide then fall with small object"
+    },
+    {
+      "action": "ACT_JUMP_LAND",
+      "group": "MOVING",
+      "animation": "SM64 Land From Single Jump"
+    },
+    {
+      "action": "ACT_DOUBLE_JUMP_LAND",
+      "group": "MOVING",
+      "animation": "SM64 Land From Double Jump"
+    },
+    {
+      "action": "ACT_TRIPLE_JUMP_LAND",
+      "group": "MOVING",
+      "animation": "Other Land from back flip/triple flip"
+    },
+    {
+      "action": "ACT_LONG_JUMP_LAND",
+      "group": "MOVING",
+      "animation": "SM64 Crouch From Fast Long Jump"
+    },
+    {
+      "action": "ACT_JUMP",
+      "group": "AIRBORNE",
+      "animation": "Normal jump"
+    },
+    {
+      "action": "ACT_DOUBLE_JUMP",
+      "group": "AIRBORNE",
+      "animation": "Double jump"
+    },
+    {
+      "action": "ACT_TRIPLE_JUMP",
+      "group": "AIRBORNE",
+      "animation": "Other Triple flip"
+    },
+    {
+      "action": "ACT_BACKFLIP",
+      "group": "AIRBORNE",
+      "animation": "SM64 Backflip"
+    },
+    {
+      "action": "ACT_SIDE_FLIP",
+      "group": "AIRBORNE",
+      "animation": "Other Side flip"
+    },
+    {
+      "action": "ACT_LONG_JUMP",
+      "group": "AIRBORNE",
+      "animation": "SM64 Fast Long Jump"
+    },
+    {
+      "action": "ACT_FREEFALL",
+      "group": "AIRBORNE",
+      "animation": "Fall from height"
+    },
+    {
+      "action": "ACT_WALL_KICK_AIR",
+      "group": "AIRBORNE",
+      "animation": "Other Wall kick/Jump from tree"
+    },
+    {
+      "action": "ACT_AIR_HIT_WALL",
+      "group": "AIRBORNE",
+      "animation": "Bump into wall"
+    },
+    {
+      "action": "ACT_GROUND_POUND",
+      "group": "AIRBORNE",
+      "animation": "Ground pound part"
+    },
+    {
+      "action": "ACT_JUMP_KICK",
+      "group": "AIRBORNE",
+      "animation": "Kick in mid-air"
+    },
+    {
+      "action": "ACT_DIVE",
+      "group": "AIRBORNE",
+      "animation": "Belly flop"
+    },
+    {
+      "action": "ACT_WATER_JUMP",
+      "group": "AIRBORNE",
+      "animation": "Normal jump"
+    },
+    {
+      "action": "ACT_PUNCHING",
+      "group": "OBJECT",
+      "animation": "SM64 First Punch"
+    },
+    {
+      "action": "ACT_MOVE_PUNCHING",
+      "group": "OBJECT",
+      "animation": "SM64 First Punch"
+    },
+    {
+      "action": "ACT_GROUND_KICK",
+      "group": "OBJECT",
+      "animation": "Side kick beggining"
+    },
+    {
+      "action": "ACT_INTRO_WAIT",
+      "group": "CUTSCENE",
+      "animation": "Normal jump"
+    },
+    {
+      "action": "ACT_EMERGE_FROM_PIPE",
+      "group": "CUTSCENE",
+      "animation": "Normal jump"
+    },
+    {
+      "action": "ACT_WATER_PLUNGE",
+      "group": "SUBMERGED",
+      "animation": "Underwater Stop in Water"
+    },
+    {
+      "action": "ACT_WATER_IDLE",
+      "group": "SUBMERGED",
+      "animation": "Underwater floating"
+    },
+    {
+      "action": "ACT_BREASTSTROKE",
+      "group": "SUBMERGED",
+      "animation": "Underwater Single stroke from tapping A"
+    },
+    {
+      "action": "ACT_SWIMMING_END",
+      "group": "SUBMERGED",
+      "animation": "Underwater stop swimming"
+    },
+    {
+      "action": "ACT_FLUTTER_KICK",
+      "group": "SUBMERGED",
+      "animation": "Underwater Strokes from holding A"
+    },
+    {
+      "action": "ACT_WATER_ACTION_END",
+      "group": "SUBMERGED",
+      "animation": "Underwater Stop in Water"
+    },
+    {
+      "action": "ACT_DOOR_WARP",
+      "group": "CUTSCENE",
+      "animation": "Open door and walk in"
+    },
+    {
+      "action": "ACT_PAINTING_WARP",
+      "group": "CUTSCENE",
+      "animation": "Normal jump"
+    },
+    {
+      "action": "ACT_SPAWN_SPIN_AIRBORNE",
+      "group": "CUTSCENE",
+      "animation": "Other Triple flip"
+    },
+    {
+      "action": "ACT_SPAWN_SPIN_LANDING",
+      "group": "CUTSCENE",
+      "animation": "Land from spin jump"
+    },
+    {
+      "action": "ACT_ROOM_DOOR",
+      "group": "CUTSCENE",
+      "animation": "Open door and walk in"
+    },
+    {
+      "action": "ACT_STAR_DANCE_EXIT",
+      "group": "CUTSCENE",
+      "animation": "Other Get star"
+    },
+    {
+      "action": "ACT_FALL_AFTER_STAR_GRAB",
+      "group": "CUTSCENE",
+      "animation": "Fall from height"
+    },
+    {
+      "action": "ACT_GROUND_POUND_LAND",
+      "group": "STATIONARY",
+      "animation": "SM64 Ground Pound Landing"
+    },
+    {
+      "action": "ACT_CHAIN_CHOMP_CUTSCENE",
+      "group": "CUTSCENE",
+      "animation": "Other Standing Normal Part 2"
+    },
+    {
+      "action": "ACT_GRAB_POLE_SLOW",
+      "group": "AUTOMATIC",
+      "animation": "SM64 Pole Grab Short (decomp)"
+    },
+    {
+      "action": "ACT_HOLDING_POLE",
+      "group": "AUTOMATIC",
+      "animation": "SM64 Pole Idle (decomp)"
+    },
+    {
+      "action": "ACT_CLIMBING_POLE",
+      "group": "AUTOMATIC",
+      "animation": "SM64 Pole Climb (decomp)"
+    },
+    {
+      "action": "ACT_TOP_OF_POLE",
+      "group": "AUTOMATIC",
+      "animation": "SM64 Pole Handstand Idle (decomp)"
+    },
+    {
+      "action": "ACT_TOP_OF_POLE_TRANSITION",
+      "group": "AUTOMATIC",
+      "animation": "SM64 Pole Start Handstand (decomp)"
+    },
+    {
+      "action": "ACT_STANDING_AGAINST_WALL",
+      "group": "STATIONARY",
+      "animation": "SM64 Stand Against Wall (decomp)"
+    },
+    {
+      "action": "ACT_BUTT_SLIDE_STOP",
+      "group": "STATIONARY",
+      "animation": "Sliding with hands back"
+    },
+    {
+      "action": "ACT_BACKWARD_AIR_KB",
+      "group": "AIRBORNE",
+      "animation": "Get bumped by enemy"
+    },
+    {
+      "action": "ACT_SOFT_BONK",
+      "group": "AIRBORNE",
+      "animation": "Fall from height"
+    },
+    {
+      "action": "ACT_BACKWARD_GROUND_KB",
+      "group": "MOVING",
+      "animation": "Get bumped by enemy"
+    },
+    {
+      "action": "ACT_FORWARD_GROUND_KB",
+      "group": "MOVING",
+      "animation": "Get bumped by enemy from behind"
+    },
+    {
+      "action": "ACT_FORWARD_AIR_KB",
+      "group": "AIRBORNE",
+      "animation": "Get bumped by enemy from behind"
+    },
+    {
+      "action": "ACT_STANDING_DEATH",
+      "group": "CUTSCENE",
+      "animation": "SM64 Dying Fall Over (decomp)"
+    },
+    {
+      "action": "ACT_DROWNING",
+      "group": "SUBMERGED",
+      "animation": "Underwater drowning"
+    },
+    {
+      "action": "ACT_PANTING",
+      "group": "STATIONARY",
+      "animation": "Other Low Energy"
+    },
+    {
+      "action": "ACT_DEATH_EXIT",
+      "group": "CUTSCENE",
+      "animation": "SM64 General Fall (decomp)"
+    },
+    {
+      "action": "ACT_DEATH_EXIT_LAND",
+      "group": "MOVING",
+      "animation": "SM64 Death Exit Land (decomp)"
+    },
+    {
+      "action": "ACT_DIVE_SLIDE",
+      "group": "MOVING",
+      "animation": "Belly flop grounded"
+    },
+    {
+      "action": "ACT_FORWARD_ROLLOUT",
+      "group": "AIRBORNE",
+      "animation": "SM64 Forward Spinning (decomp)"
+    },
+    {
+      "action": "ACT_WAKING_UP",
+      "group": "STATIONARY",
+      "animation": "Other Get up after sleeping (Sitting)"
+    },
+    {
+      "action": "ACT_IN_CANNON",
+      "group": "AUTOMATIC",
+      "animation": "Belly flop"
+    },
+    {
+      "action": "ACT_SHOT_FROM_CANNON",
+      "group": "AIRBORNE",
+      "animation": "SM64 Cannon Flight"
+    },
+    {
+      "action": "ACT_LEDGE_GRAB",
+      "group": "AUTOMATIC",
+      "animation": "SM64 Idle On Ledge (decomp)"
+    },
+    {
+      "action": "ACT_LEDGE_CLIMB_FAST",
+      "group": "AUTOMATIC",
+      "animation": "SM64 Fast Ledge Grab (decomp)"
+    },
+    {
+      "action": "ACT_LEDGE_CLIMB_SLOW_1",
+      "group": "AUTOMATIC",
+      "animation": "SM64 Slow Ledge Grab (decomp)"
+    }
+  ]
+}

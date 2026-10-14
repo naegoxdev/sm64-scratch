@@ -1,0 +1,12 @@
+{
+  "format": 13,
+  "rom_sha1": "9bef1128717f958171a4afac3ed78ee2bb4e86ce",
+  "position": {"rom_offset": 957776, "count": 23, "sha256": "e0e34907c304a5f50675c215787221b79bc67f0bd8604906297a6a787f52e369"},
+  "focus": {"rom_offset": 957960, "count": 23, "sha256": "ab64cf585ca77404a2b1dc1e0aff512e6971a948b2e85ed3992edf5961d222d2"},
+  "start_tick": 730,
+  "end_tick": 820,
+  "lakitu_bank_rom_offset": 1934096,
+  "lakitu_bank_sha256": "b281a8723926eed6cb9c1964e0aebee19f2273b45dba6db4d69ca9bc66e9f298",
+  "lakitu_animation_pointer": 100686048,
+  "notes": "Descriptors only. Read spline points, actor geometry and animation from the local US ROM. Final 90 ticks of the native flight precede the existing pipe-to-dialog spline."
+}

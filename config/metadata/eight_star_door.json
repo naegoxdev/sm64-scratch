@@ -1,0 +1,164 @@
+{
+  "format": 13,
+  "model": "Lobby 8 Star Door",
+  "segment_rom_offset": 2102288,
+  "segment_id": 3,
+  "root_pointer": "0x03013C10",
+  "authored_dimensions": [
+    1.55,
+    0.3,
+    2.56
+  ],
+  "authored_origin": [
+    0.015,
+    0,
+    0
+  ],
+  "planes": [
+    {
+      "axis": 0,
+      "side": 0,
+      "material": "Lobby8StarDoorMat1",
+      "uv_polynomial": [
+        [
+          0.954102,
+          0.952209
+        ],
+        [
+          -0.486268,
+          0.0
+        ],
+        [
+          -0.0,
+          -0.936584
+        ],
+        [
+          0.001893,
+          -0.0
+        ]
+      ]
+    },
+    {
+      "axis": 0,
+      "side": 1,
+      "material": "Lobby8StarDoorMat1",
+      "uv_polynomial": [
+        [
+          0.015625,
+          0.952209
+        ],
+        [
+          0.55249,
+          -0.0
+        ],
+        [
+          0.0,
+          -0.936584
+        ],
+        [
+          -0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "axis": 1,
+      "side": 0,
+      "material": "Lobby8StarDoorMat2",
+      "uv_polynomial": [
+        [
+          0.015625,
+          0.974884
+        ],
+        [
+          0.936584,
+          -0.0
+        ],
+        [
+          0.0,
+          -0.967072
+        ],
+        [
+          -0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "axis": 1,
+      "side": 1,
+      "material": "Lobby8StarDoorMat3",
+      "uv_polynomial": [
+        [
+          0.952209,
+          0.974884
+        ],
+        [
+          -0.936584,
+          0.0
+        ],
+        [
+          -0.0,
+          -0.967072
+        ],
+        [
+          0.0,
+          -0.0
+        ]
+      ]
+    },
+    {
+      "axis": 2,
+      "side": 0,
+      "material": "Lobby8StarDoorMat1",
+      "uv_polynomial": [
+        [
+          -0.180237,
+          0.836792
+        ],
+        [
+          1.801331,
+          -0.580872
+        ],
+        [
+          -0.406799,
+          -0.350037
+        ],
+        [
+          -1e-06,
+          -0.031249
+        ]
+      ]
+    },
+    {
+      "axis": 2,
+      "side": 1,
+      "material": "Lobby8StarDoorMat1",
+      "uv_polynomial": [
+        [
+          0.952209,
+          -0.047791
+        ],
+        [
+          -1.582763,
+          0.290467
+        ],
+        [
+          0.135315,
+          0.498597
+        ],
+        [
+          -0.033142,
+          -0.031251
+        ]
+      ]
+    }
+  ],
+  "expected_texture_hashes": {
+    "Lobby8StarDoorTex1": "925953400d130934ad07762d53c109fe55a6a8505823d52ef2c909bacb59f4c4",
+    "Lobby8StarDoorTex2": "445f910f5e87f969e8db3170ade5b3408837b6e14c4fa4418b999d05663cc324",
+    "Lobby8StarDoorTex3": "caf7751a9c9a59c3ba5f61d07eabb53fb5f19119cd08af4847477638f74180e7"
+  },
+  "reference_face_count": 12,
+  "provenance": "Native castle-door box mesh with authored dimensions and per-surface bilinear UV conversion. Calibration ownership remains under review."
+}

@@ -1,0 +1,65 @@
+{
+  "format": 13,
+  "rom_sha1": "9bef1128717f958171a4afac3ed78ee2bb4e86ce",
+  "model": "Pipe",
+  "object": "Pipe",
+  "segment_rom_offset": 2102288,
+  "display_list_pointers": [
+    "0x03008F98",
+    "0x03009A50"
+  ],
+  "coordinate_divisor": 1,
+  "minimum_triangles": 50,
+  "bottom_closure": {
+    "light_pointer": "0x03009010",
+    "light_sha256": "68d26546426c199e6af0e44126cfea70400671b7736cd1c1ee550431ac9409b2",
+    "triangles": 2,
+    "material": "PipeBottomMaterial",
+    "texture": "PipeBottomShade"
+  },
+  "affine_transform": [
+    [
+      -0.0008760650716062003,
+      -0.00048217848628743647,
+      -2.2981010061181913e-07
+    ],
+    [
+      0.00048217670421630296,
+      -0.0008760598467974015,
+      -4.0914267429257416e-07
+    ],
+    [
+      6.196699325199443e-10,
+      -4.543499329060674e-07,
+      0.0009999879687776578
+    ],
+    [
+      0.017839965665933457,
+      0.008349169489808773,
+      -0.09403069224971523
+    ]
+  ],
+  "vertex_order": [
+    1,
+    2,
+    0
+  ],
+  "normalize_uv_by_image_size": true,
+  "textures": [
+    {
+      "pointer": "0x03009168",
+      "material": "PipeMaterial1",
+      "texture": "PipeTexture1",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "pointer": "0x03007E40",
+      "material": "PipeMaterial2",
+      "texture": "PipeTexture2",
+      "width": 32,
+      "height": 64
+    }
+  ],
+  "calibration_max_coordinate_error": 6.317398456454071e-06
+}

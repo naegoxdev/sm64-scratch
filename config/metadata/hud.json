@@ -1,0 +1,56 @@
+{
+  "format": 16,
+  "rom_sha1": "9bef1128717f958171a4afac3ed78ee2bb4e86ce",
+  "segment_rom_offset": 1083968,
+  "glyph_size": [
+    16,
+    16
+  ],
+  "number_size": [
+    24,
+    24
+  ],
+  "glyph_offsets": {
+    "multiply": 16896,
+    "coin": 17408,
+    "mario_head": 17920,
+    "star": 18432
+  },
+  "camera_glyph_offsets": {
+    "camera": 28672,
+    "Lakitu": 29184,
+    "Fixed": 29696,
+    "Mario": 17920,
+    "Up": 30208,
+    "Down": 30336
+  },
+  "camera_native_position": [
+    266,
+    205
+  ],
+  "number_advance": 18,
+  "native_scale": 1.5,
+  "native_top_y": 209,
+  "power_meter_canvas": [
+    96,
+    96
+  ],
+  "power_meter_center": [
+    48,
+    48
+  ],
+  "power_meter_health_states": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "life_start": 4,
+  "power_meter_stage_x": -48,
+  "power_meter_horizontal_offset": -18
+}

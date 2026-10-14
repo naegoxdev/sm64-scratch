@@ -1,0 +1,1843 @@
+{
+  "format": 13,
+  "models": [
+    {
+      "model": "Castle Door",
+      "object": "Castle_Door",
+      "segment_rom_offset": 2102288,
+      "segment_id": 3,
+      "scale": 0.0025,
+      "translation": [
+        0.03,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "CastleDoorMat1",
+          "texture": "CastleDoorTex1",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.999999999996327e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "CastleDoorMat2",
+          "texture": "CastleDoorTex2",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "CastleDoorMat3",
+          "texture": "CastleDoorTex3",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.5507812500289457e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "CastleDoorMat4",
+          "texture": "CastleDoorTex2",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "CastleDoorMat5",
+          "texture": "CastleDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.324219,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "CastleDoorMat6",
+          "texture": "CastleDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.558594,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03014020",
+          "pointer": "0x03009D10",
+          "material": "CastleDoorMat7",
+          "texture": "CastleDoorTex3",
+          "address_ranges": [
+            [
+              81696,
+              81808
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.72656250027903e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03014020",
+          "pointer": "0x03009D10",
+          "material": "CastleDoorMat8",
+          "texture": "CastleDoorTex2",
+          "address_ranges": [
+            [
+              81696,
+              81808
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03014F30",
+          "pointer": null,
+          "material": "CastleDoorMat9",
+          "texture": "CastleDoorTex2",
+          "address_ranges": [
+            [
+              85616,
+              85728
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.324219,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03014F30",
+          "pointer": null,
+          "material": "CastleDoorMat10",
+          "texture": "CastleDoorTex2",
+          "address_ranges": [
+            [
+              85616,
+              85728
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.558594,
+            0.3125
+          ]
+        }
+      ],
+      "expected_face_count": 112,
+      "palette_texture": "CastleDoorTex2",
+      "palette_lights": [
+        50371808,
+        50371832
+      ],
+      "expected_texture_hashes": {
+        "CastleDoorTex1": "7a4cb3e5c45ccf573602e158590a8233ca227d47c7c99a98129632fbc81ae21e",
+        "CastleDoorTex2": "591ced2ed91b11946ce2675c30e4cdbf1d61a4570f8368d41bed1ae1f89554dd",
+        "CastleDoorTex3": "35c8399e5d50c749c9274cef3fef6baf0c3c849eece495aafe8a82381c58bdee"
+      }
+    },
+    {
+      "model": "Lobby Wood Door",
+      "object": "Lobby_Wood_Door",
+      "segment_rom_offset": 2102288,
+      "segment_id": 3,
+      "scale": 0.0025,
+      "translation": [
+        0.03,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "root_pointer": "0x030149C0",
+          "pointer": null,
+          "material": "LobbyWoodDoorMat1",
+          "texture": "LobbyWoodDoorTex1",
+          "address_ranges": [
+            [
+              83288,
+              83528
+            ]
+          ],
+          "image_size": [
+            32,
+            32
+          ],
+          "uv_max_error": 4.72656250027903e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x030149C0",
+          "pointer": null,
+          "material": "LobbyWoodDoorMat2",
+          "texture": "LobbyWoodDoorTex2",
+          "address_ranges": [
+            [
+              83288,
+              83528
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03014A20",
+          "pointer": null,
+          "material": "LobbyWoodDoorMat3",
+          "texture": "LobbyWoodDoorTex3",
+          "address_ranges": [
+            [
+              83544,
+              83656
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.999999999996327e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03014A20",
+          "pointer": null,
+          "material": "LobbyWoodDoorMat4",
+          "texture": "LobbyWoodDoorTex2",
+          "address_ranges": [
+            [
+              83544,
+              83656
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03014888",
+          "pointer": null,
+          "material": "LobbyWoodDoorMat5",
+          "texture": "LobbyWoodDoorTex2",
+          "address_ranges": [
+            [
+              83672,
+              84088
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.324219,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03014888",
+          "pointer": null,
+          "material": "LobbyWoodDoorMat6",
+          "texture": "LobbyWoodDoorTex2",
+          "address_ranges": [
+            [
+              83672,
+              84088
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.558594,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03014A20",
+          "pointer": null,
+          "material": "LobbyWoodDoorMat7",
+          "texture": "LobbyWoodDoorTex3",
+          "address_ranges": [
+            [
+              83544,
+              83656
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.999999999996327e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03014A20",
+          "pointer": null,
+          "material": "LobbyWoodDoorMat8",
+          "texture": "LobbyWoodDoorTex2",
+          "address_ranges": [
+            [
+              83544,
+              83656
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03014F30",
+          "pointer": null,
+          "material": "LobbyWoodDoorMat9",
+          "texture": "LobbyWoodDoorTex2",
+          "address_ranges": [
+            [
+              85616,
+              85728
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.324219,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03014F30",
+          "pointer": null,
+          "material": "LobbyWoodDoorMat10",
+          "texture": "LobbyWoodDoorTex2",
+          "address_ranges": [
+            [
+              85616,
+              85728
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.558594,
+            0.3125
+          ]
+        }
+      ],
+      "expected_face_count": 112,
+      "palette_texture": "LobbyWoodDoorTex2",
+      "palette_lights": [
+        50371808,
+        50371832
+      ],
+      "expected_texture_hashes": {
+        "LobbyWoodDoorTex1": "b09879ff40ada3e578ca5e12084ee3ed6e780c6e59b6e7f998824c2d84555067",
+        "LobbyWoodDoorTex2": "591ced2ed91b11946ce2675c30e4cdbf1d61a4570f8368d41bed1ae1f89554dd",
+        "LobbyWoodDoorTex3": "4d47aa3eb104424f198ff827ff7ffa53e483051e598fed7112ff481fd5e50615"
+      }
+    },
+    {
+      "model": "Lobby 0 Star Door",
+      "object": "Lobby_0_Star_Door",
+      "segment_rom_offset": 2102288,
+      "segment_id": 3,
+      "scale": 0.0025,
+      "translation": [
+        0.03,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "Lobby0StarDoorMat1",
+          "texture": "Lobby0StarDoorTex1",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.999999999996327e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "Lobby0StarDoorMat2",
+          "texture": "Lobby0StarDoorTex2",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "Lobby0StarDoorMat3",
+          "texture": "Lobby0StarDoorTex3",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.5507812500289457e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "Lobby0StarDoorMat4",
+          "texture": "Lobby0StarDoorTex2",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "Lobby0StarDoorMat5",
+          "texture": "Lobby0StarDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.324219,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "Lobby0StarDoorMat6",
+          "texture": "Lobby0StarDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.558594,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03014250",
+          "pointer": "0x03011D10",
+          "material": "Lobby0StarDoorMat7",
+          "texture": "Lobby0StarDoorTex4",
+          "address_ranges": [
+            [
+              82240,
+              82288
+            ]
+          ],
+          "image_size": [
+            32,
+            32
+          ],
+          "uv_max_error": 4.375000000056417e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "Lobby0StarDoorMat9",
+          "texture": "Lobby0StarDoorTex1",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.999999999996327e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "Lobby0StarDoorMat10",
+          "texture": "Lobby0StarDoorTex2",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "Lobby0StarDoorMat11",
+          "texture": "Lobby0StarDoorTex3",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.5507812500289457e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "Lobby0StarDoorMat12",
+          "texture": "Lobby0StarDoorTex2",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "Lobby0StarDoorMat13",
+          "texture": "Lobby0StarDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.324219,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "Lobby0StarDoorMat14",
+          "texture": "Lobby0StarDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.558594,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03014280",
+          "pointer": "0x03011D10",
+          "material": "Lobby0StarDoorMat15",
+          "texture": "Lobby0StarDoorTex4",
+          "address_ranges": [
+            [
+              82304,
+              82352
+            ]
+          ],
+          "image_size": [
+            32,
+            32
+          ],
+          "uv_max_error": 4.375000000056417e-07,
+          "uv_method": "tile_inset"
+        }
+      ],
+      "expected_face_count": 196,
+      "palette_texture": "Lobby0StarDoorTex2",
+      "palette_lights": [
+        50371808,
+        50371832
+      ],
+      "expected_texture_hashes": {
+        "Lobby0StarDoorTex1": "7a4cb3e5c45ccf573602e158590a8233ca227d47c7c99a98129632fbc81ae21e",
+        "Lobby0StarDoorTex2": "591ced2ed91b11946ce2675c30e4cdbf1d61a4570f8368d41bed1ae1f89554dd",
+        "Lobby0StarDoorTex3": "35c8399e5d50c749c9274cef3fef6baf0c3c849eece495aafe8a82381c58bdee",
+        "Lobby0StarDoorTex4": "2843dfb9be3e8ebdef48465cb500bcc6ccea8d56c164352bd719413a16682a81"
+      }
+    },
+    {
+      "model": "Lobby 1 Star Door",
+      "object": "Lobby_1_Star_Door",
+      "segment_rom_offset": 2102288,
+      "segment_id": 3,
+      "scale": 0.0025,
+      "translation": [
+        0.03,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "Lobby1StarDoorMat1",
+          "texture": "Lobby1StarDoorTex1",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.999999999996327e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "Lobby1StarDoorMat2",
+          "texture": "Lobby1StarDoorTex2",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "Lobby1StarDoorMat3",
+          "texture": "Lobby1StarDoorTex3",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.5507812500289457e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "Lobby1StarDoorMat4",
+          "texture": "Lobby1StarDoorTex2",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "Lobby1StarDoorMat5",
+          "texture": "Lobby1StarDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.324219,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "Lobby1StarDoorMat6",
+          "texture": "Lobby1StarDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.558594,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03014250",
+          "pointer": "0x03011D10",
+          "material": "Lobby1StarDoorMat7",
+          "texture": "Lobby1StarDoorTex4",
+          "address_ranges": [
+            [
+              82240,
+              82288
+            ]
+          ],
+          "image_size": [
+            32,
+            32
+          ],
+          "uv_max_error": 4.375000000056417e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03014250",
+          "pointer": "0x03011D10",
+          "material": "Lobby1StarDoorMat8",
+          "texture": "Lobby1StarDoorTex2",
+          "address_ranges": [
+            [
+              82240,
+              82288
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "Lobby1StarDoorMat9",
+          "texture": "Lobby1StarDoorTex1",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.999999999996327e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "Lobby1StarDoorMat10",
+          "texture": "Lobby1StarDoorTex2",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "Lobby1StarDoorMat11",
+          "texture": "Lobby1StarDoorTex3",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.5507812500289457e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "Lobby1StarDoorMat12",
+          "texture": "Lobby1StarDoorTex2",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "Lobby1StarDoorMat13",
+          "texture": "Lobby1StarDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.324219,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "Lobby1StarDoorMat14",
+          "texture": "Lobby1StarDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.558594,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03014280",
+          "pointer": "0x03011D10",
+          "material": "Lobby1StarDoorMat15",
+          "texture": "Lobby1StarDoorTex4",
+          "address_ranges": [
+            [
+              82304,
+              82352
+            ]
+          ],
+          "image_size": [
+            32,
+            32
+          ],
+          "uv_max_error": 4.375000000056417e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03014280",
+          "pointer": "0x03011D10",
+          "material": "Lobby1StarDoorMat16",
+          "texture": "Lobby1StarDoorTex2",
+          "address_ranges": [
+            [
+              82304,
+              82352
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        }
+      ],
+      "expected_face_count": 200,
+      "palette_texture": "Lobby1StarDoorTex2",
+      "palette_lights": [
+        50371808,
+        50371832
+      ],
+      "expected_texture_hashes": {
+        "Lobby1StarDoorTex1": "7a4cb3e5c45ccf573602e158590a8233ca227d47c7c99a98129632fbc81ae21e",
+        "Lobby1StarDoorTex2": "591ced2ed91b11946ce2675c30e4cdbf1d61a4570f8368d41bed1ae1f89554dd",
+        "Lobby1StarDoorTex3": "35c8399e5d50c749c9274cef3fef6baf0c3c849eece495aafe8a82381c58bdee",
+        "Lobby1StarDoorTex4": "4b9d0573177ed765ebdb2c9768c7a45d05d74858236f6890f6e9fc6d2a02f8e1"
+      }
+    },
+    {
+      "model": "Lobby 3 Star Door",
+      "object": "Lobby_3_Star_Door",
+      "segment_rom_offset": 2102288,
+      "segment_id": 3,
+      "scale": 0.0025,
+      "translation": [
+        0.03,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "Lobby3StarDoorMat1",
+          "texture": "Lobby3StarDoorTex1",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.999999999996327e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "Lobby3StarDoorMat2",
+          "texture": "Lobby3StarDoorTex2",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "Lobby3StarDoorMat3",
+          "texture": "Lobby3StarDoorTex3",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.5507812500289457e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "Lobby3StarDoorMat4",
+          "texture": "Lobby3StarDoorTex2",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "Lobby3StarDoorMat5",
+          "texture": "Lobby3StarDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.324219,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "Lobby3StarDoorMat6",
+          "texture": "Lobby3StarDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.558594,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03014250",
+          "pointer": "0x03011D10",
+          "material": "Lobby3StarDoorMat7",
+          "texture": "Lobby3StarDoorTex4",
+          "address_ranges": [
+            [
+              82240,
+              82288
+            ]
+          ],
+          "image_size": [
+            32,
+            32
+          ],
+          "uv_max_error": 4.375000000056417e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03014250",
+          "pointer": "0x03011D10",
+          "material": "Lobby3StarDoorMat8",
+          "texture": "Lobby3StarDoorTex2",
+          "address_ranges": [
+            [
+              82240,
+              82288
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "Lobby3StarDoorMat9",
+          "texture": "Lobby3StarDoorTex1",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.999999999996327e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "Lobby3StarDoorMat10",
+          "texture": "Lobby3StarDoorTex2",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "Lobby3StarDoorMat11",
+          "texture": "Lobby3StarDoorTex3",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.5507812500289457e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "Lobby3StarDoorMat12",
+          "texture": "Lobby3StarDoorTex2",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "Lobby3StarDoorMat13",
+          "texture": "Lobby3StarDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.324219,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "Lobby3StarDoorMat14",
+          "texture": "Lobby3StarDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.558594,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03014280",
+          "pointer": "0x03011D10",
+          "material": "Lobby3StarDoorMat15",
+          "texture": "Lobby3StarDoorTex4",
+          "address_ranges": [
+            [
+              82304,
+              82352
+            ]
+          ],
+          "image_size": [
+            32,
+            32
+          ],
+          "uv_max_error": 4.375000000056417e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03014280",
+          "pointer": "0x03011D10",
+          "material": "Lobby3StarDoorMat16",
+          "texture": "Lobby3StarDoorTex2",
+          "address_ranges": [
+            [
+              82304,
+              82352
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        }
+      ],
+      "expected_face_count": 200,
+      "palette_texture": "Lobby3StarDoorTex2",
+      "palette_lights": [
+        50371808,
+        50371832
+      ],
+      "expected_texture_hashes": {
+        "Lobby3StarDoorTex1": "7a4cb3e5c45ccf573602e158590a8233ca227d47c7c99a98129632fbc81ae21e",
+        "Lobby3StarDoorTex2": "591ced2ed91b11946ce2675c30e4cdbf1d61a4570f8368d41bed1ae1f89554dd",
+        "Lobby3StarDoorTex3": "35c8399e5d50c749c9274cef3fef6baf0c3c849eece495aafe8a82381c58bdee",
+        "Lobby3StarDoorTex4": "10b23c30727f948f49936dc31125d2c833f3c4e0deda2bb263e90d8e501ce183"
+      }
+    },
+    {
+      "model": "Lobby Key Door",
+      "object": "Lobby_Key_Door",
+      "segment_rom_offset": 2102288,
+      "segment_id": 3,
+      "scale": 0.0025,
+      "translation": [
+        0.03,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "LobbyKeyDoorMat1",
+          "texture": "LobbyKeyDoorTex1",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.999999999996327e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "LobbyKeyDoorMat2",
+          "texture": "LobbyKeyDoorTex2",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "LobbyKeyDoorMat3",
+          "texture": "LobbyKeyDoorTex3",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.5507812500289457e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "LobbyKeyDoorMat4",
+          "texture": "LobbyKeyDoorTex2",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "LobbyKeyDoorMat5",
+          "texture": "LobbyKeyDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.324219,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "LobbyKeyDoorMat6",
+          "texture": "LobbyKeyDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.558594,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03014540",
+          "pointer": "0x03013510",
+          "material": "LobbyKeyDoorMat7",
+          "texture": "LobbyKeyDoorTex4",
+          "address_ranges": [
+            [
+              82928,
+              83040
+            ]
+          ],
+          "image_size": [
+            16,
+            32
+          ],
+          "uv_max_error": 4.375000000056417e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03014540",
+          "pointer": "0x03013510",
+          "material": "LobbyKeyDoorMat8",
+          "texture": "LobbyKeyDoorTex2",
+          "address_ranges": [
+            [
+              82928,
+              83040
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "LobbyKeyDoorMat9",
+          "texture": "LobbyKeyDoorTex1",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.999999999996327e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x0300AD10",
+          "material": "LobbyKeyDoorMat10",
+          "texture": "LobbyKeyDoorTex2",
+          "address_ranges": [
+            [
+              80144,
+              80384
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "LobbyKeyDoorMat11",
+          "texture": "LobbyKeyDoorTex3",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            32,
+            64
+          ],
+          "uv_max_error": 4.5507812500289457e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03013EA8",
+          "pointer": "0x03009D10",
+          "material": "LobbyKeyDoorMat12",
+          "texture": "LobbyKeyDoorTex2",
+          "address_ranges": [
+            [
+              80400,
+              80512
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "LobbyKeyDoorMat13",
+          "texture": "LobbyKeyDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.324219,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03013E28",
+          "pointer": null,
+          "material": "LobbyKeyDoorMat14",
+          "texture": "LobbyKeyDoorTex2",
+          "address_ranges": [
+            [
+              80528,
+              80896
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.558594,
+            0.3125
+          ]
+        },
+        {
+          "root_pointer": "0x03014528",
+          "pointer": "0x03013510",
+          "material": "LobbyKeyDoorMat15",
+          "texture": "LobbyKeyDoorTex4",
+          "address_ranges": [
+            [
+              82800,
+              82912
+            ]
+          ],
+          "image_size": [
+            16,
+            32
+          ],
+          "uv_max_error": 4.375000000056417e-07,
+          "uv_method": "tile_inset"
+        },
+        {
+          "root_pointer": "0x03014528",
+          "pointer": "0x03013510",
+          "material": "LobbyKeyDoorMat16",
+          "texture": "LobbyKeyDoorTex2",
+          "address_ranges": [
+            [
+              82800,
+              82912
+            ]
+          ],
+          "image_size": [
+            16,
+            4
+          ],
+          "uv_max_error": 0,
+          "uv_method": "constant",
+          "uv_constant": [
+            0.089844,
+            0.3125
+          ]
+        }
+      ],
+      "expected_face_count": 208,
+      "palette_texture": "LobbyKeyDoorTex2",
+      "palette_lights": [
+        50371808,
+        50371832
+      ],
+      "expected_texture_hashes": {
+        "LobbyKeyDoorTex1": "7a4cb3e5c45ccf573602e158590a8233ca227d47c7c99a98129632fbc81ae21e",
+        "LobbyKeyDoorTex2": "591ced2ed91b11946ce2675c30e4cdbf1d61a4570f8368d41bed1ae1f89554dd",
+        "LobbyKeyDoorTex3": "35c8399e5d50c749c9274cef3fef6baf0c3c849eece495aafe8a82381c58bdee",
+        "LobbyKeyDoorTex4": "eda44e15be4bab6822e5937549a7a032fee1479789300b5ceb675cf4379c247b"
+      }
+    }
+  ]
+}

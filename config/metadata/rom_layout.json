@@ -1,0 +1,2084 @@
+{
+  "format": 13,
+  "rom_sha1": "9bef1128717f958171a4afac3ed78ee2bb4e86ce",
+  "sources": {
+    "actors/blue_fish/blue_fish.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 112096,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "815a6fef6cea7fd6f488f2c86eac7c7e14600ee93019f9f7a5154c1b849566cf"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/bobomb/bob-omb_eyes.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1264928,
+          "decoded_offset": 18552,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "bitrep",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "7e04bd933918978bbd413e97a6ac8adb9497a84d35c9671ce216e25526449aca"
+        },
+        {
+          "codec": "MIO0",
+          "rom_offset": 2040320,
+          "decoded_offset": 26488,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "bitrep",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "7e04bd933918978bbd413e97a6ac8adb9497a84d35c9671ce216e25526449aca"
+        },
+        {
+          "codec": "MIO0",
+          "rom_offset": 2040320,
+          "decoded_offset": 137824,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "bitrep",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "7e04bd933918978bbd413e97a6ac8adb9497a84d35c9671ce216e25526449aca"
+        }
+      ],
+      "selected": null
+    },
+    "actors/bobomb/bob-omb_eyes_blink.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1264928,
+          "decoded_offset": 20600,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "bitrep",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "a071b94b7f6c54a1acf7c6a6f8ae03ad258a3d0f6cbbfeb8f31f9f3c6516623a"
+        },
+        {
+          "codec": "MIO0",
+          "rom_offset": 2040320,
+          "decoded_offset": 139872,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "bitrep",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "a071b94b7f6c54a1acf7c6a6f8ae03ad258a3d0f6cbbfeb8f31f9f3c6516623a"
+        }
+      ],
+      "selected": null
+    },
+    "actors/breakable_box/cork_box_surface.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2040320,
+          "decoded_offset": 74384,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "e3cad080299d089b3086ae918138a2c45e5488eb88be4bace1f141e3358dd503"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/breakable_box/crazy_box_surface.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2040320,
+          "decoded_offset": 72336,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "35be3d6a4d72b114ccce9e23413409a66d0b31990e5b76b5b9b4de24900232c8"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/cannon_barrel/cannon_barrel.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2040320,
+          "decoded_offset": 22696,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "eda7c005d085222f56be2fe9c0d0698cb8dbb4a9df7e7b3aa5b4b8b3dabf7d6c"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/chain_ball/chain_ball.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1851952,
+          "decoded_offset": 133864,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "7e1f8adb159148ab7682de485ef76b0285011035d24916eb63c4c34021111714"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/chain_chomp/chain_chomp_bright_shine.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1851952,
+          "decoded_offset": 136144,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "b027d0c4e358a37c266ba6afcfcc2fd5d0f51888c43dac157b6b4a1b83c7694f"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/chain_chomp/chain_chomp_dull_shine.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1851952,
+          "decoded_offset": 138192,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "cf3c4f334697981644ea8b99ee07d0991adc634c45d6bed20ba4a7c3edbf579f"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/chain_chomp/chain_chomp_eye.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1851952,
+          "decoded_offset": 144336,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "052dc602d7d37407475aadd2eea21aa6b8c09fe76855c67948acdce2abe2d98b"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/chain_chomp/chain_chomp_tongue.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1851952,
+          "decoded_offset": 140240,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "1b141bda84db8d74f697a08009ec0c7a4f2642c8edb11b4cd1d1fc1f775b96bb"
+        },
+        {
+          "codec": "MIO0",
+          "rom_offset": 1998560,
+          "decoded_offset": 44448,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "1b141bda84db8d74f697a08009ec0c7a4f2642c8edb11b4cd1d1fc1f775b96bb"
+        }
+      ],
+      "selected": null
+    },
+    "actors/chain_chomp/chain_chomp_tooth.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1469536,
+          "decoded_offset": 27376,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "0c7f7e0f7835e3753a88cb8e0329cd9bf36efac07c511310b7926b878e9a05e4"
+        },
+        {
+          "codec": "MIO0",
+          "rom_offset": 1851952,
+          "decoded_offset": 142288,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "0c7f7e0f7835e3753a88cb8e0329cd9bf36efac07c511310b7926b878e9a05e4"
+        }
+      ],
+      "selected": null
+    },
+    "actors/checkerboard_platform/checkerboard_platform.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2040320,
+          "decoded_offset": 52288,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "fe51102c1bbc0960674c1e3b31a46309e1eff682d38f75c4603454c755627f98"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/checkerboard_platform/checkerboard_platform_side.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2040320,
+          "decoded_offset": 51264,
+          "width": 32,
+          "height": 16,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "dac1b9c873450e64dcc09c14b0e29e130f0c0dc0a4bbea36f36f53b8d6de9fff"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/coin/coin_front.ia16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 22400,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "ia16",
+          "decode_mode": "ia16",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "b31abd9fa51cd3928d14d19b6f780a878946c2b726c941f80cd33ccf40dd8094"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/coin/coin_side.ia16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 26496,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "ia16",
+          "decode_mode": "ia16",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "1bdf9211a7286336d611e4923c47cb86a078f56c5be6c8b39d5c61f03ef819c2"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/coin/coin_tilt_left.ia16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 28544,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "ia16",
+          "decode_mode": "ia16",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "66d01aa9b35ec2fe977ab8a2545805858cc549daa01c63b18d91bafccabd670d"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/coin/coin_tilt_right.ia16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 24448,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "ia16",
+          "decode_mode": "ia16",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "bb18971edcddfa96c4743642c1451f0acf97dc9be1c5369ffd9876654133c99a"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/door/door_lock.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 79120,
+          "width": 16,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "ee33f7b14c6b769c0b547f36c9d8d458849dfdd506aefa0beb6a6743053bbe28"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/door/one_star_door_sign.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 75024,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "950add0ce0e31f4feee72ce6d31f188eba0c65e34d6c4ae6cf66723a3437c2f2"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/door/polished_wooden_door.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 40208,
+          "width": 32,
+          "height": 64,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "947db6410ca86010114584290eca612b4f4f6028195bd613569163d480cfd522"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/door/polished_wooden_door_overlay.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 44304,
+          "width": 32,
+          "height": 64,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "3f847563661ff6d6ce5376fd89e509f85f61784d34104e843fd04d13a2cb663a"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/door/rough_wooden_door.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 48400,
+          "width": 32,
+          "height": 64,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "a8658be0f906b8f560b23dd2ae63cd3bd965312e622ad7e3dab1146bb7733c71"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/door/rough_wooden_door_overlay.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 52496,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "31c4f18cb31dee25a4c51328f85682ba990f1691ada4b459548c8f7ebc8e9438"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/door/three_star_door_sign.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 77072,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "49685ecccca26ce09cc02c89057b41b558ac2383e75e9f65c6b4c1f9711ee3c8"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/door/zero_star_door_sign.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 72976,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "6274a9579995e8504d96c67b43d764f2b39dee1a74d990f58c41d89b2d3b75c7"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/goomba/goomba_body.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2040320,
+          "decoded_offset": 103728,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "99adbc1c3284a971e90a276d872a9e73b923213574f0edf0b329efa1bd1325ea"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/goomba/goomba_face.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2040320,
+          "decoded_offset": 105776,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "f2a3e69ea6c169667b23c77a43a652fee99783dd570e7c8a7fd750f47d46adbf"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/goomba/goomba_face_blink.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2040320,
+          "decoded_offset": 107824,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "2ed7f06bbdaef404ea49e275c9de0b6bbec3eb76a8091311e2e6c64472bf5728"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/poundable_pole/poundable_pole_side.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1851952,
+          "decoded_offset": 6224,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "2d6f1f4e2572715df8b3c780d4b48a1b7a81e7c4041d6b37d7cf7a0ec2728d82"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/poundable_pole/poundable_pole_top.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1851952,
+          "decoded_offset": 4176,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "b9fcb2f3cd761d6832209fc2946f7c2daee8734fd324007b0084be4c0c5552c9"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/sparkle/sparkle_1.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1132368,
+          "decoded_offset": 162960,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "de1dfbc7a871cba32fba625af8a093dc81114a281a87a91893bcfc6e59907d3e"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/sparkle/sparkle_2.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1132368,
+          "decoded_offset": 165008,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "f6333cf6434823b46d783744f74e407f134c08f388bba12ca998b64c82387f81"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/sparkle/sparkle_3.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1132368,
+          "decoded_offset": 167056,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "12fc3b64658211e0830c4e914e40c4ffb50d1c2954c55d2f89a884e87aaa64b2"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/sparkle/sparkle_4.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1132368,
+          "decoded_offset": 169104,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "a00015e82153a14a90d4f1bed94020c6f765a314e97f7edfdc131eee8abb7880"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/sparkle/sparkle_5.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1132368,
+          "decoded_offset": 171152,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "da96a331d3973ece427e69c4875f8c850d4566c54b027e39744f8ebbf02f34b3"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/star/star_eye.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1575856,
+          "decoded_offset": 31280,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "3f51607cdcd35799f9d8cf275db4b1843b2ac0326e6851e805bef09163be2ad1"
+        },
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 175856,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "3f51607cdcd35799f9d8cf275db4b1843b2ac0326e6851e805bef09163be2ad1"
+        }
+      ],
+      "selected": null
+    },
+    "actors/star/star_surface.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 173808,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "a4a0c1ee691377b1ea2ac3fb9d40f8f42cad34dae0325ac795f4096dda91d14b"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/walk_smoke/walk_smoke_0.ia16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1132368,
+          "decoded_offset": 122528,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "ia16",
+          "decode_mode": "ia16",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "6cf30bf6fd0df33b6c0f0c9b1879c8a969b735d60c6ebbfacd79f46d5e0c1f7c"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/walk_smoke/walk_smoke_1.ia16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1132368,
+          "decoded_offset": 124576,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "ia16",
+          "decode_mode": "ia16",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "70daf2c13d2f6b0f9631d3b7470454a251aec681989340e958d97ec35cbef92e"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/walk_smoke/walk_smoke_2.ia16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1132368,
+          "decoded_offset": 126624,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "ia16",
+          "decode_mode": "ia16",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "8d1e901ac03e8dc95861720f554deda487f8da2ec6368f7071c749d0e1fff281"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/walk_smoke/walk_smoke_3.ia16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1132368,
+          "decoded_offset": 128672,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "ia16",
+          "decode_mode": "ia16",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "2c90865e016a29946139f1ad8646ff2308d03c1c08a318b763b34e6da2f319c2"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/walk_smoke/walk_smoke_4.ia16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1132368,
+          "decoded_offset": 130720,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "ia16",
+          "decode_mode": "ia16",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "d0c9a06fc212dc8ca17b343ae896a8f6b3aa254867406b5d21d47203f7ec0c40"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/walk_smoke/walk_smoke_5.ia16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1132368,
+          "decoded_offset": 132768,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "ia16",
+          "decode_mode": "ia16",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "82b09b66937f482ec06a70da19829d104a646b700b0cb9aaaad89e5c20015909"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/walk_smoke/walk_smoke_6.ia16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1132368,
+          "decoded_offset": 134816,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "ia16",
+          "decode_mode": "ia16",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "8edc101b86fff71f9132f3882b4a859da7e6771d996ad507f1f3186279350fa2"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/wooden_signpost/wooden_signpost_back.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 182728,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "7dd2d219b9cf8a32904edab9f38ce71ffff168ab098d174a35017603aa98c596"
+        }
+      ],
+      "selected": 0
+    },
+    "actors/wooden_signpost/wooden_signpost_front.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 184776,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "697974ea68b7cecdad896990be8a3a086f2e47627c4871d2bfeb4dd1159f8936"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/bob/0.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 4178608,
+          "decoded_offset": 0,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "fd9abfdd8aa9eeef35ab6473a0730eae8f6623033a3723f60bac4969fd587d32"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/bob/1.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 4178608,
+          "decoded_offset": 2048,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "ae439bc8d1bde69169f7864551e1b6e391f12fb1caff27d59ba0af911ec150bb"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/bob/2.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 4178608,
+          "decoded_offset": 4096,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "a137e9528bb5e907badb46ae7f69d379b3bc5e2f9777ae7b085ca2e0bff034d2"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/bob/3.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 4178608,
+          "decoded_offset": 6144,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "3c8c1591d5d017d3436a4fd10abe8419c3e8117c21d0a2ac6deff44dc4d02229"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/bob/4.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 4178608,
+          "decoded_offset": 8192,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "a80691eee1a861b202d9a92f1b4cb070f26216a09a11338ccd6c37080f476a38"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/castle_grounds/0.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 4500416,
+          "decoded_offset": 0,
+          "width": 32,
+          "height": 64,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "a3b091084fa51f87d8f1d1d17f35f4e1d2f127b97aaadadd33d6f1b847a07d55"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/castle_grounds/1.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 4500416,
+          "decoded_offset": 4096,
+          "width": 64,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "7c60acd22ac5caa0c7ad4b67fbfe6fe12380ad0ddf910deebdf139da755ea415"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/castle_grounds/2.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 4500416,
+          "decoded_offset": 8192,
+          "width": 64,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "fc0a39192f390df21e2b1b665b7631a8f6d1e8ee655ebe3305c59d29636429e3"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/castle_inside/1.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3760960,
+          "decoded_offset": 2048,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "a271cc590fe8f3688f99d3f5453f82b5f9d4ef5827faabfcb325396406f33cfe"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/castle_inside/10.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3760960,
+          "decoded_offset": 28672,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "a8db8597aed64a664dbdaaa63e65d4a0608bdedabc525bd811178cd136755890"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/castle_inside/11.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3760960,
+          "decoded_offset": 30720,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "38c2f0bdcf4c258e2dce1c9306fdcba277ad40c988c92392aca2702a51cc5758"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/castle_inside/17.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3760960,
+          "decoded_offset": 43008,
+          "width": 64,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "fbb14e863dac81fbb30dca7f993281f8779ef6c4ee8021f75fc28b0a16de7ecc"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/castle_inside/18.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3760960,
+          "decoded_offset": 47104,
+          "width": 64,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "24e1237f6dbfc28355a4dc8dcb1c8a0bf652988d9e46880a90b5c6bc6e84efbd"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/castle_inside/19.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3760960,
+          "decoded_offset": 51200,
+          "width": 64,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "517544f3edcbdc4c801ace0883abe22fdefc6f031c9844452b29ad3d7802707c"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/castle_inside/20.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3760960,
+          "decoded_offset": 55296,
+          "width": 64,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "d38ba5ae406140064f21da9d0f582268d54d1a3743cda63c70f7284966f817c8"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/castle_inside/3.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3760960,
+          "decoded_offset": 8192,
+          "width": 32,
+          "height": 64,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "0dd6b8b984a65667df3b58c8f876c0b4a50bd9782d7fc90b0bfd583ffe95f950"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/castle_inside/4.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3760960,
+          "decoded_offset": 12288,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "ba6a95dd92405bf73db4ad8ac333ac41420d07609f8dcc24571da03d192977bd"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/castle_inside/5.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3760960,
+          "decoded_offset": 14336,
+          "width": 32,
+          "height": 64,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "ec396ec6164f6950f9694844f6611974ad24354a12afd8298a10d7f3b0b01860"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/castle_inside/6.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3760960,
+          "decoded_offset": 18432,
+          "width": 32,
+          "height": 64,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "d119626f6cc3b0b1e4a0a9f0de5382d55f95d41df68eac01b07ae415d2ede550"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/castle_inside/7.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3760960,
+          "decoded_offset": 22528,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "399037bc52bebea92371eaf6795c1a463d1dd3e9eadfdae6fcc322057f16c083"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/castle_inside/8.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3760960,
+          "decoded_offset": 24576,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "4da2bdc5d9d383991e3b9121f9ef767ab41ca1cb5219856a5f4d8386bbaff5fb"
+        }
+      ],
+      "selected": 0
+    },
+    "levels/castle_inside/9.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3760960,
+          "decoded_offset": 26624,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "6bd8b9f7e5b450dfc80c2fe54eed0941fe07fa6420c050b4a0070d27690a8deb"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/generic/bob_textures.01800.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3330160,
+          "decoded_offset": 6144,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "c5a813da011d63e752bd2ccd1cdc07062ee3b5b18eb5e30b4cd69993a85c5e58"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/generic/bob_textures.02000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3330160,
+          "decoded_offset": 8192,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "e1a6d2984cc4de37047b659b6d23b7d35140650b669bf37efe758f00cc99fc2f"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/generic/bob_textures.03000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3330160,
+          "decoded_offset": 12288,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "cc15624f21f56ac7bfd51e334367a966015219a295abe47e2fa1336b77aaaf89"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/generic/bob_textures.03800.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3330160,
+          "decoded_offset": 14336,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "96aa95412848be8f584d2e95cbf480d30978acdf33cfa8ee5125f572832f3ea9"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/generic/bob_textures.04800.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3330160,
+          "decoded_offset": 18432,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "84462ed5d51b95130619fa6a2a97785db278d0d8fa3f27d7ecedc6d3ad22a5db"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/generic/bob_textures.05000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3330160,
+          "decoded_offset": 20480,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "aba6815089c2811ca23001b949da7fdc8b8eeb23357b121cef0411d1b4bdb820"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/generic/bob_textures.05800.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3330160,
+          "decoded_offset": 22528,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "77eaf232e3188494a936f4c67b47faa545267d9188ea65df539cac4fb225d33c"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/generic/bob_textures.06000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3330160,
+          "decoded_offset": 24576,
+          "width": 32,
+          "height": 64,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "0a4f2f7b2ea2516d7b7221e76b0bd68d4c41c19c62232f542b66a0ca5efbd0b6"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/generic/bob_textures.08800.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3330160,
+          "decoded_offset": 34816,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "2c3abc6e0d0009c460a4ba3bdd3c41e1315f9d899ff50b9dc08e8ce4d967a501"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/generic/bob_textures.09000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3330160,
+          "decoded_offset": 36864,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "dd5707f8982a15d561f3bd9a39a5e0d64cf4c2ea577282a382ad8ff7e794f6ad"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/generic/bob_textures.09800.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3330160,
+          "decoded_offset": 38912,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "daf473cb4226cbe53f880087bf6554934d2ef1208cbcafedd1a7350c0e8ee103"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/generic/bob_textures.0A000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3330160,
+          "decoded_offset": 40960,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "b4ffe2d5f454655d7765c616df0e21a70d1975f8f4d091a38eede1106f45cbfd"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/inside/inside_castle_textures.00000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3561856,
+          "decoded_offset": 0,
+          "width": 64,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "a0b5ae0df0495e39ed5664fd95d6847acf00bfe26b49c0cd50895e4ffcba26b1"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/inside/inside_castle_textures.01000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3561856,
+          "decoded_offset": 4096,
+          "width": 64,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "3de36fe894253c99c4df1c72d336d0365d1df49ce31e049711fa8dde45196d45"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/inside/inside_castle_textures.03000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3561856,
+          "decoded_offset": 12288,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "eb45d888b95f149f723cd0ecd7938b5c3bfb6246da282e448a894de81833ea25"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/inside/inside_castle_textures.03800.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3561856,
+          "decoded_offset": 14336,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "160d614ef950365d453615bf271d8ca7f9686319892fe4bbd0b15baf0fd5d53c"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/inside/inside_castle_textures.04000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3561856,
+          "decoded_offset": 16384,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "398a9b64e8ce047d06fea589e4c986b82a3e02b1b384652e8b00fdddabd05100"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/inside/inside_castle_textures.05000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3561856,
+          "decoded_offset": 20480,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "eb3c7ee0a1a297a8b7881f874ff54f1fba65bb91c1431cb65d391da35b76453f"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/inside/inside_castle_textures.07000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3561856,
+          "decoded_offset": 28672,
+          "width": 32,
+          "height": 64,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "7b9028e461cf0d56ab1c4f0393c722416750471f1c59cf694635cc95d3d7d24f"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/inside/inside_castle_textures.08000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3561856,
+          "decoded_offset": 32768,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "ba9a3e38df4771804d37cc891788a39b965b03903c601fae34fcd1a356903361"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/inside/inside_castle_textures.08800.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3561856,
+          "decoded_offset": 34816,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "c22a8830a9a2b567ddce61ed5eea30d05a4af72771039c61a8bd5a43cd0ae730"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/inside/inside_castle_textures.0A000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3561856,
+          "decoded_offset": 40960,
+          "width": 32,
+          "height": 64,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "3ed85506e8b374186e39633537aa9dc7572f531f22caad8ecde96b9c98a22baf"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/inside/inside_castle_textures.0B000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3561856,
+          "decoded_offset": 45056,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "cc24c6d39bcdfbc2eea3692ba222b59f4bdf9e43dc6cafdfd3cfb089e48d7990"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/outside/castle_grounds_textures.00000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 0,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "c855241fa3abb46ccc2380e9e5af16d2d2a8425a7421722c29c3b6fc6baecef4"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/outside/castle_grounds_textures.01000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 4096,
+          "width": 64,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "e713e099e3b3bc9720d801ab6099475aa88cd6763a593a8dc6a0d5d103c56139"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/outside/castle_grounds_textures.02000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 8192,
+          "width": 32,
+          "height": 64,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "c02d976776519b2f0d1b73021252ebb54a000a0699101ed01a6169e22bd7ef2b"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/outside/castle_grounds_textures.03000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 12288,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "b748d33a28b1c5c55147cda1bb44d75103ef29080451577fc852761e7720f25e"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/outside/castle_grounds_textures.03800.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 14336,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "04b8a0e37af8b9ea302c3c94bace6d04efc5ba14e20b4c9d0cbd61aefe3cbbf5"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/outside/castle_grounds_textures.04000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 16384,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "16a6b35613eb5d673954b7716ca95b6291d544be30e2a0fc4b390bb601d48af5"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/outside/castle_grounds_textures.04800.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 18432,
+          "width": 32,
+          "height": 64,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "05297ab67eb38ee7ab3c757f620f8b28292b313f52ef2d3fdfde46bda186a9e9"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/outside/castle_grounds_textures.06000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 24576,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "2b5557292b662c40ad64cf7e252b15ee91d64c30ba8a9f826a7eda29cfed8d4c"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/outside/castle_grounds_textures.06800.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 26624,
+          "width": 64,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "4df7ba4acdfa497d7ae0e252451c7427f0d42fff4a41d9f001a02b1bb55d7739"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/outside/castle_grounds_textures.07800.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 30720,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "a7a2326022b6a0d3f745cd2d28ab03f77c9f1bf405a31bf6c66f3552504d5940"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/outside/castle_grounds_textures.08000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 32768,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "39164b6e1311a2c54aaf9081b83655320bc586af65718c7b75dd4a39dbb5e490"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/outside/castle_grounds_textures.09800.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 38912,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "19163e1d2f14f7005b2100e63eb41a9333d7e5049b42d6082e23e4230b39a9d4"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/outside/castle_grounds_textures.0A000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 40960,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "b0d4c3ceb88f943eff7c720c0d691b76cd4f265000925f3cce04ff7741de2f04"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/outside/castle_grounds_textures.0A800.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 43008,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "696c43b6537a13e50cc3b9e9ddda70e355cf7f92e078f82550db2386028bfb96"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/outside/castle_grounds_textures.0B400.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 46080,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "49afd004395dbc96e1c3905c761abd88a4031410dbcb55b5cb8f8f653cb130c7"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/segment2/segment2.11C58.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1083968,
+          "decoded_offset": 84664,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "0346260c1c649b98506f00abfefe38365adce57d5c3fbd0f4fc59d8e4f3e6e9d"
+        }
+      ],
+      "selected": 0
+    },
+    "rom_direct/peach_castle_tex_900b000.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 45056,
+          "width": 32,
+          "height": 16,
+          "pixel_format": "rgba16",
+          "decode_mode": "round",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "06154b145b0ed93405a8050dedde7972807798c899f9dc619165c1ce48314e7f"
+        }
+      ],
+      "selected": 0
+    },
+    "rom_direct/warp_pipe_tex_0.rgba16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 1292560,
+          "decoded_offset": 14240,
+          "width": 8,
+          "height": 8,
+          "pixel_format": "rgba16",
+          "decode_mode": "bitrep",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "2c893cd47b6757133987906e00c55e6dcce3c567b9df9e7f91ffecd3604cc6a6"
+        },
+        {
+          "codec": "MIO0",
+          "rom_offset": 1469536,
+          "decoded_offset": 29424,
+          "width": 8,
+          "height": 8,
+          "pixel_format": "rgba16",
+          "decode_mode": "bitrep",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "2c893cd47b6757133987906e00c55e6dcce3c567b9df9e7f91ffecd3604cc6a6"
+        },
+        {
+          "codec": "MIO0",
+          "rom_offset": 1469536,
+          "decoded_offset": 29426,
+          "width": 8,
+          "height": 8,
+          "pixel_format": "rgba16",
+          "decode_mode": "bitrep",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "2c893cd47b6757133987906e00c55e6dcce3c567b9df9e7f91ffecd3604cc6a6"
+        },
+        {
+          "codec": "MIO0",
+          "rom_offset": 1469536,
+          "decoded_offset": 29428,
+          "width": 8,
+          "height": 8,
+          "pixel_format": "rgba16",
+          "decode_mode": "bitrep",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "2c893cd47b6757133987906e00c55e6dcce3c567b9df9e7f91ffecd3604cc6a6"
+        },
+        {
+          "codec": "MIO0",
+          "rom_offset": 1469536,
+          "decoded_offset": 29430,
+          "width": 8,
+          "height": 8,
+          "pixel_format": "rgba16",
+          "decode_mode": "bitrep",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "2c893cd47b6757133987906e00c55e6dcce3c567b9df9e7f91ffecd3604cc6a6"
+        }
+      ],
+      "selected": 0
+    },
+    "textures/generic/bob_textures.0B000.ia16.png": {
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3330160,
+          "decoded_offset": 45056,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "ia16",
+          "decode_mode": "ia16",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "9fa46d17d6ea1a203dd21402f5a5baf7489a56b5c87851b2e7ede2662cffa8cd"
+        }
+      ],
+      "selected": 0
+    },
+    "rom_direct/garden_09009000_32x32.rgba16.png": {
+      "selected": 0,
+      "choices": [
+        {
+          "rom_offset": 3534096,
+          "width": 32,
+          "height": 32,
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "facdea363faa63b41971b555843b177a30d7615efbd1d972177227c4488810fb",
+          "codec": "MIO0",
+          "pixel_format": "rgba16",
+          "decoded_offset": 36864
+        }
+      ]
+    },
+    "rom_direct/garden_09009800_32x32.rgba16.png": {
+      "selected": 0,
+      "choices": [
+        {
+          "rom_offset": 3534096,
+          "width": 32,
+          "height": 32,
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "19163e1d2f14f7005b2100e63eb41a9333d7e5049b42d6082e23e4230b39a9d4",
+          "codec": "MIO0",
+          "pixel_format": "rgba16",
+          "decoded_offset": 38912
+        }
+      ]
+    },
+    "rom_direct/garden_09004800_32x64.rgba16.png": {
+      "selected": 0,
+      "choices": [
+        {
+          "rom_offset": 3534096,
+          "width": 32,
+          "height": 64,
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "05297ab67eb38ee7ab3c757f620f8b28292b313f52ef2d3fdfde46bda186a9e9",
+          "codec": "MIO0",
+          "pixel_format": "rgba16",
+          "decoded_offset": 18432
+        }
+      ]
+    },
+    "rom_direct/garden_0900A000_32x32.rgba16.png": {
+      "selected": 0,
+      "choices": [
+        {
+          "rom_offset": 3534096,
+          "width": 32,
+          "height": 32,
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "b0d4c3ceb88f943eff7c720c0d691b76cd4f265000925f3cce04ff7741de2f04",
+          "codec": "MIO0",
+          "pixel_format": "rgba16",
+          "decoded_offset": 40960
+        }
+      ]
+    },
+    "rom_direct/garden_0900BC00_32x32.ia16.png": {
+      "selected": 0,
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 48128,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "ia16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "9fa46d17d6ea1a203dd21402f5a5baf7489a56b5c87851b2e7ede2662cffa8cd"
+        }
+      ]
+    },
+    "rom_direct/garden_0900A800_32x32.rgba16.png": {
+      "selected": 0,
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 43008,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "696c43b6537a13e50cc3b9e9ddda70e355cf7f92e078f82550db2386028bfb96"
+        }
+      ]
+    },
+    "rom_direct/pipe_03009168.rgba16.png": {
+      "selected": 0,
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 37224,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "2c07f2a377dcfc138eeedcb73159b3b916529e1be8e808c8d06fa9e7db999af9"
+        }
+      ]
+    },
+    "rom_direct/pipe_03007E40.rgba16.png": {
+      "selected": 0,
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 2102288,
+          "decoded_offset": 32320,
+          "width": 32,
+          "height": 64,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "f006c12b34c3fd5ff6947f164c6bb6e273373088432bb8d1ba9fcf115e606fd0"
+        }
+      ]
+    },
+    "rom_direct/garden_0900B000_32x16.rgba16.png": {
+      "selected": 0,
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3534096,
+          "decoded_offset": 45056,
+          "width": 32,
+          "height": 16,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "2ab491f895abaa2d2b07c1c51c46bdb19edb2f815d7117ca672f7461545242f7"
+        }
+      ]
+    },
+    "rom_direct/lobby_09005000_32x32.rgba16.png": {
+      "selected": 0,
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3561856,
+          "decoded_offset": 20480,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "eb3c7ee0a1a297a8b7881f874ff54f1fba65bb91c1431cb65d391da35b76453f"
+        }
+      ]
+    },
+    "rom_direct/lobby_0900B000_32x32.rgba16.png": {
+      "selected": 0,
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3561856,
+          "decoded_offset": 45056,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "rgba16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "cc24c6d39bcdfbc2eea3692ba222b59f4bdf9e43dc6cafdfd3cfb089e48d7990"
+        }
+      ]
+    },
+    "rom_direct/lobby_07000000_32x32.ia16.png": {
+      "selected": 0,
+      "choices": [
+        {
+          "codec": "MIO0",
+          "rom_offset": 3760960,
+          "decoded_offset": 0,
+          "width": 32,
+          "height": 32,
+          "pixel_format": "ia16",
+          "decode_mode": "floor",
+          "validation": "exact_png_rgba_sha256",
+          "source_rgba_sha256": "843f660a3a4d2c5ada632ce58c282f07718198e118379adf5a86d35c23f65fd7"
+        }
+      ]
+    }
+  }
+}

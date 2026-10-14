@@ -1,0 +1,2252 @@
+{
+  "models": [
+    {
+      "model": "Chain Chomp Lower",
+      "segment_rom_offset": 1851952,
+      "segment_id": 6,
+      "roots": [
+        100813120,
+        100814784
+      ],
+      "affine_transform": [
+        [
+          -1.1582015184630492e-19,
+          -0.0021650633432629567,
+          -0.0012499998935451885
+        ],
+        [
+          -0.0025000000000000005,
+          1.6434192240039347e-14,
+          -6.571330504711526e-14
+        ],
+        [
+          -8.843643830341276e-19,
+          0.001250000299971385,
+          -0.002165063569808592
+        ],
+        [
+          9.084980960085159e-17,
+          -9.888714421129664e-08,
+          1.5685553334302853e-07
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 67,
+      "bindings": [
+        {
+          "root_pointer": 100813120,
+          "texture_pointer": 100801488,
+          "light_pointer": null,
+          "material": "ChainChompLowerMat1",
+          "texture": "ChainChompLowerTex1",
+          "uv_method": "tile_affine",
+          "uv_affine": [
+            [
+              0.000946044598787803,
+              -2.508395004630596e-10
+            ],
+            [
+              4.7445840238313757e-11,
+              0.0009460448954024547
+            ],
+            [
+              0.031250341630529234,
+              2.655451046004166e-07
+            ],
+            [
+              -5.71492972643089e-08,
+              0.031250077033053034
+            ],
+            [
+              0.01562516330806059,
+              0.015625130585594584
+            ]
+          ],
+          "uv_max_error": 6.459135324932141e-07,
+          "image_size": [
+            32,
+            32
+          ]
+        },
+        {
+          "root_pointer": 100813120,
+          "texture_pointer": 100803536,
+          "light_pointer": null,
+          "material": "ChainChompLowerMat2",
+          "texture": "ChainChompLowerTex2",
+          "uv_method": "tile_affine",
+          "uv_affine": [
+            [
+              0.0009460475352112709,
+              2.932256414817328e-18
+            ],
+            [
+              -2.0642863085719025e-09,
+              0.0009460453216374222
+            ],
+            [
+              0.031248080985915902,
+              -8.328137135619503e-17
+            ],
+            [
+              1.5891709906270547e-06,
+              0.031250219298246056
+            ],
+            [
+              0.01562434825179169,
+              0.01562474561403508
+            ]
+          ],
+          "uv_max_error": 5.110495360227674e-15,
+          "image_size": [
+            32,
+            32
+          ]
+        },
+        {
+          "root_pointer": 100814784,
+          "texture_pointer": 100805584,
+          "light_pointer": null,
+          "material": "ChainChompLowerMat3",
+          "texture": "ChainChompLowerTex3",
+          "uv_method": "tile_affine",
+          "uv_affine": [
+            [
+              0.0009460453282208262,
+              -2.901250374423884e-10
+            ],
+            [
+              -2.7087473990167566e-10,
+              0.0009460449686489934
+            ],
+            [
+              0.031249374620663576,
+              4.445455261336782e-07
+            ],
+            [
+              2.7121965189386457e-07,
+              0.031249954303332717
+            ],
+            [
+              0.015625005858954127,
+              0.015625068970674262
+            ]
+          ],
+          "uv_max_error": 5.332976886762708e-07,
+          "image_size": [
+            32,
+            32
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "ChainChompLowerTex1": "b25dc25e427b5d99efa782892269d57526dee46651319da409d194c0e07b8bb7",
+        "ChainChompLowerTex2": "88406900c13a90dcf20886bf6cdd1be7a3511f37390e59731219a113ab6960ac",
+        "ChainChompLowerTex3": "8cd521d9a37c3f0247032dd8c1c075132fa83a71f3ac289ea0303ee236023521"
+      },
+      "metadata_kind": "ROM pointers and authored conversion parameters; no mesh or pixel arrays"
+    },
+    {
+      "model": "Chain Chomp Upper",
+      "segment_rom_offset": 1851952,
+      "segment_id": 6,
+      "roots": [
+        100811328,
+        100814176,
+        100813568
+      ],
+      "affine_transform": [
+        [
+          -2.543159315771662e-19,
+          -0.002349231726160218,
+          0.0008550507433138718
+        ],
+        [
+          -0.0025,
+          -7.924601929844202e-14,
+          1.463693917427697e-16
+        ],
+        [
+          -1.5540283882841436e-20,
+          -0.0008550501327009008,
+          -0.0023492312949825
+        ],
+        [
+          1.4389447186489439e-16,
+          5.453611005812621e-08,
+          3.970105480000386e-08
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 71,
+      "bindings": [
+        {
+          "root_pointer": 100811328,
+          "texture_pointer": 100803536,
+          "light_pointer": null,
+          "material": "ChainChompUpperMat1",
+          "texture": "ChainChompUpperTex1",
+          "uv_method": "tile_affine",
+          "uv_affine": [
+            [
+              0.0009460447959316117,
+              -4.024256573293782e-10
+            ],
+            [
+              1.665803677489762e-10,
+              0.0009460451363126531
+            ],
+            [
+              0.03124932955311847,
+              6.03921162526108e-07
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.015624580315630139,
+              0.015625278655455477
+            ]
+          ],
+          "uv_max_error": 2.3458978226642557e-07,
+          "image_size": [
+            32,
+            32
+          ]
+        },
+        {
+          "root_pointer": 100811328,
+          "texture_pointer": 100799440,
+          "light_pointer": null,
+          "material": "ChainChompUpperMat2",
+          "texture": "ChainChompUpperTex2",
+          "uv_method": "tile_affine",
+          "uv_affine": [
+            [
+              0.0009460450648880266,
+              -5.907991703255147e-11
+            ],
+            [
+              2.1597105788493066e-11,
+              0.0009460450351780229
+            ],
+            [
+              0.031249932098310788,
+              -4.64677840056032e-09
+            ],
+            [
+              -9.844124905692873e-08,
+              0.031249920195783876
+            ],
+            [
+              0.015624864626902667,
+              0.015624998877721995
+            ]
+          ],
+          "uv_max_error": 5.111248980727012e-07,
+          "image_size": [
+            32,
+            32
+          ]
+        },
+        {
+          "root_pointer": 100814176,
+          "texture_pointer": 100805584,
+          "light_pointer": null,
+          "material": "ChainChompUpperMat3",
+          "texture": "ChainChompUpperTex3",
+          "uv_method": "tile_affine",
+          "uv_affine": [
+            [
+              0.0009460452485883032,
+              3.130960988472927e-10
+            ],
+            [
+              1.1684597986748796e-10,
+              0.0009460451136637428
+            ],
+            [
+              0.03124989286142881,
+              -5.10033942075994e-07
+            ],
+            [
+              -6.443027929946184e-08,
+              0.03124987637073975
+            ],
+            [
+              0.015624811564372695,
+              0.015624560503769484
+            ]
+          ],
+          "uv_max_error": 4.859813937177493e-07,
+          "image_size": [
+            32,
+            32
+          ]
+        },
+        {
+          "root_pointer": 100813568,
+          "texture_pointer": 100807632,
+          "light_pointer": 100813264,
+          "material": "ChainChompUpperMat4",
+          "texture": "ChainChompUpperTex4",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0009460444444444571,
+              1.2152438909435102e-17
+            ],
+            [
+              -1.545418602372657e-17,
+              0.0009460444444444296
+            ],
+            [
+              0.01562500000000004,
+              0.01562500000000007
+            ]
+          ],
+          "uv_max_error": 1.5258627694691995e-14,
+          "image_size": [
+            32,
+            32
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "ChainChompUpperTex1": "4406374d6c3e3c323aae4eae7b67553ff879a85f127f48820b0977fc357e984a",
+        "ChainChompUpperTex2": "377473ee10c522b65c0d0347fde4a31bddeeee090db76c718951e69a66678a9e",
+        "ChainChompUpperTex3": "8cd521d9a37c3f0247032dd8c1c075132fa83a71f3ac289ea0303ee236023521",
+        "ChainChompUpperTex4": "6a207f22cdda01cba2267b01ee34e1effb8c15312000d4eb7e767cbe778f56d7"
+      },
+      "metadata_kind": "ROM pointers and authored conversion parameters; no mesh or pixel arrays"
+    },
+    {
+      "model": "Chain Chomp Link",
+      "segment_rom_offset": 1851952,
+      "segment_id": 6,
+      "roots": [
+        100799208
+      ],
+      "affine_transform": [
+        [
+          0.01,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.01
+        ],
+        [
+          0.0,
+          0.0,
+          2.7152579859124704e-17
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 2,
+      "bindings": [
+        {
+          "root_pointer": 100799208,
+          "texture_pointer": 100797160,
+          "light_pointer": null,
+          "material": "ChainChompLinkMat1",
+          "texture": "ChainChompLinkTex1",
+          "uv_method": "tile_affine",
+          "uv_affine": [
+            [
+              0.0009460453629032378,
+              1.1966672676180515e-17
+            ],
+            [
+              -1.546848943125499e-17,
+              0.0009460453629032105
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.015624999999999984,
+              0.015624999999999946
+            ]
+          ],
+          "uv_max_error": 1.5360976379774627e-14,
+          "image_size": [
+            32,
+            32
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "ChainChompLinkTex1": "ea9c5fc36402e49557e4f996723a8be6a6929227d6a26bb38312339e74567f04"
+      },
+      "metadata_kind": "ROM pointers and authored conversion parameters; no mesh or pixel arrays"
+    },
+    {
+      "model": "Chain Chomp Post",
+      "segment_rom_offset": 1851952,
+      "segment_id": 6,
+      "roots": [
+        100672528
+      ],
+      "affine_transform": [
+        [
+          0.009999999999999995,
+          2.295256504336322e-18,
+          -2.021798209874377e-18
+        ],
+        [
+          2.1675475771934358e-19,
+          0.010000000000000002,
+          -3.307234754804568e-18
+        ],
+        [
+          -4.858969619035026e-19,
+          2.706171031542297e-18,
+          0.01
+        ],
+        [
+          2.6928502146350574e-17,
+          -1.972472642144991e-17,
+          -5.47630388880594e-17
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 22,
+      "bindings": [
+        {
+          "root_pointer": 100672528,
+          "texture_pointer": 100667472,
+          "light_pointer": 100667448,
+          "material": "ChainChompPostMat1",
+          "texture": "ChainChompPostTex1",
+          "uv_method": "tile_affine",
+          "uv_affine": [
+            [
+              0.000946044706389156,
+              -2.727569804015354e-10
+            ],
+            [
+              -1.786817853079778e-10,
+              0.0009460446196997902
+            ],
+            [
+              0.031250086574241796,
+              -6.904231274623964e-08
+            ],
+            [
+              4.860777781321572e-07,
+              0.0312502383251663
+            ],
+            [
+              0.015625382098610946,
+              0.015625324026629556
+            ]
+          ],
+          "uv_max_error": 7.447425423579013e-07,
+          "image_size": [
+            32,
+            32
+          ]
+        },
+        {
+          "root_pointer": 100672528,
+          "texture_pointer": 100669520,
+          "light_pointer": 100667448,
+          "material": "ChainChompPostMat2",
+          "texture": "ChainChompPostTex2",
+          "uv_method": "tile_affine",
+          "uv_affine": [
+            [
+              0.0009460444444444441,
+              4.905647690771211e-19
+            ],
+            [
+              1.5329329330999393e-19,
+              0.0009460443877551027
+            ],
+            [
+              0.03124984444444441,
+              2.8081398062219495e-16
+            ],
+            [
+              1.4100772495375935e-17,
+              0.03125013571428516
+            ],
+            [
+              0.015624999999999988,
+              0.015625056122448702
+            ]
+          ],
+          "uv_max_error": 8.881784197001252e-16,
+          "image_size": [
+            32,
+            32
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "ChainChompPostTex1": "323d2df731cd2609dcf4a91d2ebfc9d86d4a9d1a616be8395d5b87e7a8f84bc2",
+        "ChainChompPostTex2": "cad8e68608ddf7239daf8ac69a96f7e6cc48d740a5e09e0280e49283562d147c"
+      },
+      "metadata_kind": "ROM pointers and authored conversion parameters; no mesh or pixel arrays"
+    },
+    {
+      "model": "Power Star",
+      "segment_rom_offset": 2102288,
+      "segment_id": 3,
+      "roots": [
+        50509936,
+        50510360
+      ],
+      "affine_transform": [
+        [
+          0.0024999999999999988,
+          -2.6429209390825375e-21,
+          3.564751334260118e-20
+        ],
+        [
+          -1.532731022592819e-19,
+          0.0025,
+          6.111584724483657e-19
+        ],
+        [
+          -6.287732117974988e-20,
+          -5.124869389889974e-19,
+          0.0025
+        ],
+        [
+          -1.1923989556037924e-17,
+          2.5901992725657872e-17,
+          -1.5344843677200434e-17
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 24,
+      "bindings": [
+        {
+          "root_pointer": 50509936,
+          "texture_pointer": 50505456,
+          "light_pointer": 50505432,
+          "material": "PowerStarMat1",
+          "texture": "PowerStarTex1",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.015625,
+              0.015625
+            ]
+          ],
+          "uv_max_error": 0.0,
+          "image_size": [
+            32,
+            32
+          ]
+        },
+        {
+          "root_pointer": 50510360,
+          "texture_pointer": 50507504,
+          "light_pointer": 50510088,
+          "material": "PowerStarMat2",
+          "texture": "PowerStarTex2",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0009460444444444571,
+              1.2152438909435102e-17
+            ],
+            [
+              -1.545418602372657e-17,
+              0.0009460444444444296
+            ],
+            [
+              0.01562500000000004,
+              0.01562500000000007
+            ]
+          ],
+          "uv_max_error": 1.5258627694691995e-14,
+          "image_size": [
+            32,
+            32
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "PowerStarTex1": "3b78fadc1fad5df3c35cbb57ae5479640bb110105271bfa269baffc2fbf0255f",
+        "PowerStarTex2": "4d5a3f010609f483fa7a48c06e77b6a12370c32fc31c380d80866fdb34669d47"
+      },
+      "metadata_kind": "ROM pointers and authored conversion parameters; no mesh or pixel arrays"
+    },
+    {
+      "model": "Power Star Collected",
+      "segment_rom_offset": 2102288,
+      "segment_id": 3,
+      "roots": [
+        50509936
+      ],
+      "affine_transform": [
+        [
+          0.0024999999999999996,
+          1.801838886691702e-22,
+          2.1101735753793314e-20
+        ],
+        [
+          6.1629982141284685e-22,
+          0.0025,
+          -4.336808689942018e-19
+        ],
+        [
+          -5.3925208776663666e-20,
+          1.8901377718643884e-19,
+          0.0025
+        ],
+        [
+          1.0300469110274274e-17,
+          -1.9518056432565687e-19,
+          2.962076766344543e-17
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 20,
+      "bindings": [
+        {
+          "root_pointer": 50509936,
+          "texture_pointer": 50505456,
+          "light_pointer": 50505432,
+          "material": "PowerStarCollectedMat1",
+          "texture": "PowerStarCollectedTex1",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.3124999999999999,
+              0.3124999999999999
+            ]
+          ],
+          "uv_max_error": 1.1102230246251565e-16,
+          "image_size": [
+            4,
+            4
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "PowerStarCollectedTex1": "15b2723adb8e003182f97b6f5ad937dac8af0effd02aa3f60819655ac481a87d"
+      },
+      "palette": {
+        "texture": "PowerStarCollectedTex1",
+        "size": [
+          4,
+          4
+        ],
+        "color": [
+          30,
+          50,
+          230
+        ]
+      },
+      "metadata_kind": "ROM pointers and authored conversion parameters; no mesh or pixel arrays"
+    },
+    {
+      "model": "Castle Grounds Sign",
+      "segment_rom_offset": 2102288,
+      "segment_id": 3,
+      "roots": [
+        50518600,
+        50519304
+      ],
+      "affine_transform": [
+        [
+          0.002499999999999999,
+          7.112872770543504e-20,
+          4.2408262442862312e-19
+        ],
+        [
+          6.726604899192179e-19,
+          0.0024999999999999983,
+          9.059162690703076e-18
+        ],
+        [
+          -2.586102415511847e-19,
+          -2.773989384443087e-20,
+          0.0024999999999999988
+        ],
+        [
+          -5.798628659471043e-18,
+          -3.3229705508434486e-18,
+          8.927335156642238e-17
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 21,
+      "bindings": [
+        {
+          "root_pointer": 50518600,
+          "texture_pointer": 50514376,
+          "light_pointer": 50514240,
+          "material": "CastleGroundsSignMat1",
+          "texture": "CastleGroundsSignTex1",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0009460443332895144,
+              -5.949812496675732e-11
+            ],
+            [
+              7.322960799064381e-14,
+              0.0009460448525185495
+            ],
+            [
+              0.01562540443743913,
+              0.015624868291956825
+            ]
+          ],
+          "uv_max_error": 3.056538909196327e-07,
+          "image_size": [
+            32,
+            32
+          ]
+        },
+        {
+          "root_pointer": 50519304,
+          "texture_pointer": 50514376,
+          "light_pointer": 50518696,
+          "material": "CastleGroundsSignMat2",
+          "texture": "CastleGroundsSignTex1",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0009460444444444782,
+              3.3250819183863426e-17
+            ],
+            [
+              -3.5165326680116705e-17,
+              0.0009460444444444091
+            ],
+            [
+              0.015624999999999991,
+              0.015625000000000017
+            ]
+          ],
+          "uv_max_error": 3.497202527569243e-14,
+          "image_size": [
+            32,
+            32
+          ]
+        },
+        {
+          "root_pointer": 50519304,
+          "texture_pointer": 50516424,
+          "light_pointer": 50518696,
+          "material": "CastleGroundsSignMat3",
+          "texture": "CastleGroundsSignTex2",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0009460444444444569,
+              1.220419662505561e-17
+            ],
+            [
+              -1.548129034690419e-17,
+              0.0009460444444444293
+            ],
+            [
+              0.015624999999999958,
+              0.015624999999999936
+            ]
+          ],
+          "uv_max_error": 1.5367915273678534e-14,
+          "image_size": [
+            32,
+            32
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "CastleGroundsSignTex1": "e2cb16b5261b491af0ff47af2b218f9e4313546546982fdecc6423716202c32b",
+        "CastleGroundsSignTex2": "3389812f5a037527793cf64be797be71423c289f7bd1546f91a9b0c66362ce23"
+      },
+      "metadata_kind": "ROM pointers and authored conversion parameters; no mesh or pixel arrays"
+    },
+    {
+      "model": "BOB Wooden Bridge",
+      "segment_rom_offset": 4178608,
+      "segment_id": 7,
+      "roots": [
+        117499752
+      ],
+      "affine_transform": [
+        [
+          0.009999999999999998,
+          -7.366764239029411e-18,
+          5.666232079260687e-20
+        ],
+        [
+          -5.048699482457738e-19,
+          0.009999999999999995,
+          1.2819190853010558e-18
+        ],
+        [
+          1.1613306924000183e-18,
+          1.1011824162480967e-16,
+          0.010000000000000002
+        ],
+        [
+          -1.1309480507914467e-16,
+          -1.0249419287547408e-15,
+          5.3174801997604815e-18
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 12,
+      "bindings": [
+        {
+          "root_pointer": 117499752,
+          "texture_pointer": 151019520,
+          "light_pointer": 117499152,
+          "material": "BOBWoodenBridgeMat1",
+          "texture": "BOBWoodenBridgeTex1",
+          "uv_method": "tile_affine",
+          "uv_affine": [
+            [
+              0.0009460445849881536,
+              -1.7542929295777065e-10
+            ],
+            [
+              7.68668588406653e-10,
+              0.0004806543962892746
+            ],
+            [
+              0.031250348856001794,
+              2.0228770924797148e-07
+            ],
+            [
+              -1.593456778942681e-06,
+              -4.623053886711066e-06
+            ],
+            [
+              0.015625042237939486,
+              0.007812255910885332
+            ]
+          ],
+          "uv_max_error": 3.9232699289293294e-07,
+          "image_size": [
+            32,
+            64
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "BOBWoodenBridgeTex1": "c028eebbfbe09b2bd93715930b226b4cade8c10b7b968e66f5c2ef2f85383456"
+      },
+      "metadata_kind": "ROM pointers and authored conversion parameters; no mesh or pixel arrays"
+    },
+    {
+      "model": "BOB Chain Chomp Gate",
+      "segment_rom_offset": 4178608,
+      "segment_id": 7,
+      "roots": [
+        117498968
+      ],
+      "affine_transform": [
+        [
+          0.009999999999999997,
+          0.0,
+          -3.7305863380189927e-19
+        ],
+        [
+          1.3323050974951491e-21,
+          0.0,
+          -1.734723475976807e-18
+        ],
+        [
+          1.2134710076006514e-18,
+          0.0,
+          0.009999999999999998
+        ],
+        [
+          -8.907892412325437e-16,
+          0.0,
+          1.0195409252903088e-16
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 2,
+      "bindings": [
+        {
+          "root_pointer": 117498968,
+          "texture_pointer": 151029760,
+          "light_pointer": null,
+          "material": "BOBChainChompGateMat1",
+          "texture": "BOBChainChompGateTex1",
+          "uv_method": "raw",
+          "uv_affine": [
+            [
+              0.0009766296794714948,
+              6.789072518126549e-20
+            ],
+            [
+              1.7297027900741417e-19,
+              0.000976622146118721
+            ],
+            [
+              -0.014654382676780212,
+              -0.014646924657534303
+            ]
+          ],
+          "uv_max_error": 2.6645352591003757e-15,
+          "image_size": [
+            32,
+            32
+          ],
+          "nocull": true
+        }
+      ],
+      "expected_texture_hashes": {
+        "BOBChainChompGateTex1": "7ebceb89a88f7d3241e72b651aadc088070c4f197d87f13b0a30afd9742ff5eb"
+      },
+      "metadata_kind": "ROM pointers and authored conversion parameters; no mesh or pixel arrays"
+    },
+    {
+      "model": "BOB Breakable Box",
+      "segment_rom_offset": 2040320,
+      "segment_id": 8,
+      "roots": [
+        134294816
+      ],
+      "affine_transform": [
+        [
+          0.009999999999999998,
+          1.3651052314774647e-20,
+          0.0
+        ],
+        [
+          -6.268583589525111e-19,
+          0.010000000000000004,
+          1.986692994556547e-19
+        ],
+        [
+          -6.26858358952513e-19,
+          -6.655372641330447e-19,
+          0.010000000000000007
+        ],
+        [
+          1.2537167179050225e-16,
+          -3.5278159309247466e-17,
+          -3.285399945739119e-16
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 12,
+      "bindings": [
+        {
+          "root_pointer": 134294816,
+          "texture_pointer": 134290064,
+          "light_pointer": 134290040,
+          "material": "Mat1",
+          "texture": "BOB_Breakable_Box_Mat1_tex",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0009765624999999998,
+              1.781858239539514e-15
+            ],
+            [
+              4.4994180567308706e-20,
+              -0.0009765625000019186
+            ],
+            [
+              2.1439450081638815e-17,
+              0.9999999999999999
+            ]
+          ],
+          "uv_max_error": 1.9033663534173684e-12,
+          "image_size": [
+            32,
+            32
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "BOB_Breakable_Box_Mat1_tex": "135d3936a90b8b4f7c59f995bc535e7d95c3f262df1c884239ce23516f934d01",
+        "BOB_Breakable_Box_Mat0_tex": "1cd7f62123b1c25c8a250e65b4d35caebfdb06681daacd73cc005c19dea6b724"
+      }
+    },
+    {
+      "model": "BOB Small Box",
+      "segment_rom_offset": 2040320,
+      "segment_id": 8,
+      "roots": [
+        134294816
+      ],
+      "affine_transform": [
+        [
+          0.003999999999999999,
+          -1.991410273337006e-20,
+          0.0
+        ],
+        [
+          -2.182256640526776e-19,
+          0.004,
+          2.3635079551811145e-19
+        ],
+        [
+          -2.182256640526806e-19,
+          -3.617744052479021e-19,
+          0.004000000000000004
+        ],
+        [
+          4.364513281053551e-17,
+          7.565602140754944e-18,
+          -1.0376957371305391e-19
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 12,
+      "bindings": [
+        {
+          "root_pointer": 134294816,
+          "texture_pointer": 134290064,
+          "light_pointer": 134290040,
+          "material": "Mat1",
+          "texture": "BOB_Small_Box_Mat1_tex",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0009765624999999998,
+              1.781858239539514e-15
+            ],
+            [
+              4.4994180567308706e-20,
+              -0.0009765625000019186
+            ],
+            [
+              2.1439450081638815e-17,
+              0.9999999999999999
+            ]
+          ],
+          "uv_max_error": 1.9033663534173684e-12,
+          "image_size": [
+            32,
+            32
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "BOB_Small_Box_Mat1_tex": "135d3936a90b8b4f7c59f995bc535e7d95c3f262df1c884239ce23516f934d01",
+        "BOB_Small_Box_Mat0_tex": "1cd7f62123b1c25c8a250e65b4d35caebfdb06681daacd73cc005c19dea6b724"
+      }
+    },
+    {
+      "model": "BOB Cannon Base",
+      "segment_rom_offset": 2040320,
+      "segment_id": 8,
+      "roots": [
+        134240248
+      ],
+      "affine_transform": [
+        [
+          0.009999999999999997,
+          -1.7678315688274157e-19,
+          1.2713687094853968e-19
+        ],
+        [
+          3.035002623039529e-19,
+          0.010000000000000004,
+          4.013875505076501e-18
+        ],
+        [
+          1.9119334308152658e-19,
+          5.831638957519915e-19,
+          0.01
+        ],
+        [
+          3.5811972472036445e-18,
+          -1.4049106959183306e-17,
+          1.5502349937905333e-17
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 38,
+      "bindings": [
+        {
+          "root_pointer": 134240248,
+          "texture_pointer": 134236600,
+          "light_pointer": 134236552,
+          "material": "mat0",
+          "texture": "BOB_Cannon_Base_mat0_tex",
+          "uv_method": "raw",
+          "uv_affine": [
+            [
+              0.0009765625,
+              0.0
+            ],
+            [
+              0.0,
+              0.0009765625
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "uv_max_error": 0.0,
+          "image_size": [
+            32,
+            32
+          ],
+          "uv_source": "Direct N64 S/T to Scratch top-left texture rows; T increases downward in both samplers"
+        },
+        {
+          "root_pointer": 134240248,
+          "texture_pointer": null,
+          "light_pointer": 134236576,
+          "material": "mat2",
+          "texture": "BOB_Cannon_Base_mat2_tex",
+          "uv_method": "tile_affine",
+          "uv_affine": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.31250000000000033,
+              0.7499999999999999
+            ]
+          ],
+          "uv_max_error": 3.3306690738754696e-16,
+          "image_size": [
+            16,
+            4
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "BOB_Cannon_Base_mat0_tex": "18da40a1ace7b6b3de8f4d4565395938bdd7028fd26c4d02be60e019be450444",
+        "BOB_Cannon_Base_mat2_tex": "89d6fb08372aa775baad66ecad01ad295c1cb92860b93494fff081571ed80912"
+      },
+      "rom_palettes": {
+        "BOB_Cannon_Base_mat2_tex": {
+          "size": [
+            16,
+            4
+          ],
+          "stripe_width": 4,
+          "rgb_offsets": [
+            18824,
+            18856,
+            18848,
+            18832
+          ]
+        }
+      },
+      "rom_images": {
+        "BOB_Cannon_Base_mat0_tex": {
+          "size": [
+            32,
+            32
+          ],
+          "tiles": [
+            {
+              "offset": 18872,
+              "size": [
+                32,
+                32
+              ],
+              "decode_mode": "round",
+              "origin": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "model": "BOB Cannon Barrel",
+      "segment_rom_offset": 2040320,
+      "segment_id": 8,
+      "roots": [
+        134243936
+      ],
+      "affine_transform": [
+        [
+          0.010000000000000004,
+          0.0,
+          2.7399209249330134e-20
+        ],
+        [
+          -1.030127513849446e-18,
+          0.010000000000000004,
+          1.0057737491022773e-17
+        ],
+        [
+          3.986278857287935e-19,
+          -6.921539752034834e-20,
+          0.01
+        ],
+        [
+          -3.0618793807866516e-17,
+          5.420727671456121e-18,
+          -1.0904659477899094e-16
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 62,
+      "bindings": [
+        {
+          "root_pointer": 134243936,
+          "texture_pointer": 134240424,
+          "light_pointer": 134240376,
+          "material": "mat0",
+          "texture": "BOB_Cannon_Barrel_mat0_tex",
+          "uv_method": "tile_affine",
+          "uv_affine": [
+            [
+              0.0009765625000000004,
+              3.698739593464914e-15
+            ],
+            [
+              -1.1382003147723375e-19,
+              -0.0009765625000035495
+            ],
+            [
+              6.361896329123568e-18,
+              -1.1373147325486332e-16
+            ],
+            [
+              -1.062699794984612e-17,
+              5.000000505790346e-09
+            ],
+            [
+              9.031710380051889e-18,
+              1.0000000000000009
+            ]
+          ],
+          "uv_max_error": 2.843947299879801e-12,
+          "image_size": [
+            32,
+            32
+          ]
+        },
+        {
+          "root_pointer": 134243936,
+          "texture_pointer": null,
+          "light_pointer": 134240400,
+          "material": "mat2",
+          "texture": "BOB_Cannon_Barrel_mat2_tex",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.3124999999999997,
+              0.7499999999999993
+            ]
+          ],
+          "uv_max_error": 6.661338147750939e-16,
+          "image_size": [
+            16,
+            4
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "BOB_Cannon_Barrel_mat0_tex": "747f3345d4fe236558d75321ab62ae02a81f2a562781aff7ffb0fa56dfe5139c",
+        "BOB_Cannon_Barrel_mat2_tex": "6126553c5f22dcdd565901787161ea1bc0f5f997a5c940c8eca0d103db42ea53"
+      },
+      "rom_palettes": {
+        "BOB_Cannon_Barrel_mat2_tex": {
+          "size": [
+            16,
+            4
+          ],
+          "stripe_width": 4,
+          "rgb_offsets": [
+            22648,
+            22680,
+            22672,
+            22656
+          ]
+        }
+      }
+    },
+    {
+      "model": "BOB Cannon Lid",
+      "segment_rom_offset": 2040320,
+      "segment_id": 8,
+      "roots": [
+        134236384
+      ],
+      "affine_transform": [
+        [
+          0.010985221674876847,
+          -1.0938025164852562e-18,
+          0.0
+        ],
+        [
+          -6.713729176404293e-21,
+          0.010985221674876849,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0004926108374382015,
+          0.0004926108374384145,
+          0.0
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 2,
+      "bindings": [
+        {
+          "root_pointer": 134236384,
+          "texture_pointer": 134234200,
+          "light_pointer": 134234176,
+          "material": "CannonLidMat",
+          "texture": "CannonLidMetal",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0010101010101010105,
+              -4.731845764513277e-20
+            ],
+            [
+              1.8913543180353764e-19,
+              0.0010101010101010105
+            ],
+            [
+              -3.344930760590365e-17,
+              -7.999931788115859e-17
+            ]
+          ],
+          "uv_max_error": 6.661338147750939e-16,
+          "image_size": [
+            16,
+            16
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "CannonLidMetal": "086539c95c2d18ff8d06561ccbac3803c7a67b03553026ed150d702e76943c86"
+      },
+      "procedural_metal": {
+        "CannonLidMetal": {
+          "size": [
+            16,
+            16
+          ],
+          "colors": [
+            [
+              74,
+              83,
+              87
+            ],
+            [
+              129,
+              137,
+              140
+            ],
+            [
+              144,
+              152,
+              155
+            ],
+            [
+              184,
+              192,
+              194
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "model": "BOB Checkerboard Lift",
+      "segment_rom_offset": 2040320,
+      "segment_id": 8,
+      "roots": [
+        134272640
+      ],
+      "affine_transform": [
+        [
+          0.007000000000000005,
+          1.3549910770235216e-19,
+          -8.178933068055618e-20
+        ],
+        [
+          1.2003776857426968e-19,
+          0.006999999999999993,
+          1.2802795897339487e-18
+        ],
+        [
+          7.228444146060854e-19,
+          5.384987428899705e-18,
+          0.015
+        ],
+        [
+          -2.879992960212231e-17,
+          -3.9866605983756544e-17,
+          -3.0653642395882563e-17
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 12,
+      "bindings": [
+        {
+          "root_pointer": 134272640,
+          "texture_pointer": 134268992,
+          "light_pointer": 134268968,
+          "material": "Mat0",
+          "texture": "BOB_Checkerboard_Lift_Mat0_tex",
+          "uv_method": "tile_affine",
+          "uv_affine": [
+            [
+              0.0009765620682780012,
+              -1.1371375707042685e-19
+            ],
+            [
+              1.6309542302450967e-19,
+              -0.001953125
+            ],
+            [
+              6.493098858231395e-07,
+              -3.5145060030120836e-16
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -3.4027944595777764e-17,
+              1.0000000000000002
+            ]
+          ],
+          "uv_max_error": 3.3306690738754696e-16,
+          "image_size": [
+            32,
+            16
+          ]
+        },
+        {
+          "root_pointer": 134272640,
+          "texture_pointer": 134270016,
+          "light_pointer": 134268968,
+          "material": "Mat1",
+          "texture": "BOB_Checkerboard_Lift_Mat1_tex",
+          "uv_method": "raw",
+          "uv_affine": [
+            [
+              0.0009765624999999998,
+              8.367896299316072e-16
+            ],
+            [
+              4.8835253708425404e-21,
+              -0.000976562500006795
+            ],
+            [
+              -1.769135503411616e-17,
+              1.0
+            ]
+          ],
+          "uv_max_error": 6.7406080717091754e-12,
+          "image_size": [
+            32,
+            32
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "BOB_Checkerboard_Lift_Mat1_tex": "80dac0ec0d1f43c4dc3207cb06db1d1322c9724c71349c531b389b91c26adaa5",
+        "BOB_Checkerboard_Lift_Mat0_tex": "2655a2178ad1c021232cd322c49f4d43dccd24d27965509d8828ede814fb3709"
+      }
+    },
+    {
+      "model": "BOB Buddy Foot L",
+      "segment_rom_offset": 2040320,
+      "segment_id": 8,
+      "roots": [
+        134361712
+      ],
+      "affine_transform": [
+        [
+          0.0,
+          -0.0037500000000000007,
+          7.7530414620352855e-19
+        ],
+        [
+          -0.0037500000000000307,
+          -1.1360972027110261e-19,
+          1.942512381364044e-17
+        ],
+        [
+          -1.2987764027911909e-16,
+          -8.268782152926214e-20,
+          -0.0037499999999999365
+        ],
+        [
+          -0.2550000000000002,
+          8.94967688523796e-18,
+          0.10125000000000008
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 28,
+      "bindings": [
+        {
+          "root_pointer": 134361712,
+          "texture_pointer": null,
+          "light_pointer": 134360552,
+          "material": "mat5",
+          "texture": "BOB_Buddy_Foot_L_mat5_tex",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.062499999999999986,
+              0.7499999999999998
+            ]
+          ],
+          "uv_max_error": 2.220446049250313e-16,
+          "image_size": [
+            16,
+            4
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "BOB_Buddy_Foot_L_mat5_tex": "823486d2f56d622cada326637e94c6a1af9d317a5718c5b2fc9a091cb811f555"
+      },
+      "rom_palettes": {
+        "BOB_Buddy_Foot_L_mat5_tex": {
+          "size": [
+            16,
+            4
+          ],
+          "stripe_width": 4,
+          "rgb_offsets": [
+            142832,
+            142824,
+            142856,
+            142848
+          ]
+        }
+      }
+    },
+    {
+      "model": "BOB Buddy Foot R",
+      "segment_rom_offset": 2040320,
+      "segment_id": 8,
+      "roots": [
+        134361976
+      ],
+      "affine_transform": [
+        [
+          2.597099965287715e-18,
+          -0.0037500000000000033,
+          1.2985499826438575e-18
+        ],
+        [
+          -0.00375000000000001,
+          1.408087563149285e-20,
+          -1.0595483972804132e-17
+        ],
+        [
+          2.405868071495723e-16,
+          5.726101820232449e-21,
+          -0.0037499999999998576
+        ],
+        [
+          0.20250000000000015,
+          5.9668562242859036e-18,
+          0.10875000000000003
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 28,
+      "bindings": [
+        {
+          "root_pointer": 134361976,
+          "texture_pointer": null,
+          "light_pointer": 134360552,
+          "material": "mat5",
+          "texture": "BOB_Buddy_Foot_R_mat5_tex",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.062499999999999986,
+              0.7499999999999998
+            ]
+          ],
+          "uv_max_error": 2.220446049250313e-16,
+          "image_size": [
+            16,
+            4
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "BOB_Buddy_Foot_R_mat5_tex": "823486d2f56d622cada326637e94c6a1af9d317a5718c5b2fc9a091cb811f555"
+      },
+      "rom_palettes": {
+        "BOB_Buddy_Foot_R_mat5_tex": {
+          "size": [
+            16,
+            4
+          ],
+          "stripe_width": 4,
+          "rgb_offsets": [
+            142832,
+            142824,
+            142856,
+            142848
+          ]
+        }
+      }
+    },
+    {
+      "model": "BOB Buddy Key",
+      "segment_rom_offset": 2040320,
+      "segment_id": 8,
+      "roots": [
+        134362240
+      ],
+      "affine_transform": [
+        [
+          -7.916310152864318e-21,
+          -0.00375,
+          -1.1698315548362294e-18
+        ],
+        [
+          -0.0037500000000000302,
+          2.9386225588990016e-19,
+          5.595852101702651e-16
+        ],
+        [
+          -6.082475868593443e-19,
+          -5.519374529240449e-19,
+          -0.0037499999999999873
+        ],
+        [
+          -0.030000000000000006,
+          -5.62627690618114e-17,
+          0.6562500000000006
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 16,
+      "bindings": [
+        {
+          "root_pointer": 134362240,
+          "texture_pointer": null,
+          "light_pointer": 134360576,
+          "material": "mat5",
+          "texture": "BOB_Buddy_Key_mat5_tex",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.5625000000000004,
+              0.7500000000000002
+            ]
+          ],
+          "uv_max_error": 4.440892098500626e-16,
+          "image_size": [
+            16,
+            4
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "BOB_Buddy_Key_mat5_tex": "823486d2f56d622cada326637e94c6a1af9d317a5718c5b2fc9a091cb811f555"
+      },
+      "rom_palettes": {
+        "BOB_Buddy_Key_mat5_tex": {
+          "size": [
+            16,
+            4
+          ],
+          "stripe_width": 4,
+          "rgb_offsets": [
+            142832,
+            142824,
+            142856,
+            142848
+          ]
+        }
+      }
+    },
+    {
+      "model": "BOB Buddy Eyes Open",
+      "segment_rom_offset": 2040320,
+      "segment_id": 8,
+      "roots": [
+        134359896
+      ],
+      "affine_transform": [
+        [
+          -7.86352075573335e-19,
+          -0.0037500000000000155,
+          -5.5918369818548266e-18
+        ],
+        [
+          -0.0037499999999999973,
+          1.0393548078366384e-18,
+          3.84856600502572e-18
+        ],
+        [
+          -9.835473521415354e-19,
+          8.306023629392968e-19,
+          -0.0037500000000000163
+        ],
+        [
+          -0.0299999999999999,
+          1.9422552030900634e-15,
+          0.6562500000000007
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 4,
+      "bindings": [
+        {
+          "root_pointer": 134359896,
+          "texture_pointer": 134355552,
+          "light_pointer": null,
+          "material": "mat3",
+          "texture": "BOB_Buddy_Eyes_Open_mat3_tex",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0009765624999999996,
+              5.8450423671052445e-15
+            ],
+            [
+              8.569080307200358e-20,
+              -0.0009765625000047351
+            ],
+            [
+              -1.206084451796245e-16,
+              0.9999999999999997
+            ]
+          ],
+          "uv_max_error": 5.786260359741391e-12,
+          "image_size": [
+            32,
+            32
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "BOB_Buddy_Eyes_Open_mat3_tex": "6f9eb934eddd0c051fd014bc16b84dd837b01877ccd5e00fec1d053a751fd52a"
+      }
+    },
+    {
+      "model": "BOB Buddy Eyes Blink",
+      "segment_rom_offset": 2040320,
+      "segment_id": 8,
+      "roots": [
+        134359944
+      ],
+      "affine_transform": [
+        [
+          -7.86352075573335e-19,
+          -0.0037500000000000155,
+          -5.5918369818548266e-18
+        ],
+        [
+          -0.0037499999999999973,
+          1.0393548078366384e-18,
+          3.84856600502572e-18
+        ],
+        [
+          -9.835473521415354e-19,
+          8.306023629392968e-19,
+          -0.0037500000000000163
+        ],
+        [
+          -0.0299999999999999,
+          1.9422552030900634e-15,
+          0.6562500000000007
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 4,
+      "bindings": [
+        {
+          "root_pointer": 134359944,
+          "texture_pointer": 134357600,
+          "light_pointer": null,
+          "material": "mat4",
+          "texture": "BOB_Buddy_Eyes_Blink_mat4_tex",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0009765624999999996,
+              5.8450423671052445e-15
+            ],
+            [
+              8.569080307200358e-20,
+              -0.0009765625000047351
+            ],
+            [
+              -1.206084451796245e-16,
+              0.9999999999999997
+            ]
+          ],
+          "uv_max_error": 5.786260359741391e-12,
+          "image_size": [
+            32,
+            32
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "BOB_Buddy_Eyes_Blink_mat4_tex": "a5039f40142a60b62a3671428ee8d7f2c541a6c9309a3f6c8edf02a9a9be06f5"
+      }
+    },
+    {
+      "model": "BOB Bob-omb Buddy",
+      "segment_rom_offset": 2040320,
+      "segment_id": 8,
+      "roots": [
+        134360440
+      ],
+      "full_billboard": true,
+      "affine_transform": [
+        [
+          0.01,
+          0,
+          0
+        ],
+        [
+          0,
+          0.01,
+          0
+        ],
+        [
+          0,
+          0,
+          0.01
+        ],
+        [
+          -0.03,
+          0,
+          0.65625
+        ]
+      ],
+      "corner_order": [
+        0,
+        1,
+        2
+      ],
+      "face_count": 4,
+      "bindings": [
+        {
+          "root_pointer": 134360440,
+          "texture_pointer": null,
+          "light_pointer": null,
+          "material": "BOB_Buddy_Body_mat",
+          "texture": "BOB_Buddy_Body_tex",
+          "uv_method": "raw",
+          "uv_affine": [
+            [
+              0.0009765625,
+              0
+            ],
+            [
+              0,
+              0.0009765625
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "uv_max_error": 0,
+          "image_size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "expected_texture_hashes": {
+        "BOB_Buddy_Body_tex": "258584d48afe4ef86f76a3558812efd020d8c7907b6ea587022c112c2819fa5b"
+      },
+      "rom_images": {
+        "BOB_Buddy_Body_tex": {
+          "size": [
+            64,
+            64
+          ],
+          "tiles": [
+            {
+              "offset": 129632,
+              "size": [
+                32,
+                64
+              ],
+              "decode_mode": "round",
+              "alpha_key": true,
+              "origin": [
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 133728,
+              "size": [
+                32,
+                64
+              ],
+              "decode_mode": "round",
+              "alpha_key": true,
+              "origin": [
+                32,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "model": "Castle Bubble",
+      "segment_rom_offset": 1132368,
+      "segment_id": 4,
+      "roots": [
+        67231072
+      ],
+      "affine_transform": [
+        [
+          0.009999999999999998,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -8.673617379884037e-19,
+          0.0,
+          0.009999999999999998
+        ],
+        [
+          2.7755575615628914e-17,
+          0.0,
+          2.222614453595284e-18
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 2,
+      "bindings": [
+        {
+          "root_pointer": 67231072,
+          "texture_pointer": 67226976,
+          "light_pointer": null,
+          "material": "Mat",
+          "texture": "Tex",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0009765624999999996,
+              7.681690445987408e-16
+            ],
+            [
+              -2.176449303156501e-19,
+              -0.000976562500000988
+            ],
+            [
+              -5.784837711155615e-17,
+              1.0
+            ]
+          ],
+          "uv_max_error": 9.799938638366257e-13,
+          "image_size": [
+            32,
+            32
+          ],
+          "nocull": true
+        }
+      ],
+      "expected_texture_hashes": {
+        "Tex": "dce09d31c9f09e52c65730a0672f5488f9f10a52ca39e904285ca1642bc09750"
+      },
+      "rom_images": {
+        "Tex": {
+          "size": [
+            32,
+            32
+          ],
+          "tiles": [
+            {
+              "offset": 118112,
+              "size": [
+                32,
+                32
+              ],
+              "decode_mode": "round",
+              "pixel_format": "rgba16",
+              "alpha_encoding": "blue_channel",
+              "origin": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "model": "Castle Mist",
+      "segment_rom_offset": 2102288,
+      "segment_id": 3,
+      "roots": [
+        50333824
+      ],
+      "affine_transform": [
+        [
+          0.21000000000000008,
+          1.5543122344752193e-17,
+          0.0
+        ],
+        [
+          9.860761315262648e-32,
+          -2.7755575615628914e-17,
+          0.0
+        ],
+        [
+          2.3314683517128348e-17,
+          0.21000000000000005,
+          0.0
+        ],
+        [
+          -5.828670879282062e-16,
+          2.1769403234421977e-16,
+          0.0
+        ]
+      ],
+      "corner_order": [
+        0,
+        2,
+        1
+      ],
+      "face_count": 2,
+      "bindings": [
+        {
+          "root_pointer": 50333824,
+          "texture_pointer": 50331776,
+          "light_pointer": null,
+          "material": "Mat",
+          "texture": "Tex",
+          "uv_method": "clamp_negative",
+          "uv_affine": [
+            [
+              0.0009765624999999996,
+              7.681690445987408e-16
+            ],
+            [
+              -2.176449303156501e-19,
+              -0.000976562500000988
+            ],
+            [
+              -5.784837711155615e-17,
+              1.0
+            ]
+          ],
+          "uv_max_error": 9.799938638366257e-13,
+          "image_size": [
+            32,
+            32
+          ],
+          "nocull": true
+        }
+      ],
+      "expected_texture_hashes": {
+        "Tex": "9e0f424822185ecebf78ace9e362da8a0230be773d5ac36d261029a206210d94"
+      },
+      "rom_images": {
+        "Tex": {
+          "size": [
+            32,
+            32
+          ],
+          "tiles": [
+            {
+              "offset": 128,
+              "size": [
+                32,
+                32
+              ],
+              "decode_mode": "round",
+              "pixel_format": "ia16",
+              "alpha_encoding": "blue_channel",
+              "origin": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "format": 13
+}
