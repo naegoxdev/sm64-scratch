@@ -7,6 +7,7 @@ from pathlib import Path
 from PIL import Image
 BASE_NOTICE_BLOCK_IDS = {'notice_greenflag', 'notice_switchbackdrop'}
 
+
 def _write_project(target, item, payload):
     """Write project.json without recompressing the very large JSON blob.
 
@@ -26,9 +27,6 @@ def sha(data: bytes) -> str:
 
 def _audio_sound_entry(name: str, data: bytes) -> dict:
     """Create the compact Scratch sound record for a generated WAV."""
-    # Scratch validates sound.assetId/md5ext as a 32-character MD5 digest.
-    # The builders use SHA-256 for texture/model reports, but media records
-    # must follow Scratch's own asset naming convention.
     digest = hashlib.md5(data).hexdigest()
     with wave.open(BytesIO(data), 'rb') as wav:
         rate = wav.getframerate()
@@ -66,7 +64,6 @@ def add_audio_assets(sb3_path: Path, audio_assets: dict[str, tuple[bytes, dict]]
             stage['sounds'].append(entry)
             records[key] = (entry, data, report)
         blocks = stage.setdefault('blocks', {})
-        # Remove generated trees, reconnecting any existing backdrop chain.
         generated = {k for k in blocks if k.startswith('v13_audio_')}
         for key, block in blocks.items():
             if key in generated: continue
@@ -110,7 +107,6 @@ def add_audio_assets(sb3_path: Path, audio_assets: dict[str, tuple[bytes, dict]]
             return key
 
         def play(key, wait=False):
-            # Real sound-menu shadows follow Scratch's schema and VM format.
             shadow = make('sound_sounds_menu', fields={'SOUND_MENU': [records[key][0]['name'], None]})
             blocks[shadow]['shadow'] = True
             return make('sound_playuntildone' if wait else 'sound_play',
@@ -150,9 +146,6 @@ def add_audio_assets(sb3_path: Path, audio_assets: dict[str, tuple[bytes, dict]]
             'OPERAND1':[2,eq('TitleIntro.Active',1)], 'OPERAND2':[2,eq('Audio.TitleEnding',0)]})],
                                        'SUBSTACK':[2,play('hello_voice')]})
         append_after(hat('titleintro_bc_head','TITLE INTRO HEAD',760,240), [wait(20/30),greeting])
-        # The exit cue belongs to the start of the fade, before gameplay
-        # initialization. Independent receive scripts do not wait behind the
-        # Stage's heavy world-building chain.
         fade = hat('v23_bc_title_exit_fade', 'TITLE INTRO EXIT FADE', 760, 360)
         append_after(fade, [setvar('Audio.TitleEnding', [1, [4, '1']]),
                             make('sound_stopallsounds'), play('start_star')])
@@ -164,7 +157,6 @@ def add_audio_assets(sb3_path: Path, audio_assets: dict[str, tuple[bytes, dict]]
             'SUBSTACK':[2,play('title_music_loop',wait=True)]})
         append_after(music,[play('title_music_intro',wait=True),repeat])
 
-        # Play interaction sounds on state edges, once per action.
         monitor = hat('titleintro_bc_head','TITLE INTRO HEAD',1040,180)
         body = []
         for current, previous, event, enter in (
@@ -182,7 +174,6 @@ def add_audio_assets(sb3_path: Path, audio_assets: dict[str, tuple[bytes, dict]]
                                            'SUBSTACK':[2,link(body)]})
         append_after(monitor,[setvar('Audio.PreviousHand',[1,[4,'0']]),
                               setvar('Audio.PreviousGrab',[1,[4,'0']]),loop])
-        # Stop a pending music/greeting thread on a green-flag restart.
         reset = make('event_whenflagclicked')
         blocks[reset].update(topLevel=True,x=760,y=40)
         append_after(reset,[setvar('Audio.TitleEnding',[1,[4,'0']]),make('sound_stopallsounds')])
@@ -198,18 +189,24 @@ def add_audio_assets(sb3_path: Path, audio_assets: dict[str, tuple[bytes, dict]]
                             for s in t.get('sounds',[])}
         stale_media -= referenced_media
         payload = json.dumps(project,ensure_ascii=False,separators=(',',':')).encode('utf-8')
-        temporary = sb3_path.with_name(sb3_path.name+'.audio.tmp')
-        try:
-            with zipfile.ZipFile(temporary,'w') as target:
-                for item in source.infolist():
-                    if item.filename == 'project.json': _write_project(target,item,payload)
-                    elif item.filename not in stale_media: _write_project(target,item,source.read(item.filename))
-                for entry,data,_report in records.values():
-                    if entry['md5ext'] not in target.namelist(): target.writestr(entry['md5ext'],data)
-            temporary.replace(sb3_path)
-        finally:
-            if temporary.exists(): temporary.unlink()
-    return {key: report for key,(_entry,_data,report) in records.items()}
+        entries = [(item, source.read(item.filename)) for item in source.infolist()]
+
+    temporary = sb3_path.with_name(sb3_path.name + '.audio.tmp')
+    try:
+        with zipfile.ZipFile(temporary, 'w') as target:
+            for item, data in entries:
+                if item.filename == 'project.json':
+                    _write_project(target, item, payload)
+                elif item.filename not in stale_media:
+                    _write_project(target, item, data)
+            for entry, data, _report in records.values():
+                if entry['md5ext'] not in target.namelist():
+                    target.writestr(entry['md5ext'], data)
+        temporary.replace(sb3_path)
+    finally:
+        if temporary.exists():
+            temporary.unlink()
+    return {key: report for key, (_entry, _data, report) in records.items()}
 
 
 def inspect_clean_base(path: Path):
@@ -221,7 +218,7 @@ def inspect_clean_base(path: Path):
     if any(items[1] for target in project.get('targets', [])
            for items in target.get('lists', {}).values()):
         raise ValueError('Input BASE is not clean: populated lists found.')
-    stage = next((target for target in project['targets'] if target.get('isStage')), None)
+    stage = next((target for target in project.get('targets', []) if target.get('isStage')), None)
     if stage is None:
         raise ValueError('BASE is missing Stage.')
     preloaded = next((items[1] for items in stage.get('lists', {}).values()
@@ -267,16 +264,17 @@ def add_runtime_lists(sb3_path: Path, payload: dict[str, list],
 
         payload_bytes = json.dumps(project, ensure_ascii=False,
                                    separators=(',', ':')).encode('utf-8')
-        temporary = sb3_path.with_name(sb3_path.name + '.runtime.tmp')
-        try:
-            with zipfile.ZipFile(temporary, 'w') as target:
-                for item in source.infolist():
-                    _write_project(target, item, payload_bytes if item.filename == 'project.json'
-                                   else source.read(item.filename))
-            temporary.replace(sb3_path)
-        finally:
-            if temporary.exists():
-                temporary.unlink()
+        entries = [(item, source.read(item.filename)) for item in source.infolist()]
+
+    temporary = sb3_path.with_name(sb3_path.name + '.runtime.tmp')
+    try:
+        with zipfile.ZipFile(temporary, 'w') as target:
+            for item, data in entries:
+                _write_project(target, item, payload_bytes if item.filename == 'project.json' else data)
+        temporary.replace(sb3_path)
+    finally:
+        if temporary.exists():
+            temporary.unlink()
 
 
 def replace_title_background(sb3_path: Path, image: Image.Image):
@@ -304,24 +302,12 @@ def replace_title_background(sb3_path: Path, image: Image.Image):
         costume['bitmapResolution'] = 1
         costume['rotationCenterX'] = 240
         costume['rotationCenterY'] = 180
-        # BASE keeps the other title backdrops as transparent markers.  The
-        # controller can legitimately visit one of them while the intro is
-        # being initialised (the broadcasts are asynchronous in Scratch), so
-        # point the two safe fallback backdrops at the same ROM image as well.
-        # This does not add an image to the public package: all three names
-        # share the one PNG just reconstructed above.
         for fallback_name in ('Title Intro Black', 'Plain Sky Fallback'):
             for fallback in stage.get('costumes', []):
                 if fallback.get('name') == fallback_name:
                     fallback.update({'assetId': asset_id, 'md5ext': md5ext,
                                      'dataFormat': 'png', 'bitmapResolution': 1,
                                      'rotationCenterX': 240, 'rotationCenterY': 180})
-        # BASE intentionally starts with a transparent fallback.  The title
-        # controller normally selects the backdrop through broadcasts, but a
-        # clean project can enter the head phase before those asynchronous
-        # transition blocks have run.  Starting on the verified ROM backdrop
-        # keeps the generated project visible and is harmless when the normal
-        # phase switch subsequently runs.
         stage['currentCostume'] = next(
             index for index, item in enumerate(stage.get('costumes', []))
             if item.get('name') == 'Title Intro Background'
@@ -364,24 +350,27 @@ def replace_title_background(sb3_path: Path, image: Image.Image):
             for asset in target.get('costumes', []) + target.get('sounds', []):
                 if asset.get('md5ext'):
                     referenced.add(asset['md5ext'])
-        temporary = sb3_path.with_name(sb3_path.name + '.title-background.tmp')
-        try:
-            with zipfile.ZipFile(temporary, 'w') as target:
-                for item in source.infolist():
-                    if item.filename not in referenced:
-                        continue
-                    if item.filename == 'project.json':
-                        _write_project(target, item, payload)
-                    elif item.filename == md5ext:
-                        target.writestr(item, image_bytes)
-                    else:
-                        target.writestr(item, source.read(item.filename))
-                if md5ext not in {item.filename for item in source.infolist()}:
-                    target.writestr(md5ext, image_bytes)
-            temporary.replace(sb3_path)
-        finally:
-            if temporary.exists():
-                temporary.unlink()
+        entries = [(item, source.read(item.filename)) for item in source.infolist()]
+        md5ext_in_source = md5ext in {item.filename for item, _ in entries}
+
+    temporary = sb3_path.with_name(sb3_path.name + '.title-background.tmp')
+    try:
+        with zipfile.ZipFile(temporary, 'w') as target:
+            for item, data in entries:
+                if item.filename not in referenced:
+                    continue
+                if item.filename == 'project.json':
+                    _write_project(target, item, payload)
+                elif item.filename == md5ext:
+                    target.writestr(item, image_bytes)
+                else:
+                    target.writestr(item, data)
+            if not md5ext_in_source:
+                target.writestr(md5ext, image_bytes)
+        temporary.replace(sb3_path)
+    finally:
+        if temporary.exists():
+            temporary.unlink()
 
 
 def replace_title_effect_assets(sb3_path: Path,
@@ -421,36 +410,33 @@ def replace_title_effect_assets(sb3_path: Path,
                     referenced.add(asset['md5ext'])
         bytes_by_name = {md5ext: image_bytes
                          for md5ext, image_bytes in encoded.values()}
-        temporary = sb3_path.with_name(sb3_path.name + '.title-effects.tmp')
-        try:
-            with zipfile.ZipFile(temporary, 'w') as target:
-                seen = set()
-                for item in source.infolist():
-                    if item.filename not in referenced:
-                        continue
-                    seen.add(item.filename)
-                    if item.filename == 'project.json':
-                        _write_project(target, item, payload)
-                    elif item.filename in bytes_by_name:
-                        target.writestr(item, bytes_by_name[item.filename])
-                    else:
-                        target.writestr(item, source.read(item.filename))
-                for filename, image_bytes in bytes_by_name.items():
-                    if filename not in seen:
-                        target.writestr(filename, image_bytes)
-            temporary.replace(sb3_path)
-        finally:
-            if temporary.exists():
-                temporary.unlink()
+        entries = [(item, source.read(item.filename)) for item in source.infolist()]
+
+    temporary = sb3_path.with_name(sb3_path.name + '.title-effects.tmp')
+    try:
+        with zipfile.ZipFile(temporary, 'w') as target:
+            seen = set()
+            for item, data in entries:
+                if item.filename not in referenced:
+                    continue
+                seen.add(item.filename)
+                if item.filename == 'project.json':
+                    _write_project(target, item, payload)
+                elif item.filename in bytes_by_name:
+                    target.writestr(item, bytes_by_name[item.filename])
+                else:
+                    target.writestr(item, data)
+            for filename, image_bytes in bytes_by_name.items():
+                if filename not in seen:
+                    target.writestr(filename, image_bytes)
+        temporary.replace(sb3_path)
+    finally:
+        if temporary.exists():
+            temporary.unlink()
 
 
 def remove_base_notice(sb3_path: Path):
-    """Remove the BASE-only onboarding overlay and restore the blank scene backdrop.
-
-    The warning is a synchronizer safety guard, not part of the user's game
-    logic. A locally rebuilt SB3 has passed the ROM/input checks, so keeping
-    that green-flag script would cover the scene and prevent useful playtests.
-    """
+    """Remove the BASE-only onboarding overlay and restore the blank scene backdrop."""
     with zipfile.ZipFile(sb3_path, 'r') as source:
         project = json.loads(source.read('project.json'))
         stage = next((target for target in project.get('targets', [])
@@ -460,8 +446,6 @@ def remove_base_notice(sb3_path: Path):
         blocks = stage.get('blocks', {})
         for block_id in BASE_NOTICE_BLOCK_IDS:
             blocks.pop(block_id, None)
-        # The distributed BASE currently points its green-flag hat at the
-        # notice's switch-backdrop block. Restore the original clean fallback.
         for block in blocks.values():
             if block.get('next') in BASE_NOTICE_BLOCK_IDS:
                 block['next'] = None
@@ -485,33 +469,23 @@ def remove_base_notice(sb3_path: Path):
                     referenced.add(md5ext)
         payload = json.dumps(project, ensure_ascii=False,
                              separators=(',', ':')).encode('utf-8')
-        temporary = sb3_path.with_name(sb3_path.name + '.notice.tmp')
-        try:
-            with zipfile.ZipFile(temporary, 'w') as target:
-                for item in source.infolist():
-                    if item.filename not in referenced:
-                        continue
-                    _write_project(target, item, payload if item.filename == 'project.json'
-                                   else source.read(item.filename))
-            temporary.replace(sb3_path)
-        finally:
-            if temporary.exists():
-                temporary.unlink()
+        entries = [(item, source.read(item.filename)) for item in source.infolist()]
+
+    temporary = sb3_path.with_name(sb3_path.name + '.notice.tmp')
+    try:
+        with zipfile.ZipFile(temporary, 'w') as target:
+            for item, data in entries:
+                if item.filename not in referenced:
+                    continue
+                _write_project(target, item, payload if item.filename == 'project.json' else data)
+        temporary.replace(sb3_path)
+    finally:
+        if temporary.exists():
+            temporary.unlink()
 
 
 def apply_intro_interaction_lighting_fixes(sb3_path: Path):
-    """Apply the small behavioural fixes that belong to the clean BASE.
-
-    A backdrop click must not start the deformation pass: that pass restores
-    its base vertices and would erase the current facial animation.  Only a
-    successful grab refreshes LastDragFrame.  The hand sprite owns its actual
-    visibility, including its appearance during the opening star reveal.
-    The original Goddard picker accepts both axis distances below 20 units.
-    The title renderer must select the head's ROM-derived surface normals
-    through the actual loaded-model table.  Its former Object.Name lookup
-    referred to a nonexistent list, bypassing the explicit head normal data.
-    Both the white and red star lights contribute, as in the initial SB3.
-    """
+    """Apply the small behavioural fixes that belong to the clean BASE."""
     with zipfile.ZipFile(sb3_path, 'r') as source:
         project = json.loads(source.read('project.json'))
         if project.get('extensionData', {}).get('intro_only_base', {}).get('version') == 1:
@@ -531,7 +505,6 @@ def apply_intro_interaction_lighting_fixes(sb3_path: Path):
         if controller is None or render is None or hand is None:
             raise ValueError('Required intro sprites are missing; cannot apply fixes.')
 
-        # Match goddard/draw_objects.c: ABS(cursor - grab) < 20 on both axes.
         controller_blocks = controller.get('blocks', {})
         picker_limits = 0
         for block_id in ('tic_titleintro_b_00249', 'tic_titleintro_b_00251'):
@@ -544,10 +517,6 @@ def apply_intro_interaction_lighting_fixes(sb3_path: Path):
             operand[1] = [4, '20']
             picker_limits += 1
 
-        # Move the existing timestamp assignment inside the successful-drag
-        # branch, AFTER hit testing.  A mouse press alone is hand activity, not
-        # a facial deformation.  Reuse the assignment so the patch is stable
-        # when a generated project is processed a second time.
         cb = controller_blocks
         if cb['tic_titleintro_b_00071']['next'] == 'tic_titleintro_b_00222':
             cb['tic_titleintro_b_00071']['next'] = 'tic_titleintro_b_00226'
@@ -560,8 +529,6 @@ def apply_intro_interaction_lighting_fixes(sb3_path: Path):
                        and cb['tic_titleintro_b_00321']['next'] == 'tic_titleintro_b_00224')):
             raise ValueError('Unrecognized drag update graph.')
 
-        # A background press must not hold the idle animator indefinitely.
-        # Match the selected-grab condition used when entering its drag state.
         idle_condition = 'v13_input_idle_grab_and'
         cb[idle_condition] = {
             'opcode': 'operator_and', 'next': None,
@@ -580,11 +547,6 @@ def apply_intro_interaction_lighting_fixes(sb3_path: Path):
         cb['tic_titleintro_b_00609']['inputs']['OPERAND'] = [2, idle_condition]
         cb['tic_titleintro_b_00610']['parent'] = idle_condition
 
-        # The controller used LastDragFrame for visibility, while the actual
-        # hand has its own mouse-activity timer.  These disagree at startup
-        # (visible hand, silent appearance) and whenever the mouse merely moves.
-        # Remove the obsolete visibility branches and publish the real state
-        # from the sprite's show/hide paths instead.
         if cb['tic_titleintro_b_00339']['next'] == 'tic_titleintro_b_00346':
             cb['tic_titleintro_b_00339']['next'] = 'tic_titleintro_b_00359'
             cb['tic_titleintro_b_00359']['parent'] = 'tic_titleintro_b_00339'
@@ -614,9 +576,6 @@ def apply_intro_interaction_lighting_fixes(sb3_path: Path):
             if following:
                 hb[following]['parent'] = state_id
 
-        # Object.Name is not a defined list in this engine.  Use the same
-        # loaded-model lookup as the title shade selector so the head uses
-        # its explicitly reconstructed outward surface normals.
         render_blocks = render.get('blocks', {})
         normal_item = render_blocks.get('v17_title_normal_nameitem')
         if not normal_item or normal_item.get('opcode') != 'data_itemoflist':
@@ -632,11 +591,6 @@ def apply_intro_interaction_lighting_fixes(sb3_path: Path):
             'fields': {}, 'shadow': False, 'topLevel': False,
         }
 
-        # Keep the red star contribution during its visible passes. The
-        # Scratch intro holds its light tracks after frame 660, unlike the C
-        # animation: leaving that held red direction active tinted unrelated
-        # brow/cheek surfaces during idle poses. Gate that project adaptation
-        # with the same ROM-derived visibility track used by the red sprite.
         red_set = render_blocks.get('v15_red_dot_set')
         if not red_set or red_set.get('opcode') != 'data_setvariableto':
             raise ValueError('Missing red lighting block in Render.')
@@ -669,10 +623,6 @@ def apply_intro_interaction_lighting_fixes(sb3_path: Path):
         if following:
             render_blocks[following]['parent'] = red_gate
 
-        # Constant UVs at the first row of a shade band can interpolate just
-        # below that boundary in the software rasterizer, sampling the red
-        # page above it. Use the centre of the uniform 128-row band instead.
-        # This changes no palette colour or light intensity.
         render_blocks['v13_head_shade_center'] = rb('operator_add', 'v15_offset_set',
             {'NUM1':[3,'v15_offset_mul128',[10,'0']], 'NUM2':[1,[4,'64']]})
         render_blocks['v15_offset_set']['inputs']['VALUE'] = [3,'v13_head_shade_center',[10,'0']]
@@ -692,17 +642,17 @@ def apply_intro_interaction_lighting_fixes(sb3_path: Path):
         animation_report = apply_animation_fixes(project)
         payload = json.dumps(project, ensure_ascii=False,
                              separators=(',', ':')).encode('utf-8')
-        temporary = sb3_path.with_name(sb3_path.name + '.introfix.tmp')
-        try:
-            with zipfile.ZipFile(temporary, 'w') as target:
-                for item in source.infolist():
-                    _write_project(target, item,
-                                   payload if item.filename == 'project.json'
-                                   else source.read(item.filename))
-            temporary.replace(sb3_path)
-        finally:
-            if temporary.exists():
-                temporary.unlink()
+        entries = [(item, source.read(item.filename)) for item in source.infolist()]
+
+    temporary = sb3_path.with_name(sb3_path.name + '.introfix.tmp')
+    try:
+        with zipfile.ZipFile(temporary, 'w') as target:
+            for item, data in entries:
+                _write_project(target, item, payload if item.filename == 'project.json' else data)
+        temporary.replace(sb3_path)
+    finally:
+        if temporary.exists():
+            temporary.unlink()
     return {
         'animation_grab_sparkles': animation_report,
         'camera_controls': project.get('extensionData', {}).get('v13_goddard_camera', {}),
@@ -735,11 +685,13 @@ def add_asset_models(sb3_path, by_model, restored_models):
             seen.add(name)
             preloaded[1].extend(('+' + name, model))
         payload = json.dumps(project, separators=(',', ':')).encode()
-        temporary = sb3_path.with_name(sb3_path.name + '.models.tmp')
-        try:
-            with zipfile.ZipFile(temporary, 'w') as result:
-                for item in source.infolist():
-                    _write_project(result, item, payload if item.filename == 'project.json' else source.read(item.filename))
-            temporary.replace(sb3_path)
-        finally:
-            temporary.unlink(missing_ok=True)
+        entries = [(item, source.read(item.filename)) for item in source.infolist()]
+
+    temporary = sb3_path.with_name(sb3_path.name + '.models.tmp')
+    try:
+        with zipfile.ZipFile(temporary, 'w') as result:
+            for item, data in entries:
+                _write_project(result, item, payload if item.filename == 'project.json' else data)
+        temporary.replace(sb3_path)
+    finally:
+        temporary.unlink(missing_ok=True)   
